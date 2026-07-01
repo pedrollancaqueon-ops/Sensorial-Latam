@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Evaluación Sensorial — LATAM Catering</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            latam: { red: '#E31837', blue: '#00175A' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .screen { display: none; }
+    .screen.active { display: flex; }
+    #video { width: 100%; height: 100%; object-fit: cover; }
+
+    .rating-btn { transition: all 0.15s ease; }
+    .rating-btn[aria-pressed="true"] {
+      background-color: #E31837;
+      border-color: #E31837;
+      color: white;
+    }
+    .rating-btn[aria-pressed="true"] .descriptor { color: rgba(255,255,255,0.8); }
+
+    @keyframes checkmark {
+      0%   { transform: scale(0); opacity: 0; }
+      60%  { transform: scale(1.2); }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .animate-checkmark { animation: checkmark 0.4s ease forwards; }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen font-sans">
+
+  <!-- Header fijo -->
+  <header class="bg-latam-blue text-white px-4 py-3 flex items-center justify-between fixed top-0 left-0 right-0 z-50 shadow-lg">
+    <div class="flex items-center gap-2">
+      <img src="isotipo_4.png" alt="LATAM" class="h-10 w-auto">
+      <span class="text-latam-red font-black text-xl tracking-tight">LATAM</span>
+      <span class="text-xs font-light opacity-70 mt-0.5">Evaluación Sensorial</span>
+    </div>
+    <button id="btn-historial" class="relative text-xs bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-full transition-colors">
+      Historial
+      <span id="historial-badge" class="hidden absolute -top-1.5 -right-1.5 bg-latam-red text-white text-[10px] font-bold rounded-full w-5 h-5 flex items-center justify-center">0</span>
+    </button>
+  </header>
+
+  <main class="pt-14 min-h-screen">
+
+    <!-- ── PANTALLA 1: CÁMARA ── -->
+    <div id="screen-camara" class="screen active flex-col h-[calc(100vh-3.5rem)]">
+      <div class="relative flex-1 bg-black overflow-hidden">
+        <video id="video" autoplay playsinline muted></video>
+        <canvas id="canvas" class="hidden"></canvas>
+
+        <!-- Marco guía -->
+        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <div class="border-2 border-white/40 rounded-2xl w-60 h-60 shadow-[0_0_0_9999px_rgba(0,0,0,0.35)]"></div>
+        </div>
+        <p class="absolute bottom-2 left-0 right-0 text-center text-white/50 text-xs">Centra el plato dentro del marco</p>
+      </div>
+
+      <div class="bg-latam-blue px-6 py-6 flex flex-col items-center gap-3">
+        <button id="btn-capturar"
+          class="w-20 h-20 rounded-full bg-white border-[5px] border-latam-red flex items-center justify-center shadow-xl active:scale-95 transition-transform">
+          <div class="w-14 h-14 rounded-full bg-latam-red"></div>
+        </button>
+        <p class="text-white/50 text-xs">Toca para fotografiar el plato</p>
+        <p id="error-camara" class="hidden text-yellow-300 text-xs text-center px-4"></p>
+      </div>
+    </div>
+
+    <!-- ── PANTALLA 2: ANALIZANDO ── -->
+    <div id="screen-analizando" class="screen flex-col items-center justify-center h-[calc(100vh-3.5rem)] bg-latam-blue">
+      <div class="flex flex-col items-center gap-6 px-8 text-center">
+        <div class="relative w-28 h-28">
+          <div class="absolute inset-0 rounded-full border-4 border-white/15"></div>
+          <div class="absolute inset-0 rounded-full border-4 border-t-latam-red border-x-transparent border-b-transparent animate-spin"></div>
+          <div class="absolute inset-0 flex items-center justify-center text-4xl">🍽️</div>
+        </div>
+        <div>
+          <p class="text-white text-xl font-semibold">Analizando plato...</p>
+          <p class="text-white/50 text-sm mt-1">Comparando con el catálogo</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── PANTALLA 3: CONFIRMAR CÓDIGO ── -->
+    <div id="screen-confirmar" class="screen flex-col min-h-[calc(100vh-3.5rem)]">
+      <div class="px-4 py-5 flex flex-col gap-4">
+
+        <img id="foto-preview" src="" alt="Plato capturado"
+          class="w-full h-52 object-cover rounded-2xl shadow-md">
+
+        <!-- Resultado IA (visible si identificó) -->
+        <div id="bloque-identificado" class="hidden bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+          <p class="text-[11px] text-gray-400 uppercase tracking-wider mb-1">Código identificado por IA</p>
+          <p id="codigo-sugerido" class="text-3xl font-black text-latam-blue font-mono"></p>
+          <p id="nombre-sugerido" class="text-sm text-gray-500 mt-0.5"></p>
+          <span class="mt-2 inline-flex items-center gap-1 bg-green-50 text-green-700 text-xs px-2.5 py-1 rounded-full font-medium">
+            ✓ Identificado automáticamente
+          </span>
+        </div>
+
+        <!-- Sin identificación -->
+        <div id="bloque-no-identificado" class="hidden bg-amber-50 border border-amber-200 rounded-2xl p-4">
+          <p class="text-amber-800 font-medium text-sm">No se pudo identificar el plato</p>
+          <p class="text-amber-700 text-xs mt-0.5">Ingresa el código manualmente</p>
+        </div>
+
+        <!-- Campo editable siempre visible -->
+        <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+          <label class="text-[11px] text-gray-400 uppercase tracking-wider block mb-2">
+            Código de servicio <span class="text-latam-red">*</span>
+          </label>
+          <input id="input-codigo" type="text" inputmode="text" autocomplete="off"
+            placeholder="ej. HL00, SS00, HLD0..."
+            class="w-full border border-gray-200 rounded-xl px-3 py-3 text-latam-blue font-mono font-bold text-2xl uppercase focus:outline-none focus:border-latam-red transition-colors tracking-widest">
+          <p class="text-xs text-gray-400 mt-1.5">Edita si la IA no acertó</p>
+        </div>
+
+        <button id="btn-confirmar-codigo"
+          class="w-full bg-latam-red text-white rounded-2xl py-4 font-bold text-base shadow-md active:scale-[0.98] transition-transform">
+          Confirmar y continuar →
+        </button>
+
+        <button id="btn-retomar-foto" class="text-gray-400 text-sm py-1 text-center">
+          ← Tomar otra foto
+        </button>
+      </div>
+    </div>
+
+    <!-- ── PANTALLA 4: FORMULARIO ── -->
+    <div id="screen-formulario" class="screen flex-col min-h-[calc(100vh-3.5rem)]">
+      <div class="px-4 py-5 flex flex-col gap-4 pb-10">
+
+        <!-- Encabezado del plato -->
+        <div class="bg-latam-blue rounded-2xl p-4 flex items-center gap-3 shadow-md">
+          <img id="form-thumb" src="" class="w-16 h-16 rounded-xl object-cover flex-shrink-0 shadow">
+          <div>
+            <p id="form-codigo" class="font-black text-white text-xl font-mono tracking-widest"></p>
+            <p id="form-nombre" class="text-white/60 text-sm"></p>
+            <p class="text-white/40 text-xs mt-0.5">Gategourmet SCL</p>
+          </div>
+        </div>
+
+        <!-- Evaluador -->
+        <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+          <label class="text-[11px] text-gray-400 uppercase tracking-wider block mb-2">
+            Evaluador <span class="text-latam-red">*</span>
+          </label>
+          <input id="input-evaluador" type="text" placeholder="Tu nombre completo"
+            class="w-full border border-gray-200 rounded-xl px-3 py-2.5 focus:outline-none focus:border-latam-red transition-colors text-gray-800">
+        </div>
+
+        <!-- Criterios sensoriales -->
+        <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+          <p class="text-[11px] text-gray-400 uppercase tracking-wider mb-4">
+            Criterios sensoriales <span class="text-latam-red">*</span>
+          </p>
+          <div id="criterios-container" class="flex flex-col gap-5"></div>
+        </div>
+
+        <!-- Comentarios -->
+        <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+          <label class="text-[11px] text-gray-400 uppercase tracking-wider block mb-2">Comentarios</label>
+          <textarea id="input-comentarios" rows="3"
+            placeholder="Observaciones adicionales..."
+            class="w-full border border-gray-200 rounded-xl px-3 py-2.5 focus:outline-none focus:border-latam-red transition-colors resize-none text-sm text-gray-800"></textarea>
+        </div>
+
+        <p id="error-formulario" class="hidden text-red-500 text-sm text-center -mb-1"></p>
+
+        <button id="btn-enviar"
+          class="w-full bg-latam-red text-white rounded-2xl py-4 font-bold text-base shadow-md active:scale-[0.98] transition-transform">
+          Enviar evaluación
+        </button>
+      </div>
+    </div>
+
+    <!-- ── PANTALLA 5: ENVIANDO ── -->
+    <div id="screen-enviando" class="screen flex-col items-center justify-center h-[calc(100vh-3.5rem)] bg-white">
+      <div class="flex flex-col items-center gap-4">
+        <div class="w-14 h-14 rounded-full border-[3px] border-gray-100 border-t-latam-red animate-spin"></div>
+        <p class="text-latam-blue font-medium">Guardando evaluación...</p>
+      </div>
+    </div>
+
+    <!-- ── PANTALLA 6: ÉXITO ── -->
+    <div id="screen-exito" class="screen flex-col items-center justify-center h-[calc(100vh-3.5rem)] bg-white px-8">
+      <div class="flex flex-col items-center gap-5 text-center">
+        <div class="w-24 h-24 rounded-full bg-green-50 flex items-center justify-center">
+          <svg class="animate-checkmark w-12 h-12 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-latam-blue text-2xl font-black">¡Guardada!</p>
+          <p id="exito-detalle" class="text-gray-500 text-sm mt-1"></p>
+        </div>
+        <button id="btn-nueva"
+          class="w-full bg-latam-red text-white rounded-2xl py-4 font-bold text-base shadow-md mt-2 active:scale-[0.98] transition-transform">
+          Evaluar otro plato
+        </button>
+      </div>
+    </div>
+
+    <!-- ── PANTALLA 7: HISTORIAL ── -->
+    <div id="screen-historial" class="screen flex-col min-h-[calc(100vh-3.5rem)]">
+      <div class="px-4 py-5 flex flex-col gap-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-latam-blue font-black text-xl">Sesión actual</h2>
+          <button id="btn-cerrar-historial" class="text-gray-400 text-sm">← Volver</button>
+        </div>
+
+        <div id="historial-vacio" class="text-center text-gray-400 text-sm py-16">
+          Aún no hay evaluaciones en esta sesión
+        </div>
+
+        <div id="historial-lista" class="flex flex-col gap-3"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

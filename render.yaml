@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: sensorial-latam
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: SHEETS_WEBHOOK_URL
+        sync: false
+      - key: SPREADSHEET_ID
+        sync: false

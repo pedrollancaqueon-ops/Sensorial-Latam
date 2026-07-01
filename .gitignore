@@ -1,0 +1,24 @@
+# Credenciales
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Imágenes del catálogo (generadas localmente)
+catalog/images/
+
+# Archivos grandes de fuente
+*.xlsx
+*.pptx
+
+# Claude Code interno
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
