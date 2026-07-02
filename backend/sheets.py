@@ -15,37 +15,46 @@ def guardar_evaluacion(payload: dict) -> bool:
         return False
 
     try:
-        # Apps Script devuelve 302 y requests lo sigue como GET perdiendo el body.
-        # Solución: primer request sin seguir redirect, luego POST manual al destino.
-        resp = requests.post(
+        # Paso 1: POST al /exec — dispara doPost en Google (retorna 302)
+        r1 = requests.post(
             _WEBHOOK_URL,
             json=payload,
             timeout=15,
             allow_redirects=False,
             verify=_SSL_VERIFY,
         )
-        print(f"[sheets] Respuesta inicial: {resp.status_code}")
+        print(f"[sheets] Paso 1 POST: {r1.status_code}")
 
-        if resp.status_code in (301, 302, 303, 307, 308):
-            location = resp.headers.get("Location", "")
-            print(f"[sheets] Redirect a: {location}")
-            resp = requests.post(
-                location,
-                json=payload,
-                timeout=15,
-                allow_redirects=False,
-                verify=_SSL_VERIFY,
-            )
-            print(f"[sheets] Respuesta tras redirect: {resp.status_code} — {resp.text[:200]}")
-
-        if resp.status_code == 200:
-            result = resp.json()
-            print(f"[sheets] Resultado: {result}")
+        if r1.status_code == 200:
+            result = r1.json()
+            print(f"[sheets] Resultado directo: {result}")
             return result.get("ok", True)
 
-        print(f"[sheets] Error HTTP {resp.status_code}: {resp.text[:300]}")
+        if r1.status_code in (301, 302, 303, 307, 308):
+            location = r1.headers.get("Location", "")
+            print(f"[sheets] Redirect a: {location[:80]}")
+
+            # Paso 2: GET al redirect — recupera la respuesta de doPost
+            r2 = requests.get(
+                location,
+                timeout=15,
+                verify=_SSL_VERIFY,
+            )
+            print(f"[sheets] Paso 2 GET: {r2.status_code} — {r2.text[:200]}")
+
+            if r2.status_code == 200:
+                try:
+                    result = r2.json()
+                    print(f"[sheets] Resultado: {result}")
+                    return result.get("ok", True)
+                except Exception:
+                    # La respuesta no es JSON pero el script corrió igual
+                    print("[sheets] Respuesta no JSON — asumiendo ok")
+                    return True
+
+        print(f"[sheets] Error inesperado: {r1.status_code} — {r1.text[:200]}")
         return False
 
     except Exception as e:
-        print(f"[sheets] Excepción: {e}")
+        print(f"[sheets] Excepcion: {e}")
         return False
