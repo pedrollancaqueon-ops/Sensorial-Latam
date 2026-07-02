@@ -55,6 +55,24 @@ async def guardar(payload: EvaluacionPayload):
     return {"ok": ok}
 
 
+# ── Test de conectividad ───────────────────────────────────────────────────────
+
+@app.get("/api/test-sheets")
+async def test_sheets():
+    import datetime
+    payload = {
+        "fecha":      datetime.datetime.utcnow().isoformat() + "Z",
+        "evaluador":  "test-render",
+        "proveedor":  "Gategourmet SCL",
+        "codigo":     "TEST",
+        "nombre":     "Prueba conectividad",
+        "apariencia": 5, "aroma": 5, "sabor": 5, "textura": 5, "temperatura": 5,
+        "comentarios": "Fila de prueba automatica — borrar",
+    }
+    ok = sheets.guardar_evaluacion(payload)
+    return {"ok": ok, "webhook_url": os.getenv("SHEETS_WEBHOOK_URL", "")[:50] + "..."}
+
+
 # ── Frontend estático ──────────────────────────────────────────────────────────
 
 @app.get("/")
