@@ -6,7 +6,7 @@ import google.generativeai as genai
 from catalog import get_catalog_text, find_best_match
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-_model = genai.GenerativeModel("gemini-2.0-flash")
+_model = genai.GenerativeModel("gemini-2.0-flash-lite")
 
 _PROMPT_TEMPLATE = """Eres un asistente de control de calidad de catering aéreo de LATAM Airlines.
 Se te muestra la foto de un plato o componente de servicio a bordo.
