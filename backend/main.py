@@ -60,6 +60,14 @@ async def guardar(payload: EvaluacionPayload):
 @app.get("/api/test-sheets")
 async def test_sheets():
     import datetime
+    import requests as req
+    import urllib3
+    urllib3.disable_warnings()
+
+    url = os.getenv("SHEETS_WEBHOOK_URL", "")
+    if not url:
+        return {"ok": False, "error": "SHEETS_WEBHOOK_URL no configurada"}
+
     payload = {
         "fecha":      datetime.datetime.utcnow().isoformat() + "Z",
         "evaluador":  "test-render",
@@ -69,8 +77,28 @@ async def test_sheets():
         "apariencia": 5, "aroma": 5, "sabor": 5, "textura": 5, "temperatura": 5,
         "comentarios": "Fila de prueba automatica — borrar",
     }
-    ok = sheets.guardar_evaluacion(payload)
-    return {"ok": ok, "webhook_url": os.getenv("SHEETS_WEBHOOK_URL", "")[:50] + "..."}
+
+    pasos = []
+    try:
+        # Paso 1: POST inicial
+        r1 = req.post(url, json=payload, timeout=15, allow_redirects=False, verify=True)
+        pasos.append({"paso": 1, "status": r1.status_code, "headers": dict(r1.headers), "body": r1.text[:500]})
+
+        target_url = url
+        if r1.status_code in (301, 302, 303, 307, 308):
+            target_url = r1.headers.get("Location", url)
+            pasos.append({"paso": "redirect_a", "url": target_url})
+
+            # Paso 2: POST al redirect
+            r2 = req.post(target_url, json=payload, timeout=15, allow_redirects=False, verify=True)
+            pasos.append({"paso": 2, "status": r2.status_code, "body": r2.text[:500]})
+            return {"ok": r2.status_code == 200, "pasos": pasos}
+
+        return {"ok": r1.status_code == 200, "pasos": pasos}
+
+    except Exception as e:
+        pasos.append({"paso": "excepcion", "error": str(e)})
+        return {"ok": False, "pasos": pasos}
 
 
 # ── Frontend estático ──────────────────────────────────────────────────────────
