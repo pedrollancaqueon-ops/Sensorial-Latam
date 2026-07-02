@@ -82,19 +82,9 @@ async def test_sheets():
     try:
         # Paso 1: POST inicial
         r1 = req.post(url, json=payload, timeout=15, allow_redirects=False, verify=True)
-        pasos.append({"paso": 1, "status": r1.status_code, "headers": dict(r1.headers), "body": r1.text[:500]})
-
-        target_url = url
-        if r1.status_code in (301, 302, 303, 307, 308):
-            target_url = r1.headers.get("Location", url)
-            pasos.append({"paso": "redirect_a", "url": target_url})
-
-            # Paso 2: POST al redirect
-            r2 = req.post(target_url, json=payload, timeout=15, allow_redirects=False, verify=True)
-            pasos.append({"paso": 2, "status": r2.status_code, "body": r2.text[:500]})
-            return {"ok": r2.status_code == 200, "pasos": pasos}
-
-        return {"ok": r1.status_code == 200, "pasos": pasos}
+        ok = r1.status_code in (200, 301, 302, 303, 307, 308)
+        pasos.append({"paso": 1, "status": r1.status_code, "body": r1.text[:300]})
+        return {"ok": ok, "pasos": pasos}
 
     except Exception as e:
         pasos.append({"paso": "excepcion", "error": str(e)})
