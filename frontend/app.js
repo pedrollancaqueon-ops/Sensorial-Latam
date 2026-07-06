@@ -10,14 +10,14 @@ const state = {
 };
 
 const CRITERIOS = [
-  { key: 'apariencia', label: 'Apariencia / presentación' },
-  { key: 'aroma',      label: 'Aroma' },
-  { key: 'sabor',      label: 'Sabor' },
-  { key: 'textura',    label: 'Textura' },
-  { key: 'temperatura', label: 'Temperatura de servicio' },
+  { key: 'color',   label: 'Color' },
+  { key: 'aspecto', label: 'Aspecto' },
+  { key: 'olor',    label: 'Olor' },
+  { key: 'sabor',   label: 'Sabor' },
+  { key: 'textura', label: 'Textura' },
 ];
 
-const DESCRIPTORES = { 1: 'Inaceptable', 2: 'Deficiente', 3: 'Aceptable', 4: 'Bueno', 5: 'Excelente' };
+const DESCRIPTORES = { 1: 'Deficiente', 2: 'Aceptable', 3: 'Excelente' };
 
 let calificaciones = {};
 
@@ -123,7 +123,7 @@ function abrirFormulario() {
     <div>
       <p class="text-sm font-semibold text-gray-700 mb-2">${c.label}</p>
       <div class="flex gap-1.5" role="group" aria-label="${c.label}">
-        ${[1,2,3,4,5].map(n => `
+        ${[1,2,3].map(n => `
           <button type="button" role="button" aria-pressed="false"
             class="rating-btn flex-1 border-2 border-gray-200 rounded-xl py-2.5 text-center"
             data-key="${c.key}" data-val="${n}">

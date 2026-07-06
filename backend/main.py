@@ -30,11 +30,11 @@ class EvaluacionPayload(BaseModel):
     foto:         str        # base64 — no se guarda en Sheets, solo metadato
     comentarios:  str = ""
     fecha:        str
-    apariencia:   int
-    aroma:        int
-    sabor:        int
-    textura:      int
-    temperatura:  int
+    color:    int
+    aspecto:  int
+    olor:     int
+    sabor:    int
+    textura:  int
 
 
 # ── API ────────────────────────────────────────────────────────────────────────
@@ -74,7 +74,7 @@ async def test_sheets():
         "proveedor":  "Gategourmet SCL",
         "codigo":     "TEST",
         "nombre":     "Prueba conectividad",
-        "apariencia": 5, "aroma": 5, "sabor": 5, "textura": 5, "temperatura": 5,
+        "color": 3, "aspecto": 3, "olor": 3, "sabor": 3, "textura": 3,
         "comentarios": "Fila de prueba automatica — borrar",
     }
 

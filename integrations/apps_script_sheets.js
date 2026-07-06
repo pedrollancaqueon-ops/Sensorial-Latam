@@ -17,7 +17,7 @@ const SHEET_NAME = "Evaluaciones";
 
 const COLUMNS = [
   "fecha", "evaluador", "proveedor", "codigo", "nombre",
-  "apariencia", "aroma", "sabor", "textura", "temperatura",
+  "color", "aspecto", "olor", "sabor", "textura",
   "promedio", "comentarios"
 ];
 
@@ -37,7 +37,7 @@ function doPost(e) {
            .setFontColor("#FFFFFF");
     }
 
-    const scores   = ["apariencia", "aroma", "sabor", "textura", "temperatura"];
+    const scores   = ["color", "aspecto", "olor", "sabor", "textura"];
     const promedio = scores.reduce((s, k) => s + (Number(data[k]) || 0), 0) / scores.length;
 
     const row = COLUMNS.map(col => {
@@ -68,7 +68,7 @@ function testPost() {
         proveedor: "Gategourmet SCL",
         codigo: "HLDL",
         nombre: "Plato Carne",
-        apariencia: 4, aroma: 3, sabor: 5, textura: 4, temperatura: 4,
+        color: 3, aspecto: 2, olor: 3, sabor: 3, textura: 2,
         comentarios: "Prueba"
       })
     }
