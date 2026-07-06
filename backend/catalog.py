@@ -90,5 +90,24 @@ def find_best_match(code: str, component: str) -> dict | None:
     return None
 
 
+def get_catalog_images(fecha: datetime.date | None = None) -> list[dict]:
+    """Una imagen representativa por código activo en el ciclo vigente."""
+    fecha = fecha or datetime.date.today()
+    mes = fecha.month
+
+    seen_codes: set[str] = set()
+    result = []
+    for item in _catalog:
+        patron = _patron_para(item.get("source", ""), item.get("code", ""))
+        if item.get("cycle") != patron(mes):
+            continue
+        code = item["code"]
+        if code in seen_codes:
+            continue
+        seen_codes.add(code)
+        result.append(item)
+    return result
+
+
 def get_all_codes() -> list[str]:
     return sorted({item["code"] for item in _catalog})

@@ -2,48 +2,60 @@ import os
 import base64
 import json
 import re
+from pathlib import Path
+
 import google.generativeai as genai
-from catalog import get_catalog_text, find_best_match
+from catalog import get_catalog_images, find_best_match
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 _model = genai.GenerativeModel("gemini-2.5-flash-lite")
 
-_PROMPT_TEMPLATE = """Eres un asistente de control de calidad de catering aéreo de LATAM Airlines.
-Se te muestra la foto de un plato o componente de servicio a bordo.
+_BASE_PATH = Path(__file__).parent.parent
 
-Tu tarea es identificar a cuál de los siguientes ítems del catálogo corresponde la imagen.
-Responde SOLO con un JSON válido, sin texto adicional, con este formato exacto:
-{{
+_PROMPT = """Eres un asistente de control de calidad de catering aéreo de LATAM Airlines.
+
+La PRIMERA imagen es la foto tomada a bordo del plato a identificar.
+Las imágenes siguientes son las referencias del catálogo vigente para este período, cada una etiquetada con su código y componente.
+
+Compara visualmente la foto del plato con las referencias e identifica el mejor match.
+Responde SOLO con JSON válido, sin texto adicional:
+{
   "identificado": true,
   "codigo": "XXXX",
-  "componente": "Nombre del componente",
-  "confianza": 0.0
-}}
-
-Si no puedes identificarlo con certeza, responde:
-{{
+  "componente": "nombre del componente",
+  "confianza": 0.85
+}
+Si ninguna referencia calza claramente:
+{
   "identificado": false,
   "codigo": "",
   "componente": "",
   "confianza": 0.0
-}}
-
-Catálogo disponible:
-{catalog}
-"""
+}"""
 
 
 def identificar(foto_base64: str) -> dict:
-    prompt = _PROMPT_TEMPLATE.format(catalog=get_catalog_text())
-
     img_data = base64.b64decode(foto_base64)
-    image_part = {"mime_type": "image/jpeg", "data": img_data}
+    user_photo = {"mime_type": "image/jpeg", "data": img_data}
+
+    contents = [_PROMPT, user_photo]
+
+    ref_count = 0
+    for item in get_catalog_images():
+        img_path = _BASE_PATH / item["image_path"]
+        if not img_path.exists():
+            continue
+        label = f"[Código: {item['code']} | {item['component']}]"
+        contents.append(label)
+        contents.append({"mime_type": "image/jpeg", "data": img_path.read_bytes()})
+        ref_count += 1
+
+    print(f"[matcher] Enviando foto + {ref_count} imágenes de referencia a Gemini")
 
     try:
-        response = _model.generate_content([prompt, image_part])
+        response = _model.generate_content(contents)
         text = response.text.strip()
 
-        # Extraer JSON de la respuesta aunque venga con markdown
         json_match = re.search(r"\{.*\}", text, re.DOTALL)
         if not json_match:
             return _no_match()
@@ -53,7 +65,7 @@ def identificar(foto_base64: str) -> dict:
         if not result.get("identificado"):
             return _no_match()
 
-        codigo    = result.get("codigo", "").upper().strip()
+        codigo     = result.get("codigo", "").upper().strip()
         componente = result.get("componente", "").strip()
         confianza  = float(result.get("confianza", 0))
 

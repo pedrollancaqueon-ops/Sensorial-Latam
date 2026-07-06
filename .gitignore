@@ -9,9 +9,6 @@ __pycache__/
 .venv/
 venv/
 
-# Imágenes del catálogo (generadas localmente)
-catalog/images/
-
 # Archivos grandes de fuente
 *.xlsx
 *.pptx
