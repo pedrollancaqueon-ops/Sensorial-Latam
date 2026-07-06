@@ -70,13 +70,15 @@ def identificar(foto_base64: str) -> dict:
         confianza  = float(result.get("confianza", 0))
 
         catalog_item = find_best_match(codigo, componente)
-        nombre = catalog_item["component"] if catalog_item else componente
+        nombre            = catalog_item["component"]   if catalog_item else componente
+        imagen_referencia = catalog_item["image_path"]  if catalog_item else ""
 
         return {
-            "identificado": True,
-            "codigo":       codigo,
-            "nombre":       nombre,
-            "confianza":    confianza,
+            "identificado":      True,
+            "codigo":            codigo,
+            "nombre":            nombre,
+            "confianza":         confianza,
+            "imagen_referencia": imagen_referencia,
         }
 
     except Exception as e:
@@ -85,4 +87,4 @@ def identificar(foto_base64: str) -> dict:
 
 
 def _no_match() -> dict:
-    return {"identificado": False, "codigo": "", "nombre": "", "confianza": 0.0}
+    return {"identificado": False, "codigo": "", "nombre": "", "confianza": 0.0, "imagen_referencia": ""}

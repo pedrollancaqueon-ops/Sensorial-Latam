@@ -5,6 +5,7 @@ const state = {
   fotoBase64: null,
   codigoConfirmado: null,
   nombreConfirmado: null,
+  imagenReferencia: '',
   historial: [],
   evaluadorGuardado: '',
 };
@@ -76,7 +77,7 @@ async function analizarFoto() {
       new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 10000)),
     ]);
     const data = await resp.json();
-    mostrarConfirmacion(data.codigo || '', data.nombre || '', !!data.identificado);
+    mostrarConfirmacion(data.codigo || '', data.nombre || '', !!data.identificado, data.imagen_referencia || '');
   } catch {
     // Timeout o error de red → dejar pasar con campo vacío
     mostrarConfirmacion('', '', false);
@@ -84,7 +85,8 @@ async function analizarFoto() {
 }
 
 // ─── Pantalla 3: Confirmar código ────────────────────────────────────────────
-function mostrarConfirmacion(codigo, nombre, identificado) {
+function mostrarConfirmacion(codigo, nombre, identificado, imagenReferencia) {
+  state.imagenReferencia = imagenReferencia || '';
   document.getElementById('foto-preview').src = state.fotoDataUrl;
   document.getElementById('input-codigo').value = codigo;
 
@@ -178,8 +180,9 @@ async function enviarEvaluacion() {
     evaluador,
     codigo:     state.codigoConfirmado,
     nombre:     state.nombreConfirmado,
-    proveedor:  'Gategourmet SCL',
-    foto:       state.fotoBase64,
+    proveedor:          'Gategourmet SCL',
+    foto:               state.fotoBase64,
+    imagen_referencia:  state.imagenReferencia,
     comentarios: document.getElementById('input-comentarios').value.trim(),
     fecha:      new Date().toISOString(),
     ...Object.fromEntries(CRITERIOS.map(c => [c.key, calificaciones[c.key]])),

@@ -14,6 +14,7 @@ import sheets
 app = FastAPI(title="Evaluación Sensorial LATAM")
 
 FRONTEND_DIR = Path(__file__).parent.parent / "frontend"
+CATALOG_DIR  = Path(__file__).parent.parent / "catalog"
 
 
 # ── Modelos ────────────────────────────────────────────────────────────────────
@@ -23,13 +24,14 @@ class FotoRequest(BaseModel):
 
 
 class EvaluacionPayload(BaseModel):
-    evaluador:    str
-    codigo:       str
-    nombre:       str
-    proveedor:    str
-    foto:         str        # base64 — no se guarda en Sheets, solo metadato
-    comentarios:  str = ""
-    fecha:        str
+    evaluador:          str
+    codigo:             str
+    nombre:             str
+    proveedor:          str
+    foto:               str   # base64 — Apps Script sube a Drive
+    comentarios:        str = ""
+    fecha:              str
+    imagen_referencia:  str = ""
     color:    int
     aspecto:  int
     olor:     int
@@ -50,7 +52,7 @@ async def identificar(req: FotoRequest):
 @app.post("/api/guardar")
 async def guardar(payload: EvaluacionPayload):
     data = payload.model_dump()
-    data.pop("foto", None)  # no enviamos la imagen al Sheet
+    # foto va al Apps Script para que la suba a Drive
     ok = sheets.guardar_evaluacion(data)
     return {"ok": ok}
 
@@ -91,7 +93,9 @@ async def test_sheets():
         return {"ok": False, "pasos": pasos}
 
 
-# ── Frontend estático ──────────────────────────────────────────────────────────
+# ── Estáticos ─────────────────────────────────────────────────────────────────
+
+app.mount("/catalog", StaticFiles(directory=str(CATALOG_DIR)), name="catalog_files")
 
 @app.get("/")
 async def root():
