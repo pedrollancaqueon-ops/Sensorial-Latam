@@ -11926,5 +11926,2213 @@
     "component": "FHB",
     "description": "Cycle 2, Omelette de queso mantecoso, Papas cubo asadas, Tomate cherry asado, Baguette sin gluten/huevo/lactosa (cortado), Fruta de la estacion (3 variedades siempre una pequeña), Set cubiertos LATAM, Cycle 2, Pan miga integral semilla, Zucchini rodela asado, Queso vegano rallado, Mostaza, Queque vegano naranja (elaborado cocina), Fruta de la estacion (3 variedades siempre una pequeña), Set cubiertos LATAM, Cycle 2, Pan miga integral semilla, Zucchini rodela asado, Queso mozzarella laminado, Tomate rodela asado, Queso crema, Queque de Zanahoria y nuez, Fruta de la estacion (3 variedades siempre una pequeña), Set cubiertos LATAM, Cycle 2, Pan miga integral semilla, Jamon de pavo laminado, Queso mozzarella laminado, Tomate rodela asado, Queso crema, Queque de Zanahoria y nuez, Fruta de la estacion (3 variedades siempre una pequeña), Set cubiertos LATAM",
     "image_path": "catalog/images/SCL-YC GRID INTER/FHB1-SPML LH_cycle2_fhb.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "HLD",
+    "description": "Cycle 1 - Enero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "HLD",
+    "description": "Cycle 2 - Febrero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "HLD",
+    "description": "Cycle 3 - Marzo",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "HLD",
+    "description": "Cycle 4",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_hld.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Appetizer",
+    "description": "Loco laminado, Limon sutil 1/8, Acelga suiza baby, Salpicón de papas",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_appetizer.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Appetizer",
+    "description": "Salmon ahumado estilo balik, Ensalada de algas (Wakame), Crema ácida con ciboulette, Mix semillas de sesamo, Limon sutil 1/8",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_appetizer.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Appetizer",
+    "description": "Copa (3 laminas), Tomate cherry mitad colores (22 grs), Boconccini con pesto mitad (12 grs), Zuchinni rodela asado, Hoja de acelga suiza baby (2 grs)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_appetizer.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Appetizer",
+    "description": "Gravlax de salmon, Pure de manzana verde, Mostaza crunch, Pepino rodela by maria 3un, Alcaparron",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Tomate cherry mitad (16 grs), Nuez picada",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Pepino media luna, almendras laminadas tostadas",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Bastón zanahorias asadas, Queso feta desgranado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Edamame salteado, Tomate Cherry mitad (6 gr)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Focaccia Fugazza 30 grs",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Mini bollo blanco sesamo blanco 30 grs",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Focaccia romero y sal de mar",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Mini Bollo blanco con quinoa roja",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_crackers.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_grissinis.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_grissinis.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_grissinis.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, papas andinas asadas  con hierbas (tomillo, romero y perejil), Vainitas asiáticas salteadas, Cebolla caramelizada al vino tinto, Salsa de vino tino y romero",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, Papas rotas, Zanahoria rustica asada, Salsa vino tinto y mostaza antigua, Edamame Salteado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, Papas gratin, Zuchini rodela grillado, Zanahoria rústica asada, Salsa de vino tinto pimienta",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, Puré de calabaza con nueces (Color puede variar), Tomate seco marinado juliana, Cebolla morada asado 1/8, Salsa de oporto",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Signature dish",
+    "description": "Merluza Austral Confitado 100 grs, Sopa de Adobo Decano, Mil hoja de papa tocino dorado 90 grs, Tartaro de Zanahoria, Aceite de Cilantro",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Signature dish",
+    "description": "Merluza Austral Confitado 100 grs, Sopa de Adobo Decano, Mil hoja de papa tocino dorado 90 grs, Tartaro de Zanahoria, Aceite de Cilantro",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Signature dish",
+    "description": "Merluza Austral Confitado 100 grs, Sopa de Adobo Decano, Mil hoja de papa tocino dorado 90 grs, Tartaro de Zanahoria, Aceite de Cilantro",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Signature dish",
+    "description": "Merluza Austral Confitado 100 grs, Sopa de Adobo Decano, Mil hoja de papa tocino dorado 90 grs, Tartaro de Zanahoria, Aceite de Cilantro",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino 4 quesos  (In house)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino Ricota espinaca In House",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino 4 quesos  (In house)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino Ricota espinaca In House",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Salsa pesto, Almendras tostadas",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Pesto albahaca, Perejil hoja",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Salsa pesto, Almendras tostadas",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Pesto albahaca, Perejil hoja",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Salad",
+    "description": "Vainitas asiaticas blanqueadas, Tomate cherry mitad, Queso feta desgranado, Aceitunas negras descorazadas, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Salad",
+    "description": "Queso cabra cubo marinado, Tomate cherries mitad, Damasco turco mitad, Nueces cuartillo, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Salad",
+    "description": "Tomate cherry encurtido by Maria, Cous cous aliñado, Palta cubo, Almendras tostadas laminadas, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Salad",
+    "description": "frutillas fresca 1/4, Aceitunas negras sin carozo, Bocconcicni, Zanahoria baston asada, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Side Protein",
+    "description": "Pastrami laminado (3 Laminas aprox)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Side Protein",
+    "description": "Jamon serrano 2 x 15 gr",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Side Protein",
+    "description": "Salmon ahumado laminado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Side Protein",
+    "description": "Jamon serrano 2 x 15 gr",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle LA",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Dessert",
+    "description": "Mousse de manjar, Ganach de chocolate 1un, Brownie choco chips trozos, Tuile de almendras",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Dessert",
+    "description": "Crema de limon, Palitos de merengue, Crocante de alfajor (Corte rústico)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Dessert",
+    "description": "Crema de cheesecake chocolate bitter, Compota de frambuesa, Frutilla 1/4, Tuille de almendras",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Dessert",
+    "description": "Creme brulee, Manzanas caramelizadas cubo, Galleta de caramelo quebrada, Galletas medianas picadas no pulverizadas",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Cheese selection",
+    "description": "Queso feta cuña",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Cheese selection",
+    "description": "Queso mantecoso cuña",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Cheese selection",
+    "description": "Queso feta cuña",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Cheese selection",
+    "description": "Camembert",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "(60grs. Cheese)",
+    "description": "Queso azul cuña, Queso Brie cuña, Mermelada de frambuesa",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "(60grs. Cheese)",
+    "description": "Queso tres leches, Queso Camembert, Dulce de membrillo",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "(60grs. Cheese)",
+    "description": "Queso azul cuña, Queso Brie cuña, Mermelada de frambuesa",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "(60grs. Cheese)",
+    "description": "Tres leches, Queso Mantecoso, Dulce de membrillo",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup FRUTILLA (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup COOKIES & CREAM (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup FRUTILLA (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup COOKIES & CREAM (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 1,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle1_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 2,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle2_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 3,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle3_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Merluza",
+    "cycle": 4,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Merluza_cycle4_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "HLD",
+    "description": "Cycle 1 - Enero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "HLD",
+    "description": "Cycle 2 - Febrero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "HLD",
+    "description": "Cycle 3 - Marzo",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "HLD",
+    "description": "Cycle 4",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_hld.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Appetizer",
+    "description": "Loco laminado, Limon sutil 1/8, Acelga suiza baby, Salpicón de papas",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_appetizer.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Appetizer",
+    "description": "Salmon ahumado estilo balik, Ensalada de algas (Wakame), Crema ácida con ciboulette, Mix semillas de sesamo, Limon sutil 1/8",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_appetizer.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Appetizer",
+    "description": "Copa (3 laminas), Tomate cherry mitad colores (22 grs), Boconccini con pesto mitad (12 grs), Zuchinni rodela asado, Hoja de acelga suiza baby (2 grs)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_appetizer.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Appetizer",
+    "description": "Gravlax de salmon, Pure de manzana verde, Mostaza crunch, Pepino rodela by maria 3un, Alcaparron",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Tomate cherry mitad (16 grs), Nuez picada",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Pepino media luna, almendras laminadas tostadas",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Bastón zanahorias asadas, Queso feta desgranado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Edamame salteado, Tomate Cherry mitad (6 gr)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Focaccia Fugazza 30 grs",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Mini bollo blanco sesamo blanco 30 grs",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Focaccia romero y sal de mar",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Mini Bollo blanco con quinoa roja",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_crackers.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_grissinis.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_grissinis.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_grissinis.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, papas andinas asadas  con hierbas (tomillo, romero y perejil), Vainitas asiáticas salteadas, Cebolla caramelizada al vino tinto, Salsa de vino tino y romero",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, Papas rotas, Zanahoria rustica asada, Salsa vino tinto y mostaza antigua, Edamame Salteado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, Papas gratin, Zuchini rodela grillado, Zanahoria rústica asada, Salsa de vino tinto pimienta",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, Puré de calabaza con nueces (Color puede variar), Tomate seco marinado juliana, Cebolla morada asado 1/8, Salsa de oporto",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Signature dish",
+    "description": "Crema de papa y trufa, Mechada 80 grs, Aceite de Cilantro, demi-glass, cebolla petalos asadas, Miga de Ajo, Crocante de Tocino, Crocante de Aceituna, Cebolla crispy",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Signature dish",
+    "description": "Crema de papa y trufa, Mechada 80 grs, Aceite de Cilantro, demi-glass, cebolla petalos asadas, Miga de Ajo, Crocante de Tocino, Crocante de Aceituna, Cebolla crispy",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Signature dish",
+    "description": "Crema de papa y trufa, Mechada 80 grs, Aceite de Cilantro, demi-glass, cebolla petalos asadas, Miga de Ajo, Crocante de Tocino, Crocante de Aceituna, Cebolla crispy",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Signature dish",
+    "description": "Crema de papa y trufa, Mechada 80 grs, Aceite de Cilantro, demi-glass, cebolla petalos asadas, Miga de Ajo, Crocante de Tocino, Crocante de Aceituna, Cebolla crispy",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino 4 quesos  (In house)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino Ricota espinaca In House",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino 4 quesos  (In house)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino Ricota espinaca In House",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Salsa pesto, Almendras tostadas",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Pesto albahaca, Perejil hoja",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Salsa pesto, Almendras tostadas",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Pesto albahaca, Perejil hoja",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Salad",
+    "description": "Vainitas asiaticas blanqueadas, Tomate cherry mitad, Queso feta desgranado, Aceitunas negras descorazadas, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Salad",
+    "description": "Queso cabra cubo marinado, Tomate cherries mitad, Damasco turco mitad, Nueces cuartillo, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Salad",
+    "description": "Tomate cherry encurtido by Maria, Cous cous aliñado, Palta cubo, Almendras tostadas laminadas, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Salad",
+    "description": "frutillas fresca 1/4, Aceitunas negras sin carozo, Bocconcicni, Zanahoria baston asada, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Side Protein",
+    "description": "Pastrami laminado (3 Laminas aprox)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Side Protein",
+    "description": "Jamon serrano 2 x 15 gr",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Side Protein",
+    "description": "Salmon ahumado laminado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Side Protein",
+    "description": "Jamon serrano 2 x 15 gr",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle LA",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Dessert",
+    "description": "Mousse de manjar, Ganach de chocolate 1un, Brownie choco chips trozos, Tuile de almendras",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Dessert",
+    "description": "Crema de limon, Palitos de merengue, Crocante de alfajor (Corte rústico)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Dessert",
+    "description": "Crema de cheesecake chocolate bitter, Compota de frambuesa, Frutilla 1/4, Tuille de almendras",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Dessert",
+    "description": "Creme brulee, Manzanas caramelizadas cubo, Galleta de caramelo quebrada, Galletas medianas picadas no pulverizadas",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Cheese selection",
+    "description": "Queso feta cuña",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Cheese selection",
+    "description": "Queso mantecoso cuña",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Cheese selection",
+    "description": "Queso feta cuña",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Cheese selection",
+    "description": "Camembert",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "(60grs. Cheese)",
+    "description": "Queso azul cuña, Queso Brie cuña, Mermelada de frambuesa",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "(60grs. Cheese)",
+    "description": "Queso tres leches, Queso Camembert, Dulce de membrillo",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "(60grs. Cheese)",
+    "description": "Queso azul cuña, Queso Brie cuña, Mermelada de frambuesa",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "(60grs. Cheese)",
+    "description": "Tres leches, Queso Mantecoso, Dulce de membrillo",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup FRUTILLA (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup COOKIES & CREAM (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup FRUTILLA (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup COOKIES & CREAM (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 1,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle1_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 2,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle2_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 3,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle3_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Mechada",
+    "cycle": 4,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Mechada_cycle4_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "HLD",
+    "description": "Cycle 1 - Enero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "HLD",
+    "description": "Cycle 2 - Febrero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "HLD",
+    "description": "Cycle 3 - Marzo",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "HLD",
+    "description": "Cycle 4",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_hld.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Appetizer",
+    "description": "Loco laminado, Limon sutil 1/8, Acelga suiza baby, Salpicón de papas",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_appetizer.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Appetizer",
+    "description": "Salmon ahumado estilo balik, Ensalada de algas (Wakame), Crema ácida con ciboulette, Mix semillas de sesamo, Limon sutil 1/8",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_appetizer.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Appetizer",
+    "description": "Copa (3 laminas), Tomate cherry mitad colores (22 grs), Boconccini con pesto mitad (12 grs), Zuchinni rodela asado, Hoja de acelga suiza baby (2 grs)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_appetizer.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Appetizer",
+    "description": "Gravlax de salmon, Pure de manzana verde, Mostaza crunch, Pepino rodela by maria 3un, Alcaparron",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Tomate cherry mitad (16 grs), Nuez picada",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Pepino media luna, almendras laminadas tostadas",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Bastón zanahorias asadas, Queso feta desgranado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Individual greens salad",
+    "description": "Salad mix hojas, Edamame salteado, Tomate Cherry mitad (6 gr)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_individual_greens_salad.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Focaccia Fugazza 30 grs",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Mini bollo blanco sesamo blanco 30 grs",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Focaccia romero y sal de mar",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Artisanal Bread ( 2 types - all cycles) 30gs. Ea Reference",
+    "description": "Pan Mini Bollo integral multisemillas 30 grs, Pan Mini Bollo blanco con quinoa roja",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_artisanal_bread_2_types_all_cycles_30gs_.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Crackers",
+    "description": "Cracker artesanal chia y romero",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_crackers.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_grissinis.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_grissinis.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_grissinis.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Grissinis",
+    "description": "Grissini con sal",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, papas andinas asadas  con hierbas (tomillo, romero y perejil), Vainitas asiáticas salteadas, Cebolla caramelizada al vino tinto, Salsa de vino tino y romero",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, Papas rotas, Zanahoria rustica asada, Salsa vino tinto y mostaza antigua, Edamame Salteado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, Papas gratin, Zuchini rodela grillado, Zanahoria rústica asada, Salsa de vino tinto pimienta",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Red Meat Dish",
+    "description": "Filete de res grillado 100 gr, Puré de calabaza con nueces (Color puede variar), Tomate seco marinado juliana, Cebolla morada asado 1/8, Salsa de oporto",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_red_meat_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Signature dish",
+    "description": "Vichyssoise con quinoa negra, Congrio Confitado 90 grs, kale frito, camaron 36/40 salteado 20 grs, Ensalada de Jibia",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Signature dish",
+    "description": "Vichyssoise con quinoa negra, Congrio Confitado 90 grs, kale frito, camaron 36/40 salteado 20 grs, Ensalada de Jibia",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Signature dish",
+    "description": "Vichyssoise con quinoa negra, Congrio Confitado 90 grs, kale frito, camaron 36/40 salteado 20 grs, Ensalada de Jibia",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Signature dish",
+    "description": "Vichyssoise con quinoa negra, Congrio Confitado 90 grs, kale frito, camaron 36/40 salteado 20 grs, Ensalada de Jibia",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_signature_dish.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino 4 quesos  (In house)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino Ricota espinaca In House",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino 4 quesos  (In house)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Vegetarian pasta",
+    "description": "Sorrentino Ricota espinaca In House",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_vegetarian_pasta.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Salsa pesto, Almendras tostadas",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Pesto albahaca, Perejil hoja",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Salsa pesto, Almendras tostadas",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Dish",
+    "description": "Salsa pomodoro, Pesto albahaca, Perejil hoja",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Vegetarian Gourmet",
+    "description": "Mix Italiano",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_vegetarian_gourmet.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Salad",
+    "description": "Vainitas asiaticas blanqueadas, Tomate cherry mitad, Queso feta desgranado, Aceitunas negras descorazadas, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Salad",
+    "description": "Queso cabra cubo marinado, Tomate cherries mitad, Damasco turco mitad, Nueces cuartillo, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Salad",
+    "description": "Tomate cherry encurtido by Maria, Cous cous aliñado, Palta cubo, Almendras tostadas laminadas, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Salad",
+    "description": "frutillas fresca 1/4, Aceitunas negras sin carozo, Bocconcicni, Zanahoria baston asada, Lima 1/4",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Olive oil/Balsamic Dressing",
+    "description": "Aceto balsamico latam",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_olive_oil_balsamic_dressing.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Side Protein",
+    "description": "Pastrami laminado (3 Laminas aprox)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Side Protein",
+    "description": "Jamon serrano 2 x 15 gr",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Side Protein",
+    "description": "Salmon ahumado laminado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Side Protein",
+    "description": "Jamon serrano 2 x 15 gr",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_side_protein.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Extras",
+    "description": "Queso parmesano rallado",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_extras.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle LA",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Olive Oil mini bottle",
+    "description": "Olive oil bottle",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_olive_oil_mini_bottle.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Dessert",
+    "description": "Mousse de manjar, Ganach de chocolate 1un, Brownie choco chips trozos, Tuile de almendras",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Dessert",
+    "description": "Crema de limon, Palitos de merengue, Crocante de alfajor (Corte rústico)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Dessert",
+    "description": "Crema de cheesecake chocolate bitter, Compota de frambuesa, Frutilla 1/4, Tuille de almendras",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Dessert",
+    "description": "Creme brulee, Manzanas caramelizadas cubo, Galleta de caramelo quebrada, Galletas medianas picadas no pulverizadas",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_dessert.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Fruit",
+    "description": "Frutas de la estacion",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_fruit.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Cheese selection",
+    "description": "Queso feta cuña",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Cheese selection",
+    "description": "Queso mantecoso cuña",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Cheese selection",
+    "description": "Queso feta cuña",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Cheese selection",
+    "description": "Camembert",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_cheese_selection.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "(60grs. Cheese)",
+    "description": "Queso azul cuña, Queso Brie cuña, Mermelada de frambuesa",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "(60grs. Cheese)",
+    "description": "Queso tres leches, Queso Camembert, Dulce de membrillo",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "(60grs. Cheese)",
+    "description": "Queso azul cuña, Queso Brie cuña, Mermelada de frambuesa",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "(60grs. Cheese)",
+    "description": "Tres leches, Queso Mantecoso, Dulce de membrillo",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Premium Ice Cream varieties (2 types)",
+    "description": "HAAGEN DAZS, Helado mini cup DULCE DE LECHE (25%)",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_premium_ice_cream_varieties_2_types.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup FRUTILLA (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup COOKIES & CREAM (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup FRUTILLA (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "Hasgen Dazs",
+    "description": "Helado mini cup COOKIES & CREAM (25%)",
+    "image_path": null
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 1,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle1_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 2,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle2_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 3,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle3_bulk.jpg"
+  },
+  {
+    "source": "SQT BC JUN-SEPT 2026",
+    "code": "HLD0 - Congrio",
+    "cycle": 4,
+    "component": "BULK",
+    "description": "Chocolate Paccari 10g (LA), Butter, Salero - Sal generica, Pimentero - Pimienta generica",
+    "image_path": "catalog/images/SQT BC JUN-SEPT 2026/HLD0 - Congrio_cycle4_bulk.jpg"
   }
 ]

@@ -15,9 +15,14 @@ _BASE_PATH = Path(__file__).parent.parent
 _PROMPT = """Eres un asistente de control de calidad de catering aéreo de LATAM Airlines.
 
 La PRIMERA imagen es la foto tomada a bordo del plato a identificar.
-Las imágenes siguientes son las referencias del catálogo vigente para este período, cada una etiquetada con su código y componente.
+Las imágenes siguientes son las referencias del catálogo vigente para este período, cada una etiquetada con su código, componente y descripción de ingredientes.
 
-Compara visualmente la foto del plato con las referencias e identifica el mejor match.
+Instrucciones para la comparación visual:
+1. Presta atención a la FORMA Y COLOR DEL PLATO/BANDEJA (redondo, rectangular, oval, cuadrado) — es uno de los diferenciadores más confiables entre códigos similares.
+2. Compara la disposición y tipo de ingredientes visibles.
+3. Si dos códigos tienen ingredientes similares, usa la forma del plato y la presentación para decidir.
+4. Cada código tiene su propia imagen de referencia — busca la que más se parezca visualmente a la foto.
+
 Responde SOLO con JSON válido, sin texto adicional:
 {
   "identificado": true,
@@ -45,7 +50,8 @@ def identificar(foto_base64: str) -> dict:
         img_path = _BASE_PATH / item["image_path"]
         if not img_path.exists():
             continue
-        label = f"[Código: {item['code']} | {item['component']}]"
+        desc = item.get("description", "")
+        label = f"[Código: {item['code']} | {item['component']}{' | ' + desc if desc else ''}]"
         contents.append(label)
         contents.append({"mime_type": "image/jpeg", "data": img_path.read_bytes()})
         ref_count += 1
