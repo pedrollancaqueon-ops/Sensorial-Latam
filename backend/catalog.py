@@ -90,11 +90,11 @@ def find_best_match(code: str, component: str) -> dict | None:
     return None
 
 
-_GRID_MAP = {
-    "BC":   "SCL-BC GRID",
-    "CREW": "SCL-CREW INTER GRID",
-    "PYC":  "SCL-PYC INTER GRID",
-    "YC":   "SCL-YC GRID INTER",
+_GRID_MAP: dict[str, set[str]] = {
+    "BC":   {"SCL-BC GRID", "SQT BC JUN-SEPT 2026"},
+    "CREW": {"SCL-CREW INTER GRID"},
+    "PYC":  {"SCL-PYC INTER GRID"},
+    "YC":   {"SCL-YC GRID INTER"},
 }
 
 
@@ -104,12 +104,12 @@ def get_catalog_images(fecha: datetime.date | None = None, grid: str | None = No
     """
     fecha = fecha or datetime.date.today()
     mes = fecha.month
-    source_filter = _GRID_MAP.get((grid or "").upper())
+    source_filter: set[str] | None = _GRID_MAP.get((grid or "").upper())
 
     seen_codes: set[str] = set()
     result = []
     for item in _catalog:
-        if source_filter and item.get("source") != source_filter:
+        if source_filter and item.get("source") not in source_filter:
             continue
         patron = _patron_para(item.get("source", ""), item.get("code", ""))
         if item.get("cycle") != patron(mes):
