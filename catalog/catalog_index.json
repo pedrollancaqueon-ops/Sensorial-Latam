@@ -4696,6 +4696,838 @@
     "image_path": null
   },
   {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "SW00 PYC",
+    "description": "Cycle 1",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle1_sw00_pyc.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "SW00 PYC",
+    "description": "Cycle 2",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle2_sw00_pyc.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "SW00 PYC",
+    "description": "Cycle 3",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle3_sw00_pyc.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "SW00 PYC",
+    "description": "Ciclo 4",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle4_sw00_pyc.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "Non veggie sandwich",
+    "description": "Pan Croissant plano, Queso crema, Jamon de pavo ahumado, Tomate rodela asado, Hoja de rucula, Medidas 13x9x5 cms maximo, Pan de papa",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle1_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "Non veggie sandwich",
+    "description": "Foccacia plain, Jamon pierna pastorino, Queso mozzarella laminado, Hojas de espinaca, Pesto tomate seco, Medidas 13x9x5 cms maximo, ciabatta integral",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle2_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "Non veggie sandwich",
+    "description": "Pan Ciabatta, Carne Mechada, Queso mantecoso laminado (mitad), Verduras tex mex, Medidas 13x9x5 cms maximo, Pan Croissant plano",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle3_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "Non veggie sandwich",
+    "description": "Focaccia plain, Jamon serrano, Queso mozzarella laminado (Mitad), Hoja de rucula, Pesto aceitunas, Medidas 13x9x5 cms maximo, Ciabatta",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle4_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "Veggie sandwich",
+    "description": "Barbecue, Not Burger Chicken crispy 80gr, Cebolla morada anillo asada, Queso mozzarella laminado, Mostaza americana, Medidas diametro 11 cms alto 5cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "Veggie sandwich",
+    "description": "Not milanesa (mitad), Espinaca hoja, Tomate asado, Not mayo, Medidas 13x9x5 cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "Veggie sandwich",
+    "description": "Queso crema pesto (10 grs por pan), Hoja de rucula, Cebolla morada anillo asada, Zucchini cinta grillado, Tomate rodella asado, Medidas 13x9x5 cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "Veggie sandwich",
+    "description": "Queso crema soya sesamo, Not Mila (Mitad), Zucchini cinta grillado, Cebolla Morada anillo asada, Salsa Teriyaki, Medidas 13x9x5 cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle1_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle2_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle3_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SW00 Cortina Flexible_cycle4_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 1,
+    "component": "SW00 PYC",
+    "description": "Cycle 1, La Birra",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 2,
+    "component": "SW00 PYC",
+    "description": "Cycle 2, La Birra",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 3,
+    "component": "SW00 PYC",
+    "description": "Cycle 3, La Birra",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 4,
+    "component": "SW00 PYC",
+    "description": "Ciclo 4, La Birra",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 1,
+    "component": "Non veggie sandwich",
+    "description": "Pan Brioche, Hamburguesa, queso cheedar laminado 20 grs, Cebolla morada brunoise, Salsa la Birra, packaging La Birra, etiqueta café LA, etiqueta dia, Pan de papa",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPD_cycle1_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 2,
+    "component": "Non veggie sandwich",
+    "description": "Pan Brioche, Hamburguesa, queso cheedar laminado 20 grs, Cebolla morada brunoise, Salsa la Birra, packaging La Birra, etiqueta café LA, etiqueta dia, ciabatta integral",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPD_cycle2_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 3,
+    "component": "Non veggie sandwich",
+    "description": "Pan Brioche, Hamburguesa, queso cheedar laminado 20 grs, Cebolla morada brunoise, Salsa la Birra, packaging La Birra, etiqueta café LA, etiqueta dia, Pan Croissant plano",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPD_cycle3_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 4,
+    "component": "Non veggie sandwich",
+    "description": "Pan Brioche, Hamburguesa, queso cheedar laminado 20 grs, Cebolla morada brunoise, Salsa la Birra, packaging La Birra, etiqueta café LA, etiqueta dia, Ciabatta",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPD_cycle4_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 1,
+    "component": "Veggie sandwich",
+    "description": "Barbecue, Not Burger Chicken crispy 80gr, Cebolla morada anillo asada, Queso mozzarella laminado, Mostaza americana, Medidas diametro 11 cms alto 5cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 2,
+    "component": "Veggie sandwich",
+    "description": "Not milanesa (mitad), Espinaca hoja, Tomate asado, Not mayo, Medidas 13x9x5 cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 3,
+    "component": "Veggie sandwich",
+    "description": "Queso crema pesto (10 grs por pan), Hoja de rucula, Cebolla morada anillo asada, Zucchini cinta grillado, Tomate rodella asado, Medidas 13x9x5 cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 4,
+    "component": "Veggie sandwich",
+    "description": "Queso crema soya sesamo, Not Mila (Mitad), Zucchini cinta grillado, Cebolla Morada anillo asada, Salsa Teriyaki, Medidas 13x9x5 cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 1,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPD_cycle1_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 2,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPD_cycle2_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 3,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPD_cycle3_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 4,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPD_cycle4_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 1,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 2,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 3,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 4,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPD",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 1,
+    "component": "SWAM",
+    "description": "Cycle 1",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 2,
+    "component": "SWAM",
+    "description": "Cycle 2",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 3,
+    "component": "SWAM",
+    "description": "Cycle 3",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 4,
+    "component": "SWAM",
+    "description": "Cycle 4",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 1,
+    "component": "Sandwich",
+    "description": "Pan semillas, jamón planchado laminado, Queso gauda laminado, Queso crema, 15 cm largo x 6 cm ancho x 4,5 cm alto con relleno",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWAM_cycle1_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 2,
+    "component": "Sandwich",
+    "description": "Ciabatta integral, Jamón de Pavo Ahumado, Queso mozarella, Queso crema, 13  cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWAM_cycle2_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 3,
+    "component": "Sandwich",
+    "description": "Pan hojaldrado, jamón planchado laminado, Queso gauda laminado, Queso crema, 12 cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWAM_cycle3_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 4,
+    "component": "Sandwich",
+    "description": "Pan Ciabatta, Jamón de Pavo Ahumado, Queso mozarella, Queso crema, 13  cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWAM_cycle4_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 1,
+    "component": "Muffin",
+    "description": "Muffin vainilla chip x 50 gr",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWAM_cycle1_muffin.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 2,
+    "component": "Muffin",
+    "description": "Muffin frambuesa x 50 gr",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWAM_cycle2_muffin.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 3,
+    "component": "Muffin",
+    "description": "Muffin vainilla x 50 gr",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWAM_cycle3_muffin.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWAM",
+    "cycle": 4,
+    "component": "Muffin",
+    "description": "Muffin arandanos x 50 gr",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWAM_cycle4_muffin.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 1,
+    "component": "SWPM",
+    "description": "Cycle 1",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 2,
+    "component": "SWPM",
+    "description": "Cycle 2",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 3,
+    "component": "SWPM",
+    "description": "Cycle 3",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 4,
+    "component": "SWPM",
+    "description": "Cycle 4",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 1,
+    "component": "Sandwich",
+    "description": "Pan Ciabatta, Pollo curcuma laminado, Queso gauda laminado, Queso crema, 13  cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPM_cycle1_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 2,
+    "component": "Sandwich",
+    "description": "Pan Semillas, Pastrami, Queso Gouda, Queso crema pesto, Tomate rodela asado, 15 cm largo x 6 cm ancho x 4,5 cm alto con relleno",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPM_cycle2_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 3,
+    "component": "Sandwich",
+    "description": "Pan Ciabatta, Salame tajadas, Queso gauda laminado, Tomate rodela asado, 13  cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPM_cycle3_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 4,
+    "component": "Sandwich",
+    "description": "Pan croissant plano, Pollo asado laminado, Queso mozarella laminado, Queso crema pesto albahaca, 12 cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPM_cycle4_sandwich.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 1,
+    "component": "Chips",
+    "description": "Chip LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPM_cycle1_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 2,
+    "component": "Chips",
+    "description": "Chip LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPM_cycle2_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 3,
+    "component": "Chips",
+    "description": "Chip LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPM_cycle3_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SWPM",
+    "cycle": 4,
+    "component": "Chips",
+    "description": "Chip LATAM",
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SWPM_cycle4_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 1,
+    "component": "SNK4 BC",
+    "description": "CYCLE 1",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 2,
+    "component": "SNK4 BC",
+    "description": "CYCLE 2",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 3,
+    "component": "SNK4 BC",
+    "description": "CYCLE 3",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 4,
+    "component": "SNK4 BC",
+    "description": "CYCLE 4",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 1,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle1_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 2,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle2_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 3,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle3_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 4,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle4_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 1,
+    "component": "Cereal bar",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle1_cereal_bar.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 2,
+    "component": "Cereal bar",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle2_cereal_bar.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 3,
+    "component": "Cereal bar",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle3_cereal_bar.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 4,
+    "component": "Cereal bar",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle4_cereal_bar.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 1,
+    "component": "Healthy snack",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle1_healthy_snack.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 2,
+    "component": "Healthy snack",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle2_healthy_snack.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 3,
+    "component": "Healthy snack",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle3_healthy_snack.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 4,
+    "component": "Healthy snack",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK4_cycle4_healthy_snack.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK4",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 1,
+    "component": "SNK2 PY",
+    "description": "CYCLE 1",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 2,
+    "component": "SNK2 PY",
+    "description": "CYCLE 2",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 3,
+    "component": "SNK2 PY",
+    "description": "CYCLE 3",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 4,
+    "component": "SNK2 PY",
+    "description": "CYCLE 4",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 1,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK2_cycle1_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 2,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK2_cycle2_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 3,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK2_cycle3_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 4,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/01.07.2026-SCL-PYC DOM GRID/SNK2_cycle4_chips.jpg"
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.07.2026-SCL-PYC DOM GRID",
+    "code": "SNK2",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
     "source": "11.12.2024-SCL-PYC DOM",
     "code": "SW00 Cortina Flexible",
     "cycle": 1,
@@ -4886,6 +5718,198 @@
     "component": "Handling related to the service",
     "description": "Make and pack",
     "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 1,
+    "component": "SWAM",
+    "description": "Cycle 1",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 2,
+    "component": "SWAM",
+    "description": "Cycle 2",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 3,
+    "component": "SWAM",
+    "description": "Cycle 3",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 4,
+    "component": "SWAM",
+    "description": "Cycle 4",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 1,
+    "component": "Sandwich",
+    "description": "Pan semillas, jamón planchado laminado, Queso gauda laminado, Queso crema, 15 cm largo x 6 cm ancho x 4,5 cm alto con relleno",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWAM_cycle1_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 2,
+    "component": "Sandwich",
+    "description": "Ciabatta integral, Jamón de Pavo Ahumado, Queso mozarella, Queso crema, 13  cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWAM_cycle2_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 3,
+    "component": "Sandwich",
+    "description": "Pan hojaldrado, jamón planchado laminado, Queso gauda laminado, Queso crema, 12 cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWAM_cycle3_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 4,
+    "component": "Sandwich",
+    "description": "Pan Ciabatta, Jamón de Pavo Ahumado, Queso mozarella, Queso crema, 13  cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWAM_cycle4_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 1,
+    "component": "Muffin",
+    "description": "Muffin vainilla chip x 50 gr",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWAM_cycle1_muffin.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 2,
+    "component": "Muffin",
+    "description": "Muffin frambuesa x 50 gr",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWAM_cycle2_muffin.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 3,
+    "component": "Muffin",
+    "description": "Muffin vainilla x 50 gr",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWAM_cycle3_muffin.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWAM",
+    "cycle": 4,
+    "component": "Muffin",
+    "description": "Muffin arandanos x 50 gr",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWAM_cycle4_muffin.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 1,
+    "component": "SWPM",
+    "description": "Cycle 1",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 2,
+    "component": "SWPM",
+    "description": "Cycle 2",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 3,
+    "component": "SWPM",
+    "description": "Cycle 3",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 4,
+    "component": "SWPM",
+    "description": "Cycle 4",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 1,
+    "component": "Sandwich",
+    "description": "Pan Ciabatta, Pollo curcuma laminado, Queso gauda laminado, Queso crema, 13  cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWPM_cycle1_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 2,
+    "component": "Sandwich",
+    "description": "Pan Semillas, Pastrami, Queso Gouda, Queso crema pesto, Tomate rodela asado, 15 cm largo x 6 cm ancho x 4,5 cm alto con relleno",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWPM_cycle2_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 3,
+    "component": "Sandwich",
+    "description": "Pan Ciabatta, Salame tajadas, Queso gauda laminado, Tomate rodela asado, 13  cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWPM_cycle3_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 4,
+    "component": "Sandwich",
+    "description": "Pan croissant plano, Pollo asado laminado, Queso mozarella laminado, Queso crema pesto albahaca, 12 cm largo x 8 cm ancho x 4 cm alto con relleno",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWPM_cycle4_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 1,
+    "component": "Chips",
+    "description": "Chip LATAM",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWPM_cycle1_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 2,
+    "component": "Chips",
+    "description": "Chip LATAM",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWPM_cycle2_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 3,
+    "component": "Chips",
+    "description": "Chip LATAM",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWPM_cycle3_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SWPM",
+    "cycle": 4,
+    "component": "Chips",
+    "description": "Chip LATAM",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SWPM_cycle4_chips.jpg"
   },
   {
     "source": "11.12.2024-SCL-PYC DOM",
@@ -16805,6 +17829,102 @@
     "cycle": 3,
     "component": "#REF!",
     "description": "1468.15438, 244.1400437, 2103.360376, 468.947731, 348.0, 1795.5, 3045.3264",
+    "image_path": null
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 1,
+    "component": "FHLD YC",
+    "description": "Cycle 1",
+    "image_path": null
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 2,
+    "component": "FHLD YC",
+    "description": "Cycle 2",
+    "image_path": null
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 1,
+    "component": "PRODUCT",
+    "description": "Solomillo trozos, salsa color cremosa, ciruelas en almibas, manzanas caramelizadas, papas chancadas, Salmon a la plancha, Papas nativas asadas con hierbas, Salsa de vino blanco, Zucchini rodela salteado, Pasta penne con salsa cremosa, Salsa pomodoro, Queso parmesano, Pesto de albahaca, semillas de calazaba",
+    "image_path": "catalog/images/SCL-YC GRID INTER/FHLD LH - Chef_cycle1_product.jpg"
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 2,
+    "component": "PRODUCT",
+    "description": "Pastel de Choclo, Tomate concase marinado, Plateada braseda, Risoto de mote y champiñones, Caponata de verduras, Salsa de plateada, Pasta espirales con salsa, Salsa pomodoro, Queso manchego rallado, Zuchini cubo asado, Pesto albahaca",
+    "image_path": "catalog/images/SCL-YC GRID INTER/FHLD LH - Chef_cycle2_product.jpg"
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 4,
+    "component": "PRODUCT",
+    "description": "Percentage, 173, 30, 1159, 136",
+    "image_path": null
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 1,
+    "component": "Mini chocolate",
+    "description": "Chocolate La fete LATAM",
+    "image_path": "catalog/images/SCL-YC GRID INTER/FHLD LH - Chef_cycle1_mini_chocolate.jpg"
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 2,
+    "component": "Mini chocolate",
+    "description": "Chocolate La fete LATAM",
+    "image_path": "catalog/images/SCL-YC GRID INTER/FHLD LH - Chef_cycle2_mini_chocolate.jpg"
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 1,
+    "component": "EXTRAS  - Cold choice dressing",
+    "description": "Queso individual, Crackers individuales, Mini foccacia plain",
+    "image_path": "catalog/images/SCL-YC GRID INTER/FHLD LH - Chef_cycle1_extras_cold_choice_dressing.jpg"
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 2,
+    "component": "EXTRAS  - Cold choice dressing",
+    "description": "Queso individual, Crackers individuales, Mini foccacia plain",
+    "image_path": "catalog/images/SCL-YC GRID INTER/FHLD LH - Chef_cycle2_extras_cold_choice_dressing.jpg"
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 4,
+    "component": "EXTRAS  - Cold choice dressing",
+    "description": "331",
+    "image_path": null
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 4,
+    "component": "HANDLING",
+    "description": "1829",
+    "image_path": null
+  },
+  {
+    "source": "SCL-YC GRID INTER",
+    "code": "FHLD LH - Chef",
+    "cycle": 4,
+    "component": "HANDLING SERVICE ASSOCIATE",
+    "description": "3085.0, 4914",
     "image_path": null
   },
   {

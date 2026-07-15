@@ -96,7 +96,7 @@ _GRID_MAP: dict[str, set[str]] = {
     "PYC":      {"SCL-PYC INTER GRID"},
     "YC":       {"SCL-YC GRID INTER"},
     "CREW_DOM": {"01.03.2026-SCL-CREW DOM GRID"},
-    "PYC_DOM":  {"11.12.2024-SCL-PYC DOM"},
+    "PYC_DOM":  {"11.12.2024-SCL-PYC DOM", "01.07.2026-SCL-PYC DOM GRID"},
 }
 
 

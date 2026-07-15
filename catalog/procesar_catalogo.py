@@ -61,6 +61,15 @@ def is_section_header(val) -> bool:
     return True
 
 
+def _is_whole_quantity(val) -> bool:
+    """True si el valor parece una cantidad entera (ej. 1.0, 2.0), no un factor raro (ej. 1.0512)."""
+    try:
+        f = float(val)
+        return abs(f - round(f)) < 0.01
+    except (TypeError, ValueError):
+        return False
+
+
 def parse_sheet(ws) -> list:
     all_rows = list(ws.iter_rows(min_row=1, values_only=True))
     n_rows = len(all_rows)
@@ -70,6 +79,18 @@ def parse_sheet(ws) -> list:
         b_val = row[COMPONENT_COL] if len(row) > COMPONENT_COL else None
         if is_section_header(b_val):
             section_rows.append((i, str(b_val).strip()))
+
+    # Fallback: si col B no tiene secciones, buscar en col A
+    # Solo toma filas donde col B es None o una cantidad entera (ej. 1.0), no factores raros
+    if not section_rows:
+        for i, row in enumerate(all_rows):
+            a_val = row[0] if len(row) > 0 else None
+            b_val = row[1] if len(row) > 1 else None
+            if not is_section_header(a_val):
+                continue
+            if b_val is not None and not _is_whole_quantity(b_val):
+                continue
+            section_rows.append((i, str(a_val).strip()))
 
     if not section_rows:
         return []
