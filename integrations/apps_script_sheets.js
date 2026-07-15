@@ -51,25 +51,42 @@ function doPost(e) {
            .setFontColor("#FFFFFF");
     }
 
-    // Subir foto a Drive
+    const folder    = DriveApp.getFolderById(DRIVE_FOLDER_ID);
+    const timestamp = new Date().getTime();
+
+    // Subir foto del evaluador a Drive
     let foto_url = "";
     if (data.foto) {
       try {
-        const folder    = DriveApp.getFolderById(DRIVE_FOLDER_ID);
-        const timestamp = new Date().getTime();
-        const filename  = `${data.codigo}_${timestamp}.jpg`;
-        const decoded   = Utilities.base64Decode(data.foto);
-        const blob      = Utilities.newBlob(decoded, "image/jpeg", filename);
-        const file      = folder.createFile(blob);
-        foto_url        = file.getDownloadUrl();
+        const filename = `${data.codigo}_${timestamp}.jpg`;
+        const decoded  = Utilities.base64Decode(data.foto);
+        const blob     = Utilities.newBlob(decoded, "image/jpeg", filename);
+        foto_url       = folder.createFile(blob).getDownloadUrl();
       } catch (driveErr) {
-        console.log("Drive upload error: " + driveErr.message);
+        console.log("Drive upload foto error: " + driveErr.message);
+      }
+    }
+
+    // Subir imagen de referencia del catálogo a Drive
+    let imagen_referencia_url = "";
+    if (data.imagen_referencia) {
+      try {
+        const refUrl  = `${RENDER_URL}/${data.imagen_referencia}`.replace(/ /g, "%20");
+        const resp    = UrlFetchApp.fetch(refUrl, { muteHttpExceptions: true });
+        if (resp.getResponseCode() === 200) {
+          const filename = `ref_${data.codigo}_${timestamp}.jpg`;
+          const blob     = resp.getBlob().setName(filename);
+          imagen_referencia_url = folder.createFile(blob).getDownloadUrl();
+        }
+      } catch (refErr) {
+        console.log("Drive upload ref error: " + refErr.message);
       }
     }
 
     const promedio = SCORES.reduce((s, k) => s + (Number(data[k]) || 0), 0) / SCORES.length;
 
-    data.foto_url = foto_url;
+    data.foto_url          = foto_url;
+    data.imagen_referencia = imagen_referencia_url;
     const row = COLUMNS.map(col => {
       if (col === "promedio") return Math.round(promedio * 100) / 100;
       return data[col] !== undefined ? data[col] : "";
@@ -146,16 +163,17 @@ function enviarReporteQA() {
       } catch(e) { console.log("Error foto Drive: " + e.message); }
     }
 
-    // Foto de referencia del catálogo desde Render
+    // Imagen de referencia desde Drive
     let refCid = "";
     if (img_ref) {
       try {
-        const refUrl = `${RENDER_URL}/${img_ref}`.replace(/ /g, "%20");
-        const blob   = UrlFetchApp.fetch(refUrl, {muteHttpExceptions: true})
-                         .getBlob().setName(`ref_${i}`);
-        inlineImages[`ref_${i}`] = blob;
-        refCid = `ref_${i}`;
-      } catch(e) { console.log("Error imagen referencia: " + e.message); }
+        const fileId = img_ref.match(/id=([^&]+)/)?.[1];
+        if (fileId) {
+          const blob = DriveApp.getFileById(fileId).getBlob().setName(`ref_${i}`);
+          inlineImages[`ref_${i}`] = blob;
+          refCid = `ref_${i}`;
+        }
+      } catch(e) { console.log("Error imagen referencia Drive: " + e.message); }
     }
 
     const scoreColor   = _scoreCell(row[col.color]);
