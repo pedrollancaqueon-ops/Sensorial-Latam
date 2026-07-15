@@ -96,8 +96,11 @@ _GRID_MAP: dict[str, set[str]] = {
     "PYC":      {"SCL-PYC INTER GRID"},
     "YC":       {"SCL-YC GRID INTER"},
     "CREW_DOM": {"01.03.2026-SCL-CREW DOM GRID"},
-    "PYC_DOM":  {"11.12.2024-SCL-PYC DOM", "01.07.2026-SCL-PYC DOM GRID"},
+    "PE_DOM":   {"11.12.2024-SCL-PYC DOM", "01.07.2026-SCL-PYC DOM GRID"},
 }
+
+# SPML se filtra por patrón de código, no por source
+_SPML_KEY = "SPML"
 
 
 def get_catalog_images(fecha: datetime.date | None = None, grid: str | None = None) -> list[dict]:
@@ -106,12 +109,16 @@ def get_catalog_images(fecha: datetime.date | None = None, grid: str | None = No
     """
     fecha = fecha or datetime.date.today()
     mes = fecha.month
-    source_filter: set[str] | None = _GRID_MAP.get((grid or "").upper())
+    grid_key = (grid or "").upper()
+    is_spml = grid_key == _SPML_KEY
+    source_filter: set[str] | None = None if is_spml else _GRID_MAP.get(grid_key)
 
     seen_codes: set[str] = set()
     result = []
     for item in _catalog:
-        if source_filter and item.get("source") not in source_filter:
+        if is_spml and "SPML" not in str(item.get("code", "")).upper():
+            continue
+        if not is_spml and source_filter and item.get("source") not in source_filter:
             continue
         patron = _patron_para(item.get("source", ""), item.get("code", ""))
         if item.get("cycle") != patron(mes):

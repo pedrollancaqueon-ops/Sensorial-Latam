@@ -58,7 +58,7 @@
     <div id="screen-cabina" class="screen active flex-col min-h-[calc(100vh-3.5rem)]">
       <div class="px-6 py-8 flex flex-col gap-6">
         <div class="text-center">
-          <p class="text-latam-blue font-black text-2xl">¿Qué cabina vas a evaluar?</p>
+          <p class="text-latam-blue font-black text-2xl">¿Qué grupo de servicio vas a evaluar?</p>
           <p class="text-gray-400 text-sm mt-1">Selecciona para que la IA busque en el grid correcto</p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-2">
@@ -92,11 +92,17 @@
             <span class="font-black text-latam-blue text-lg">Crew DOM</span>
             <span class="text-xs text-gray-400">Doméstico</span>
           </button>
-          <button onclick="seleccionarCabina('PYC_DOM','PYC DOM')"
+          <button onclick="seleccionarCabina('PE_DOM','PE DOM')"
             class="cabina-btn bg-white border-2 border-gray-200 rounded-2xl p-5 flex flex-col items-center gap-2 shadow-sm active:scale-95 transition-transform">
             <span class="text-3xl">🇨🇱</span>
-            <span class="font-black text-latam-blue text-lg">PYC DOM</span>
+            <span class="font-black text-latam-blue text-lg">PE DOM</span>
             <span class="text-xs text-gray-400">Doméstico</span>
+          </button>
+          <button onclick="seleccionarCabina('SPML','SPML')"
+            class="cabina-btn bg-white border-2 border-gray-200 rounded-2xl p-5 flex flex-col items-center gap-2 shadow-sm active:scale-95 transition-transform">
+            <span class="text-3xl">🥗</span>
+            <span class="font-black text-latam-blue text-lg">SPML</span>
+            <span class="text-xs text-gray-400">Comida especial</span>
           </button>
         </div>
       </div>
