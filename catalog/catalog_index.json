@@ -1,5 +1,5149 @@
 [
   {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "Category",
+    "description": "Reference\n number",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "Category",
+    "description": "Price",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 3,
+    "component": "Category",
+    "description": "Comments",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "17.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "18",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "19",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "20",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "21",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "22",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "23",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "24",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "25",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "4783.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "26",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2935.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "27",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "4341.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "28",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2550.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "29",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3438.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "30",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3755.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "31",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2423.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "32",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3455.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "33",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "34",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "35",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "36",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "37",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "38",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "39",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "40",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "41",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "4783.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "42",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2935.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "43",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "4341.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "44",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2550.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "45",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3438.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "46",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3755.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "47",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2423.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "48",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3455.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "49",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "50",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "51",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "52",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "53",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "54",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "55",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "56",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "57",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "4783.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "58",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2935.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "59",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "4341.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "60",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2550.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "61",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3438.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "62",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3755.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "63",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2423.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "64",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3455.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "65",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "66",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "67",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "68",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "69",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "70",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "71",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "72",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 4,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "GGLAT QUESO PARMES L FIN RALL",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "73",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 4,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "GGLAT QUESO PARMES RALLADO IH M&P",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "74",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "75",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "76",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6501.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "77",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6501.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "78",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6501.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "79",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6501.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "80",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6501.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "81",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6501.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "82",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6501.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "83",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6501.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "84",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6500.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "85",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6500.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "86",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6500.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "87",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "6500.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "88",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3002.127905",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "89",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3124.232",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "90",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2701.664",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "91",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2978.43008",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "92",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3691.13928",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "93",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2789.872205",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "94",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3002.127905",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "95",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3124.232",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "96",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2701.664",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "97",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2978.43008",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "98",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3691.13928",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "99",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2789.872205",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "100",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3002.127905",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "101",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3124.232",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "102",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2701.664",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "103",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2978.43008",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "104",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3691.13928",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "105",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2789.872205",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "106",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3147.9861",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "107",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2940.657813",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "108",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3194.6",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "109",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2842.3232",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "110",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3147.9861",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "111",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2940.657813",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "112",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3194.6",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "113",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2842.3232",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "114",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3147.9861",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "115",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2940.657813",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "116",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "3194.6",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "117",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "2842.3232",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "118",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "119",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "120",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 1,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "121",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Precios",
+    "cycle": 2,
+    "component": "FRESH FOOD / Prepacked Items Services",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Crew Domesticos HLD",
+    "description": "Cycle 1",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle1_crew_domesticos_hld.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Crew Domesticos HLD",
+    "description": "Cycle 2",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle2_crew_domesticos_hld.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Crew Domesticos HLD",
+    "description": "Cycle 3",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle3_crew_domesticos_hld.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Crew Domesticos HLD",
+    "description": "Cycle 4",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle4_crew_domesticos_hld.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle1_tsu_tm.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle2_tsu_tc.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle3_tsu_tc.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle4_tsu_tc.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual, Bollo integral 30 gr IH con corte y semillas",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle1_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual, Bollo integral 30 gr IH con corte y semillas",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle2_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual, Bollo integral 30 gr IH con corte y semillas",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle3_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual, Bollo integral 30 gr IH con corte y semillas",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle4_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Panes",
+    "description": "Mini baguette redondo IH 30 gr",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle1_panes.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Panes",
+    "description": "Mini baguette redondo IH 30 gr",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Panes",
+    "description": "Mini baguette redondo IH 30 gr",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Panes",
+    "description": "Mini baguette redondo IH 30 gr",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "1 x vuelo",
+    "description": "Papel aluminio 30 cm, Cacerola C40, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle1_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "1 x vuelo",
+    "description": "Papel aluminio 30 cm, Cacerola C40, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle2_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "1 x vuelo",
+    "description": "Papel aluminio 30 cm, Cacerola C40, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle3_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "1 x vuelo",
+    "description": "Papel aluminio 30 cm, Cacerola C40, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle4_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Ensalada verde",
+    "description": "Salad mix ( Oasis ), Aceituna negra rodela, Tomate fresco casco, Pliego papel aluminio, Etiquetea codigo color",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Ensalada verde",
+    "description": "Salad mix ( Oasis ), Porotos verdes corte americano, Huevo duro mitad, Pliego papel aluminio, Etiquetea codigo color",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Ensalada verde",
+    "description": "Salad mix ( Oasis ), Esparrago verde picado, Queso fresco  laminado, Pliego papel aluminio, Etiquetea codigo color",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Ensalada verde",
+    "description": "Salad mix ( Oasis ), Tomate fresco brunoise, Queso parmesano rallado, Pliego papel aluminio, Etiquetea codigo color",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Equipos",
+    "description": "Cacerola ovalada",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle1_equipos.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Equipos",
+    "description": "Cacerola ovalada",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle2_equipos.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Equipos",
+    "description": "Cacerola ovalada, Solomillo de cerdo horneado  2x50 grs",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle3_equipos.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Equipos",
+    "description": "Cacerola ovalada",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle4_equipos.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Plato Caliente A",
+    "description": "Pastel de choclo mechada, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Plato Caliente A",
+    "description": "Guiso carne champiñon, Papas cuña asadas, Manteilla con hierbas, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Plato Caliente A",
+    "description": "Papas chancadas, Zucchini rodela, Salsa cremosa de paprika, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle3_plato_caliente_a.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Plato Caliente A",
+    "description": "Plateada braseada 2x50gr, Pure de papa natural, Salsa plateada, Cacerola ovalada, Pliego papel aluminio, Sticker horneable, Berenjena al ajillo asada",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle4_plato_caliente_a.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Plato caliente B",
+    "description": "Lomo saltado, Verduras Para Lomo, Arroz blanco, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle1_plato_caliente_b.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Plato caliente B",
+    "description": "Sorrentino 4 Quesos IH, Salsa de champiñon, Queso Parmesano rallado, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle2_plato_caliente_b.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Plato caliente B",
+    "description": "Lasaña bolonesa, Salsa pomodoro, Sticker horneable, Cacerola ovalada, Pliego papel aluminio",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle3_plato_caliente_b.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Plato caliente B",
+    "description": "Salsa pomodoro, Mix almendra y semillas de zapallo semimolidas tostadas, Arroz basmati con arroz salvaje, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle4_plato_caliente_b.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Ensalada gourmet",
+    "description": "Salad mix Oasis, Jamon serrano, Tomate casco, Queso Bocconcini, Esparrago mitad, Cacerola latam, Pliego papel aluminio, Etiqueta color",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle1_ensalada_gourmet.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Ensalada gourmet",
+    "description": "Salad mix Oasis, Pasta espiral tricolor cocido, Pechuga de pollo asada laminada, Queso parmesano rallado, Nueces partidas, Cacerola latam, Pliego papel aluminio, Etiqueta color",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle2_ensalada_gourmet.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Ensalada gourmet",
+    "description": "Salad mix Oasis, Jamon serrano, Tomate casco, Queso Bocconcini, Esparrago mitad, Cacerola latam, Pliego papel aluminio, Etiqueta color",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Ensalada gourmet",
+    "description": "Salad mix Oasis, Pollo pechuga asada juliana, Pimiento rojo fresco juliana, Crutones horneados, Queso parmesano escama, Aceituna negra rodella, Cacerola latam, Pliego papel aluminio, Etiqueta color",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Gaveta HL",
+    "description": "Limon fresco entero en pouch de papel, Postre leche asada 120 gr soprole",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Gaveta HL",
+    "description": "Limon fresco entero en pouch de papel, Postre leche asada 120 gr soprole",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Gaveta HL",
+    "description": "Limon fresco entero en pouch de papel, Postre leche asada 120 gr soprole",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle3_gaveta_hl.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Gaveta HL",
+    "description": "Limon fresco entero en pouch de papel, Postre leche asada 120 gr soprole",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HLDL sg_cycle4_gaveta_hl.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "1 x vuelo",
+    "description": "Postre Protein Goodnes 0% 0% Azucar nestle 115 gr, Jalea Goodnes 0% azucar Nestle 110 gr, Leche sin lactosa semi descremada 200 ml Surlat, Chocolate sahne nuss, Mix aceite aceto las 200 botella mini, Pouch con 10 sachet sal",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "1 x vuelo",
+    "description": "Postre Protein Goodnes 0% 0% Azucar nestle 115 gr, Jalea Goodnes 0% azucar Nestle 110 gr, Leche sin lactosa semi descremada 200 ml Surlat, Chocolate sahne nuss, Mix aceite aceto las 200 botella mini, Pouch con 10 sachet sal",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "1 x vuelo",
+    "description": "Postre Protein Goodnes 0% 0% Azucar nestle 115 gr, Jalea Goodnes 0% azucar Nestle 110 gr, Leche sin lactosa semi descremada 200 ml Surlat, Chocolate sahne nuss, Mix aceite aceto las 200 botella mini, Pouch con 10 sachet sal",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "1 x vuelo",
+    "description": "Postre Protein Goodnes 0% 0% Azucar nestle 115 gr, Jalea Goodnes 0% azucar Nestle 110 gr, Leche sin lactosa semi descremada 200 ml Surlat, Chocolate sahne nuss, Mix aceite aceto las 200 botella mini, Pouch con 10 sachet sal",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HLDL sg",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "HB",
+    "description": "Cycle 1",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle1_hb.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "HB",
+    "description": "Cycle 2",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle2_hb.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "HB",
+    "description": "Cycle 3",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle3_hb.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "HB",
+    "description": "Cycle 4",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle4_hb.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle1_tsu_tm.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle2_tsu_tm.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle3_tsu_tm.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle4_tsu_tm.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle1_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle2_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle3_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle4_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "Mermelada mini pote",
+    "description": "Mermelada individual mini pote, Bollo integral 30 gr IH con corte y semillas, Mini baguette redondo IH 30 gr, Papel aluminio 30 cm",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle1_mermelada_mini_pote.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "Mermelada mini pote",
+    "description": "Mermelada individual mini pote, Bollo integral 30 gr IH con corte y semillas, Mini baguette redondo IH 30 gr, Papel aluminio 30 cm",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle2_mermelada_mini_pote.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "Mermelada mini pote",
+    "description": "Mermelada individual mini pote, Bollo integral 30 gr IH con corte y semillas, Mini baguette redondo IH 30 gr, Papel aluminio 30 cm",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle3_mermelada_mini_pote.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "Mermelada mini pote",
+    "description": "Mermelada individual mini pote, Bollo integral 30 gr IH con corte y semillas, Mini baguette redondo IH 30 gr, Papel aluminio 30 cm",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle4_mermelada_mini_pote.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "Panes",
+    "description": "Cacerola C30, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "Panes",
+    "description": "Cacerola C30, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "Panes",
+    "description": "Cacerola C30, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "Panes",
+    "description": "Cacerola C30, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "1 x vuelo",
+    "description": null,
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle1_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "1 x vuelo",
+    "description": null,
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle2_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "1 x vuelo",
+    "description": null,
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle3_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "1 x vuelo",
+    "description": null,
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle4_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "Plato Caliente A",
+    "description": "Omelette simple, Papa rosti, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle1_plato_caliente_a.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "Plato Caliente A",
+    "description": "Omelette simple, Lomo kassler laminado grillado, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle2_plato_caliente_a.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "Plato Caliente A",
+    "description": "Omelette simple, papa cubo asadas, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle3_plato_caliente_a.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "Plato Caliente A",
+    "description": "Omelette simple, Jamon de pavo ahumado mitad, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle4_plato_caliente_a.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "Plato caliente B",
+    "description": "Pan croissant largo 75gr, Mantequilla pomada, Queso Gauda laminado, Jamon de pavo ahumado laminado, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "Plato caliente B",
+    "description": "Molde chia linaza sin gluten / huevo / lactosa, Espinaca fresca, Tomate rodela asado, Hummus, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle2_plato_caliente_b.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "Plato caliente B",
+    "description": "Pan molde integral mitad, Pasta ave mayo, Pure de palta condimentada, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "Plato caliente B",
+    "description": "Ciabatta Rustica 60grs, Queso crema, Queso gauda laminado, Jamon de pavo ahumado, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle4_plato_caliente_b.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "Gaveta HB",
+    "description": "Yoghurt Protein con granola soprole (mixto)",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle1_gaveta_hb.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "Gaveta HB",
+    "description": "Yoghurt Protein con granola soprole (mixto)",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle2_gaveta_hb.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "Gaveta HB",
+    "description": "Yoghurt Protein con granola soprole (mixto)",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle3_gaveta_hb.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "Gaveta HB",
+    "description": "Yoghurt Protein con granola soprole (mixto)",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB sg_cycle4_gaveta_hb.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "1 x vuelo",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, Barra cereal vivo protein mix, Yogurt Goodnes radiante con trozos Nestle, Fruta de estación en pouch, Fruta de estación en pouch, Pouch con 10 sachet sal",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "1 x vuelo",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, Barra cereal vivo protein mix, Yogurt Goodnes radiante con trozos Nestle, Fruta de estación en pouch, Fruta de estación en pouch, Pouch con 10 sachet sal",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "1 x vuelo",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, Barra cereal vivo protein mix, Yogurt Goodnes radiante con trozos Nestle, Fruta de estación en pouch, Fruta de estación en pouch, Pouch con 10 sachet sal",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "1 x vuelo",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, Barra cereal vivo protein mix, Yogurt Goodnes radiante con trozos Nestle, Fruta de estación en pouch, Fruta de estación en pouch, Pouch con 10 sachet sal",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB sg",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "HB",
+    "description": "Cycle 1",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "HB",
+    "description": "Cycle 2",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "HB",
+    "description": "Cycle 3",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "HB",
+    "description": "Cycle 4",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle1_tsu_tm.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle2_tsu_tm.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle3_tsu_tm.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "TSU - TM",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle4_tsu_tm.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Set de cubiertos reciclables, Mantequlla individual, Mermelada individual mini pote",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Set de cubiertos reciclables, Mantequlla individual, Mermelada individual mini pote",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Set de cubiertos reciclables, Mantequlla individual, Mermelada individual mini pote",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "TSU - TC",
+    "description": "Bandeja plastica V56, Set de cubiertos reciclables, Mantequlla individual, Mermelada individual mini pote",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle1_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle2_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle3_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "Mantequilla indiviadul",
+    "description": "Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle4_mantequilla_indiviadul.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "Mermelada mini pote",
+    "description": "Mermelada individual mini pote, Bollo integral 30 gr IH con corte y semillas, Mini baguette redondo IH 30 gr, Papel aluminio 30 cm",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle1_mermelada_mini_pote.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "Mermelada mini pote",
+    "description": "Mermelada individual mini pote, Bollo integral 30 gr IH con corte y semillas, Mini baguette redondo IH 30 gr, Papel aluminio 30 cm",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle2_mermelada_mini_pote.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "Mermelada mini pote",
+    "description": "Mermelada individual mini pote, Bollo integral 30 gr IH con corte y semillas, Mini baguette redondo IH 30 gr, Papel aluminio 30 cm",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle3_mermelada_mini_pote.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "Mermelada mini pote",
+    "description": "Mermelada individual mini pote, Bollo integral 30 gr IH con corte y semillas, Mini baguette redondo IH 30 gr, Papel aluminio 30 cm",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle4_mermelada_mini_pote.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "Panes",
+    "description": "Cacerola C30, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "Panes",
+    "description": "Cacerola C30, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "Panes",
+    "description": "Cacerola C30, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "Panes",
+    "description": "Cacerola C30, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "1 x vuelo",
+    "description": null,
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle1_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "1 x vuelo",
+    "description": null,
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle2_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "1 x vuelo",
+    "description": null,
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle3_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "1 x vuelo",
+    "description": null,
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle4_1_x_vuelo.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "Plato Caliente A",
+    "description": "Omelette simple, Papa rosti, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle1_plato_caliente_a.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "Plato Caliente A",
+    "description": "Omelette simple, Lomo kassler laminado frillado, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle2_plato_caliente_a.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "Plato Caliente A",
+    "description": "Omelette simple, papa cubo asadas, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle3_plato_caliente_a.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "Plato Caliente A",
+    "description": "Omelette simple, jamon de pavo ahumado, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle4_plato_caliente_a.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "Plato caliente B",
+    "description": "Pan croissant largo 75gr, mantequilla pomada, Queso Gauda laminado, Jamon de pavo ahumado laminado, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle1_plato_caliente_b.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "Plato caliente B",
+    "description": "Molde chia linaza sin gluten / huevo / lactosa, Espinaca fresca, Tomate rodela asado, Hummus, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle2_plato_caliente_b.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "Plato caliente B",
+    "description": "pan molde integral mitad, pasta ave mayo, pure de palta condimentada, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "Plato caliente B",
+    "description": "Ciabatta Rustica 60grs, queso crema, Queso gauda laminado, Jamon de pavo ahumado, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle4_plato_caliente_b.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "Gaveta HB",
+    "description": "Crackers  NAT 80 grs, Yoghurt Protein con granola soprole (mixto)",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "Gaveta HB",
+    "description": "Crackers  NAT 80 grs, Yoghurt Protein con granola soprole (mixto)",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle2_gaveta_hb.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "Gaveta HB",
+    "description": "Crackers  NAT 80 grs, Yoghurt Protein con granola soprole (mixto)",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/HB b_cycle3_gaveta_hb.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "Gaveta HB",
+    "description": "Crackers  NAT 80 grs, Yoghurt Protein con granola soprole (mixto)",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "1 x vuelo",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, Barra cereal vivo protein mix, Yogurt Goodnes radiante con trozos Nestle, Naranja en pouch, Manzana roja en pouch, Pera en Pouch",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "1 x vuelo",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, Barra cereal vivo protein mix, Yogurt Goodnes radiante con trozos Nestle, Naranja en pouch, Manzana roja en pouch, Pera en Pouch",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "1 x vuelo",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, Barra cereal vivo protein mix, Yogurt Goodnes radiante con trozos Nestle, Naranja en pouch, Manzana roja en pouch, Pera en Pouch",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "1 x vuelo",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, Barra cereal vivo protein mix, Yogurt Goodnes radiante con trozos Nestle, Naranja en pouch, Manzana roja en pouch, Pera en Pouch",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "Equipos",
+    "description": "Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB b",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB frio CBE",
+    "cycle": 1,
+    "component": "CBE / TM-CAP",
+    "description": "Cycle 1-2-3-4",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB frio CBE",
+    "cycle": 1,
+    "component": "Gaveta HL",
+    "description": "Galletas cracker GG, Postre leche asada 120 gr soprole",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB frio CBE",
+    "cycle": 1,
+    "component": "1 x vuelo",
+    "description": "Postre del sur 95 gr",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB frio CBE",
+    "cycle": 1,
+    "component": "Según cantidad de crew",
+    "description": "Jalea soprole 110 gr, Leche sin lactosa semi descremada 200 ml, Producto horneado dulce in house",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB frio CBE",
+    "cycle": 1,
+    "component": "Fruta entera",
+    "description": "Fruta 1, Fruta 2, Fruta 3",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "HB frio CBE",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 1,
+    "component": "SS / TM-CAP",
+    "description": "Cycle 1",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle1_ss_tm_cap.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 2,
+    "component": "SS / TM-CAP",
+    "description": "Cycle 2",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle2_ss_tm_cap.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 3,
+    "component": "SS / TM-CAP",
+    "description": "Cycle 3",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle3_ss_tm_cap.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 4,
+    "component": "SS / TM-CAP",
+    "description": "Cycle 4",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle4_ss_tm_cap.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 1,
+    "component": "SS - TM - TSU",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle1_ss_tm_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 2,
+    "component": "SS - TM - TSU",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle2_ss_tm_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 3,
+    "component": "SS - TM - TSU",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle3_ss_tm_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 4,
+    "component": "SS - TM - TSU",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual, Mermelada individual mini pote LA",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle4_ss_tm_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 1,
+    "component": "SS - TC - TSU",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote LA, Mnatequilla ind mini pote, Mermelada ind  mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle1_ss_tc_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 2,
+    "component": "SS - TC - TSU",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote LA, Mnatequilla ind mini pote, Mermelada ind  mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle2_ss_tc_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 3,
+    "component": "SS - TC - TSU",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote LA, Mnatequilla ind mini pote, Mermelada ind  mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle3_ss_tc_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 4,
+    "component": "SS - TC - TSU",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mermelada individual mini pote LA, Mnatequilla ind mini pote, Mermelada ind  mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle4_ss_tc_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 1,
+    "component": "Sandwich",
+    "description": "Foccacia plain 50 grs, Queso crema, Queso gauda laminado, Jamon pierna laminado, Cacerola ovalada, Pliego papel aluminio, Etiqueta código color",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle1_sandwich.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 2,
+    "component": "Sandwich",
+    "description": "Pan croissant mini plano, Jamon de pavo ahumado, Queso gauda laminado, Tomate rodela asado, Pasta tomate seco, Cacerola ovalada, Pliego papel aluminio, Etiqueta código color",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle2_sandwich.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 3,
+    "component": "Sandwich",
+    "description": "Pan baguette 60 gr, Queso crema untable, Queso gauda laminado, Jamon de pavo ahumado laminado, Cacerola ovalada, Pliego papel aluminio, Etiqueta código color",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 4,
+    "component": "Sandwich",
+    "description": "Ciabatta 60 grs, Queso crema tomate seco, Pollo asado laminado, Tomate asado rodella, Queso gauda, Sticker horneable, Cacerols ovalada, Pliego papel aluminio",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SS TM -TC_cycle4_sandwich.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 1,
+    "component": "Gaveta ss",
+    "description": "Blondie x50grs, Brownie chocochips x50grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 2,
+    "component": "Gaveta ss",
+    "description": "Blondie x50grs, Brownie chocochips x50grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 3,
+    "component": "Gaveta ss",
+    "description": "Blondie x50grs, Brownie chocochips x50grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 4,
+    "component": "Gaveta ss",
+    "description": "Blondie x50grs, Brownie chocochips x50grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 1,
+    "component": "1 x vuelo",
+    "description": "Mufins vainilla x50grs, muffins chochochips x50 grs, muffins arándanos x50grs, queque amapola limon 1/2 tajada, Crackers  NAT 16 grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 2,
+    "component": "1 x vuelo",
+    "description": "Mufins vainilla x50grs, muffins chochochips x50 grs, muffins arándanos x50grs, queque amapola limon 1/2 tajada, Crackers  NAT 16 grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 3,
+    "component": "1 x vuelo",
+    "description": "Mufins vainilla x50grs, muffins chochochips x50 grs, muffins arándanos x50grs, queque amapola limon 1/2 tajada, Crackers  NAT 16 grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 4,
+    "component": "1 x vuelo",
+    "description": "Mufins vainilla x50grs, muffins chochochips x50 grs, muffins arándanos x50grs, queque amapola limon 1/2 tajada, Crackers  NAT 16 grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 1,
+    "component": "Equipos",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, yoghurt uno al día cajita 80ml, Pouch con 10 sachet sal, Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 2,
+    "component": "Equipos",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, yoghurt uno al día cajita 80ml, Pouch con 10 sachet sal, Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 3,
+    "component": "Equipos",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, yoghurt uno al día cajita 80ml, Pouch con 10 sachet sal, Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 4,
+    "component": "Equipos",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, yoghurt uno al día cajita 80ml, Pouch con 10 sachet sal, Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SS TM -TC",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 1,
+    "component": "SE / TM-CAP",
+    "description": "Cycle 1",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 2,
+    "component": "SE / TM-CAP",
+    "description": "Cycle 2",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 3,
+    "component": "SE / TM-CAP",
+    "description": "Cycle 3",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 4,
+    "component": "SE / TM-CAP",
+    "description": "Cycle 4",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 1,
+    "component": "SE- TM - TSU",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle1_se_tm_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 2,
+    "component": "SE- TM - TSU",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle2_se_tm_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 3,
+    "component": "SE- TM - TSU",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle3_se_tm_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 4,
+    "component": "SE- TM - TSU",
+    "description": "Bandeja plastica V28, Cuchara metal, Cuchillo metal, Tenedor metal, Mantel bandeja blanco, Servilleta genero blanco, Anillo servilletero, Mantequlla individual",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle4_se_tm_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 1,
+    "component": "SE - TC- TSU",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mantequilla ind mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle1_se_tc_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 2,
+    "component": "SE - TC- TSU",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mantequilla ind mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle2_se_tc_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 3,
+    "component": "SE - TC- TSU",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mantequilla ind mini pote",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle3_se_tc_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 4,
+    "component": "SE - TC- TSU",
+    "description": "Bandeja plastica V56, Cuchara metal, Cuchillo metal, Tenedor metal, Servilleta papel blanco, Anillo servilletero blanco, Mantequlla individual, Mantequilla ind mini pote, Croissant plano",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle4_se_tc_tsu.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 1,
+    "component": "Sandwich",
+    "description": "Tortilla grande 28 cm wrap, Queso crema albahaca, Choclo cocido, Tomate fresco juliana, Queso Mozarella rallado, Pollo desmechado, Etiqueta de color, Cacerola ovalada, Pliego papel aluminio, Etiqueta código color",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle1_sandwich.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 2,
+    "component": "Sandwich",
+    "description": "Foccacia plain 50 grs, Ave mayo apio, Pure de palta, Etiqueta de color, Cacerola ovalada, Pliego papel aluminio, Etiqueta código color",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle2_sandwich.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 3,
+    "component": "Sandwich",
+    "description": "Tortilla grande 28 cm wrap, Carne mechada, Queso gauda, Queso crema, Etiqueta de color, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 4,
+    "component": "Sandwich",
+    "description": "Ave mayo apio, Tomate rodela asado, Pure palta, Etiqueta de color, Cacerola ovalada, Pliego papel aluminio, Etiqueta código color",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle4_sandwich.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 1,
+    "component": "Sandwich",
+    "description": "Ciabatta, Not mayo, Not Mila (Mitad), Zucchini Rodela Asado, Cacerola ovalada, Pliego papel aluminio, Sticker horneable",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle1_sandwich.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 2,
+    "component": "Sandwich",
+    "description": "Miga blanco tostado mitad, Jamon pierna pastorino, Queso gauda, Queso crema pesto, Etiqueta de color, Cacerola ovalada, Pliego papel aluminio, Etiqueta código color",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle2_sandwich.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 3,
+    "component": "Sandwich",
+    "description": "Croissant largo 75 gr, Ave mayo pimenton, Etiqueta de color, Cacerola ovalada, Pliego papel aluminio, Etiqueta código color",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle3_sandwich.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 4,
+    "component": "Sandwich",
+    "description": "Baguette integral semillas 40 grs, Not mayo, Zucchini rodela asado, Berenjena asada laminada, Chutney de tomate, Cacerola ovalada, Pliego papel aluminio, Etiqueta código color",
+    "image_path": "catalog/images/01.03.2026-SCL-CREW DOM GRID/SSE TM -TC_cycle4_sandwich.jpg"
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 1,
+    "component": "Gaveta SE",
+    "description": "Blondie x50grs, Brownie chocochips x50grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 2,
+    "component": "Gaveta SE",
+    "description": "Blondie x50grs, Brownie chocochips x50grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 3,
+    "component": "Gaveta SE",
+    "description": "Blondie x50grs, Brownie chocochips x50grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 4,
+    "component": "Gaveta SE",
+    "description": "Blondie x50grs, Brownie chocochips x50grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 1,
+    "component": "1 x vuelo",
+    "description": "Mufins vainilla x50grs, muffins chochochips x50 grs, muffins arándanos x50grs, queque amapola limon 1/2 tajada, Crackers  NAT 16 grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 2,
+    "component": "1 x vuelo",
+    "description": "Mufins vainilla x50grs, muffins chochochips x50 grs, muffins arándanos x50grs, queque amapola limon 1/2 tajada, Crackers  NAT 16 grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 3,
+    "component": "1 x vuelo",
+    "description": "Mufins vainilla x50grs, muffins chochochips x50 grs, muffins arándanos x50grs, queque amapola limon 1/2 tajada, Crackers  NAT 16 grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 4,
+    "component": "1 x vuelo",
+    "description": "Mufins vainilla x50grs, muffins chochochips x50 grs, muffins arándanos x50grs, queque amapola limon 1/2 tajada, Crackers  NAT 16 grs",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 1,
+    "component": "Equipos",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, yoghurt uno al día cajita 80ml, Pouch con 10 sachet sal, Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 2,
+    "component": "Equipos",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, yoghurt uno al día cajita 80ml, Pouch con 10 sachet sal, Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 3,
+    "component": "Equipos",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, yoghurt uno al día cajita 80ml, Pouch con 10 sachet sal, Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 4,
+    "component": "Equipos",
+    "description": "Leche sin lactosa semi descremada 200 ml Surlat, yoghurt uno al día cajita 80ml, Pouch con 10 sachet sal, Gaveta plastica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "SSE TM -TC",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Cant Trip HB",
+    "description": "8100.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Cant Trip HB",
+    "description": "12000.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Cant Trip HB",
+    "description": "12000.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB nuevo",
+    "description": "4705.0, 38110500",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB nuevo",
+    "description": "6400.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB nuevo",
+    "description": "3500.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB con desc",
+    "description": "4378.473",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB con desc",
+    "description": "5955.84",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB con desc",
+    "description": "3257.1",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 4,
+    "component": "Precio HB con desc",
+    "description": "Javiera",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Impacto mes",
+    "description": "35465631.3",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Impacto mes",
+    "description": "71470080",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Impacto mes",
+    "description": "39085200, (promedio)",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 4,
+    "component": "Impacto mes",
+    "description": "Impacto AÑO USD, 269003.6257, #REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB actual c/ desc",
+    "description": "3373.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB actual c/ desc",
+    "description": "5809.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB actual c/ desc",
+    "description": "2364.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 4,
+    "component": "Precio HB actual c/ desc",
+    "description": "104331.5701",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Impacto mes actual",
+    "description": "27321300",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Impacto mes actual",
+    "description": "69708000",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Impacto mes actual",
+    "description": "28368000",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 4,
+    "component": "Impacto mes actual",
+    "description": "#ERROR!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO TOTAL MES",
+    "description": "20623611.3",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO TOTAL AÑO",
+    "description": "247483335.6",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "TC USD CLP",
+    "description": "920.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO AÑO [USD]",
+    "description": "269003.6257",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Con galleta",
+    "description": "mes",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Con galleta",
+    "description": "mes",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Con galleta",
+    "description": "mes",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Cant Trip HB",
+    "description": "8100.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Cant Trip HB",
+    "description": "12000.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Cant Trip HB",
+    "description": "12000.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB nuevo",
+    "description": "#REF!, #REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB nuevo",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB nuevo",
+    "description": "3039.651345",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB con desc",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB con desc",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB con desc",
+    "description": "2828.699542",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Impacto mes",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Impacto mes",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Impacto mes",
+    "description": "33944394.5, (promedio)",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB actual c/ desc",
+    "description": "3373.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB actual c/ desc",
+    "description": "5809.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB actual c/ desc",
+    "description": "2364.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Impacto mes actual",
+    "description": "27321300",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Impacto mes actual",
+    "description": "69708000",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Impacto mes actual",
+    "description": "28368000",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO TOTAL MES",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO TOTAL AÑO",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "TC USD CLP",
+    "description": "920.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO AÑO [USD]",
+    "description": "#REF!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Sin galleta",
+    "description": "mes",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Sin galleta",
+    "description": "mes",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Sin galleta",
+    "description": "mes",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Cant Trip HB",
+    "description": "8100.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Cant Trip HB",
+    "description": "12000.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Cant Trip HB",
+    "description": "12000.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB nuevo",
+    "description": "4424.059767, 35834884.11",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB nuevo",
+    "description": "5919.453045",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB nuevo",
+    "description": "3039.651345",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB con desc",
+    "description": "4117.030019",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB con desc",
+    "description": "5508.643004",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB con desc",
+    "description": "2828.699542",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Impacto mes",
+    "description": "33347943.16",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Impacto mes",
+    "description": "66103716.05",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Impacto mes",
+    "description": "33944394.5, (promedio)",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB actual c/ desc",
+    "description": "3373.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB actual c/ desc",
+    "description": "5809.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB actual c/ desc",
+    "description": "2364.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Impacto mes actual",
+    "description": "27321300",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Impacto mes actual",
+    "description": "69708000",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Impacto mes actual",
+    "description": "28368000",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO TOTAL MES",
+    "description": "7998753.705",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO TOTAL AÑO",
+    "description": "95985044.46",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "TC USD CLP",
+    "description": "920.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO AÑO [USD]",
+    "description": "104331.5701",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "HB - Barra + galletas",
+    "description": "mes",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "HB - Barra + galletas",
+    "description": "mes",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "HB - Barra + galletas",
+    "description": "mes",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Cant Trip HB",
+    "description": "8100.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Cant Trip HB",
+    "description": "12000.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Cant Trip HB",
+    "description": "12000.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB nuevo",
+    "description": "#ERROR!, #ERROR!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB nuevo",
+    "description": "5919.453045",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB nuevo",
+    "description": "3039.651345",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "desc1",
+    "description": "-0.01",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "desc2",
+    "description": "-0.06",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB con desc",
+    "description": "#ERROR!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB con desc",
+    "description": "5508.643004",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB con desc",
+    "description": "2828.699542",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Impacto mes",
+    "description": "#ERROR!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Impacto mes",
+    "description": "66103716.05",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Impacto mes",
+    "description": "33944394.5, (promedio)",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Precio HB actual c/ desc",
+    "description": "3373.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Precio HB actual c/ desc",
+    "description": "5809.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Precio HB actual c/ desc",
+    "description": "2364.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "Impacto mes actual",
+    "description": "27321300",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 2,
+    "component": "Impacto mes actual",
+    "description": "69708000",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 3,
+    "component": "Impacto mes actual",
+    "description": "28368000",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO TOTAL MES",
+    "description": "#ERROR!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO TOTAL AÑO",
+    "description": "#ERROR!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "TC USD CLP",
+    "description": "920.0",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "Impactos",
+    "cycle": 1,
+    "component": "IMPACTO AÑO [USD]",
+    "description": "#ERROR!",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "DEFINICION DE ALUSA FOIL",
+    "cycle": 1,
+    "component": "SERVICIO",
+    "description": "OPCION",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "DEFINICION DE ALUSA FOIL",
+    "cycle": 1,
+    "component": "HL",
+    "description": "Ensalada Verde, Ensalada Gourmet, Plato de Fondo A, Plato de Fondo B",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "DEFINICION DE ALUSA FOIL",
+    "cycle": 1,
+    "component": "SERVICIO",
+    "description": "OPCION",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "DEFINICION DE ALUSA FOIL",
+    "cycle": 1,
+    "component": "HB",
+    "description": "OPCION A, OPCION B",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "DEFINICION DE ALUSA FOIL",
+    "cycle": 1,
+    "component": "SERVICIO",
+    "description": "OPCION",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "DEFINICION DE ALUSA FOIL",
+    "cycle": 1,
+    "component": "SS",
+    "description": "Opciòn Unica",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "DEFINICION DE ALUSA FOIL",
+    "cycle": 1,
+    "component": "SERVICIO",
+    "description": "OPCION",
+    "image_path": null
+  },
+  {
+    "source": "01.03.2026-SCL-CREW DOM GRID",
+    "code": "DEFINICION DE ALUSA FOIL",
+    "cycle": 1,
+    "component": "SE",
+    "description": "OPCION A, OPCION B",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "SW00 PYC",
+    "description": "Cycle 1",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle1_sw00_pyc.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "SW00 PYC",
+    "description": "Cycle 2",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle2_sw00_pyc.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "SW00 PYC",
+    "description": "Cycle 3",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle3_sw00_pyc.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "SW00 PYC",
+    "description": "Ciclo 4",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle4_sw00_pyc.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "Non veggie sandwich",
+    "description": "Pan Croissant plano, Queso crema, Jamon de pavo ahumado, Tomate rodela asado, Hoja de rucula, Medidas 13x9x5 cms maximo, Pan de papa",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle1_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "Non veggie sandwich",
+    "description": "Foccacia plain, Jamon pierna pastorino, Queso mozzarella laminado, Hojas de espinaca, Pesto tomate seco, Medidas 13x9x5 cms maximo, ciabatta integral",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle2_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "Non veggie sandwich",
+    "description": "Pan Ciabatta, Carne Mechada, Queso mantecoso laminado (mitad), Verduras tex mex, Medidas 13x9x5 cms maximo, Pan Croissant plano",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle3_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "Non veggie sandwich",
+    "description": "Focaccia plain, Jamon serrano, Queso mozzarella laminado (Mitad), Hoja de rucula, Pesto aceitunas, Medidas 13x9x5 cms maximo, Ciabatta",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle4_non_veggie_sandwich.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "Veggie sandwich",
+    "description": "Barbecue, Not Burger Chicken crispy 80gr, Cebolla morada anillo asada, Queso mozzarella laminado, Mostaza americana, Medidas diametro 11 cms alto 5cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "Veggie sandwich",
+    "description": "Not milanesa (mitad), Espinaca hoja, Tomate asado, Not mayo, Medidas 13x9x5 cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "Veggie sandwich",
+    "description": "Queso crema pesto (10 grs por pan), Hoja de rucula, Cebolla morada anillo asada, Zucchini cinta grillado, Tomate rodella asado, Medidas 13x9x5 cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "Veggie sandwich",
+    "description": "Queso crema soya sesamo, Not Mila (Mitad), Zucchini cinta grillado, Cebolla Morada anillo asada, Salsa Teriyaki, Medidas 13x9x5 cms maximo",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle1_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle2_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle3_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "Chips",
+    "description": "Producto LATAM",
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SW00 Cortina Flexible_cycle4_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "Producto dulce",
+    "description": "Galleta toddy",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SW00 Cortina Flexible",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 1,
+    "component": "SNK4 BC",
+    "description": "CYCLE 1",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 2,
+    "component": "SNK4 BC",
+    "description": "CYCLE 2",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 3,
+    "component": "SNK4 BC",
+    "description": "CYCLE 3",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 4,
+    "component": "SNK4 BC",
+    "description": "CYCLE 4",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 1,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle1_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 2,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle2_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 3,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle3_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 4,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle4_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 1,
+    "component": "Cereal bar",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle1_cereal_bar.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 2,
+    "component": "Cereal bar",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle2_cereal_bar.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 3,
+    "component": "Cereal bar",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle3_cereal_bar.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 4,
+    "component": "Cereal bar",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle4_cereal_bar.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 1,
+    "component": "Healthy snack",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle1_healthy_snack.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 2,
+    "component": "Healthy snack",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle2_healthy_snack.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 3,
+    "component": "Healthy snack",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle3_healthy_snack.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 4,
+    "component": "Healthy snack",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK4_cycle4_healthy_snack.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK4",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 1,
+    "component": "SNK2 PY",
+    "description": "CYCLE 1",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 2,
+    "component": "SNK2 PY",
+    "description": "CYCLE 2",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 3,
+    "component": "SNK2 PY",
+    "description": "CYCLE 3",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 4,
+    "component": "SNK2 PY",
+    "description": "CYCLE 4",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 1,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK2_cycle1_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 2,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK2_cycle2_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 3,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK2_cycle3_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 4,
+    "component": "Chips",
+    "description": null,
+    "image_path": "catalog/images/11.12.2024-SCL-PYC DOM/SNK2_cycle4_chips.jpg"
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 1,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 2,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 3,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
+    "source": "11.12.2024-SCL-PYC DOM",
+    "code": "SNK2",
+    "cycle": 4,
+    "component": "Handling related to the service",
+    "description": "Make and pack",
+    "image_path": null
+  },
+  {
     "source": "SCL-BC GRID",
     "code": "HLDE",
     "cycle": 1,
