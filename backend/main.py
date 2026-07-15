@@ -20,7 +20,8 @@ CATALOG_DIR  = Path(__file__).parent.parent / "catalog"
 # ── Modelos ────────────────────────────────────────────────────────────────────
 
 class FotoRequest(BaseModel):
-    foto: str  # base64 JPEG
+    foto: str   # base64 JPEG
+    grid: str = ""  # 'BC', 'CREW', 'PYC' o 'YC'
 
 
 class EvaluacionPayload(BaseModel):
@@ -45,7 +46,7 @@ class EvaluacionPayload(BaseModel):
 async def identificar(req: FotoRequest):
     if not req.foto:
         raise HTTPException(400, "foto requerida")
-    result = matcher.identificar(req.foto)
+    result = matcher.identificar(req.foto, grid=req.grid or None)
     return result
 
 

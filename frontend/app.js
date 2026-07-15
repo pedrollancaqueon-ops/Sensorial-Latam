@@ -8,6 +8,8 @@ const state = {
   imagenReferencia: '',
   historial: [],
   evaluadorGuardado: '',
+  cabina: '',       // 'BC', 'CREW', 'PYC', 'YC'
+  cabinaLabel: '',  // Texto visible
 };
 
 const CRITERIOS = [
@@ -27,6 +29,15 @@ function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   window.scrollTo(0, 0);
+}
+
+// ─── Selección de cabina ──────────────────────────────────────────────────────
+function seleccionarCabina(code, label) {
+  state.cabina = code;
+  state.cabinaLabel = label;
+  document.getElementById('cabina-label').textContent = label;
+  showScreen('screen-camara');
+  iniciarCamara();
 }
 
 // ─── Cámara ───────────────────────────────────────────────────────────────────
@@ -72,7 +83,7 @@ async function analizarFoto() {
       fetch('/api/identificar', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ foto: state.fotoBase64 }),
+        body: JSON.stringify({ foto: state.fotoBase64, grid: state.cabina }),
       }),
       new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 10000)),
     ]);
@@ -281,6 +292,11 @@ document.getElementById('btn-retomar-foto').addEventListener('click', () => {
   iniciarCamara();
 });
 
+document.getElementById('btn-cambiar-cabina').addEventListener('click', () => {
+  detenerCamara();
+  showScreen('screen-cabina');
+});
+
 document.getElementById('btn-enviar').addEventListener('click', enviarEvaluacion);
 
 document.getElementById('btn-nueva').addEventListener('click', () => {
@@ -299,4 +315,4 @@ document.getElementById('btn-cerrar-historial').addEventListener('click', () => 
 });
 
 // ─── Arranque ─────────────────────────────────────────────────────────────────
-iniciarCamara();
+// La cámara arranca solo después de seleccionar cabina en screen-cabina.

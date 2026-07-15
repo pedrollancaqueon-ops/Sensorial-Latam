@@ -54,8 +54,44 @@
 
   <main class="pt-14 min-h-screen">
 
+    <!-- ── PANTALLA 0: SELECCIÓN DE CABINA ── -->
+    <div id="screen-cabina" class="screen active flex-col min-h-[calc(100vh-3.5rem)]">
+      <div class="px-6 py-8 flex flex-col gap-6">
+        <div class="text-center">
+          <p class="text-latam-blue font-black text-2xl">¿Qué cabina vas a evaluar?</p>
+          <p class="text-gray-400 text-sm mt-1">Selecciona para que la IA busque en el grid correcto</p>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-2">
+          <button onclick="seleccionarCabina('BC','Business')"
+            class="cabina-btn bg-white border-2 border-gray-200 rounded-2xl p-5 flex flex-col items-center gap-2 shadow-sm active:scale-95 transition-transform">
+            <span class="text-3xl">🛋️</span>
+            <span class="font-black text-latam-blue text-lg">Business</span>
+            <span class="text-xs text-gray-400">BC</span>
+          </button>
+          <button onclick="seleccionarCabina('PYC','Premium Economy')"
+            class="cabina-btn bg-white border-2 border-gray-200 rounded-2xl p-5 flex flex-col items-center gap-2 shadow-sm active:scale-95 transition-transform">
+            <span class="text-3xl">💺</span>
+            <span class="font-black text-latam-blue text-lg">Premium Eco</span>
+            <span class="text-xs text-gray-400">PYC</span>
+          </button>
+          <button onclick="seleccionarCabina('YC','Economy LH')"
+            class="cabina-btn bg-white border-2 border-gray-200 rounded-2xl p-5 flex flex-col items-center gap-2 shadow-sm active:scale-95 transition-transform">
+            <span class="text-3xl">✈️</span>
+            <span class="font-black text-latam-blue text-lg">Economy LH</span>
+            <span class="text-xs text-gray-400">YC</span>
+          </button>
+          <button onclick="seleccionarCabina('CREW','Tripulación')"
+            class="cabina-btn bg-white border-2 border-gray-200 rounded-2xl p-5 flex flex-col items-center gap-2 shadow-sm active:scale-95 transition-transform">
+            <span class="text-3xl">👩‍✈️</span>
+            <span class="font-black text-latam-blue text-lg">Tripulación</span>
+            <span class="text-xs text-gray-400">CREW</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- ── PANTALLA 1: CÁMARA ── -->
-    <div id="screen-camara" class="screen active flex-col h-[calc(100vh-3.5rem)]">
+    <div id="screen-camara" class="screen flex-col h-[calc(100vh-3.5rem)]">
       <div class="relative flex-1 bg-black overflow-hidden">
         <video id="video" autoplay playsinline muted></video>
         <canvas id="canvas" class="hidden"></canvas>
@@ -73,6 +109,10 @@
           <div class="w-14 h-14 rounded-full bg-latam-red"></div>
         </button>
         <p class="text-white/50 text-xs">Toca para fotografiar el plato</p>
+        <button id="btn-cambiar-cabina" class="flex items-center gap-1.5 bg-white/10 rounded-full px-3 py-1 active:bg-white/20">
+          <span id="cabina-label" class="text-white text-xs font-semibold"></span>
+          <span class="text-white/50 text-xs">· cambiar</span>
+        </button>
         <p id="error-camara" class="hidden text-yellow-300 text-xs text-center px-4"></p>
       </div>
     </div>
@@ -230,6 +270,6 @@
 
   </main>
 
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>

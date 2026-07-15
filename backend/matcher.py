@@ -39,14 +39,14 @@ Si ninguna referencia calza claramente:
 }"""
 
 
-def identificar(foto_base64: str) -> dict:
+def identificar(foto_base64: str, grid: str | None = None) -> dict:
     img_data = base64.b64decode(foto_base64)
     user_photo = {"mime_type": "image/jpeg", "data": img_data}
 
     contents = [_PROMPT, user_photo]
 
     ref_count = 0
-    for item in get_catalog_images():
+    for item in get_catalog_images(grid=grid):
         img_path = _BASE_PATH / item["image_path"]
         if not img_path.exists():
             continue
