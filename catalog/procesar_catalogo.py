@@ -26,15 +26,41 @@ PROJECT_ROOT = Path(__file__).parent.parent
 IMAGES_BASE  = Path(__file__).parent / "images"
 INDEX_PATH   = Path(__file__).parent / "catalog_index.json"
 
-# Columnas (0-indexed) para cada ciclo
+# Columnas base (0-indexed) para cada ciclo — columnas D/I/N/S = índices 3/8/13/18
 CYCLE_COLS = {
     1: {"desc": 2, "photo": 3},   # C, D
     2: {"desc": 7, "photo": 8},   # H, I
     3: {"desc": 12, "photo": 13}, # M, N
     4: {"desc": 17, "photo": 18}, # R, S
 }
+# Foto base índices para detección de offset
+_BASE_PHOTO_COLS = [v["photo"] for v in CYCLE_COLS.values()]  # [3, 8, 13, 18]
+
 PHOTO_COL_TO_CYCLE = {v["photo"]: k for k, v in CYCLE_COLS.items()}
 COMPONENT_COL = 1  # col B (0-indexed)
+
+
+def _build_photo_col_to_cycle(ws) -> dict[int, int]:
+    """Detecta qué columnas contienen imágenes y construye el mapeo col→ciclo.
+    Algunas hojas (p.ej. RG) tienen las fotos desplazadas +1 respecto a las LH."""
+    imgs = getattr(ws, "_images", [])
+    if not imgs:
+        return PHOTO_COL_TO_CYCLE
+
+    img_cols = set()
+    for img in imgs:
+        if hasattr(img.anchor, "_from"):
+            img_cols.add(img.anchor._from.col)
+
+    # Probar offset 0, 1, -1 ... hasta encontrar el que coincide con imágenes reales
+    for offset in (0, 1, -1, 2):
+        candidate = {b + offset: cycle for b, cycle in zip(_BASE_PHOTO_COLS, CYCLE_COLS.keys())}
+        if img_cols & set(candidate.keys()):  # al menos una columna coincide
+            return candidate
+
+    # Fallback: mapear las columnas reales en orden a los ciclos 1,2,3,4
+    sorted_cols = sorted(img_cols)[:4]
+    return {col: cycle for col, cycle in zip(sorted_cols, CYCLE_COLS.keys())}
 
 
 def slugify(text: str) -> str:
@@ -142,6 +168,7 @@ def procesar_archivo(excel_path: Path, catalog: list) -> tuple[int, int]:
             continue
 
         image_map = {}
+        photo_col_map = _build_photo_col_to_cycle(ws)
         if hasattr(ws, "_images"):
             for img_obj in ws._images:
                 anchor = img_obj.anchor
@@ -149,7 +176,7 @@ def procesar_archivo(excel_path: Path, catalog: list) -> tuple[int, int]:
                     continue
                 anchor_row = anchor._from.row
                 anchor_col = anchor._from.col
-                cycle = PHOTO_COL_TO_CYCLE.get(anchor_col)
+                cycle = photo_col_map.get(anchor_col)
                 if cycle is None:
                     continue
                 section = find_section(sections, anchor_row)
@@ -192,8 +219,16 @@ def procesar_archivo(excel_path: Path, catalog: list) -> tuple[int, int]:
     return imagenes_guardadas, items_sin_imagen
 
 
+def _sort_key(p: Path):
+    """Archivos con prefijo de fecha (DD.MM.YYYY-) se procesan AL FINAL para que sus
+    imágenes tengan prioridad en catalog.py (el último procesado gana con >= en get_catalog_images)."""
+    if re.match(r"^\d{2}\.\d{2}\.\d{4}", p.stem):
+        return (1, p.stem)
+    return (0, p.stem)
+
+
 def procesar_todos():
-    xlsx_files = sorted(PROJECT_ROOT.glob("*.xlsx"))
+    xlsx_files = sorted(PROJECT_ROOT.glob("*.xlsx"), key=_sort_key)
     if not xlsx_files:
         print("No se encontraron archivos .xlsx en la raiz del proyecto.")
         return
