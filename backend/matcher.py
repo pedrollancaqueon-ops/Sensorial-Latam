@@ -12,31 +12,36 @@ _model = genai.GenerativeModel("gemini-2.5-flash-lite")
 
 _BASE_PATH = Path(__file__).parent.parent
 
-_PROMPT = """Eres un asistente de control de calidad de catering aéreo de LATAM Airlines.
+_PROMPT = """Eres un experto en control de calidad de catering aéreo de LATAM Airlines SCL.
 
-La PRIMERA imagen es la foto tomada a bordo del plato a identificar.
-Las imágenes siguientes son las referencias del catálogo vigente para este período, cada una etiquetada con su código, componente y descripción de ingredientes.
+La PRIMERA imagen es la foto del inspector a bordo. Las imágenes siguientes son referencias del catálogo vigente, etiquetadas con [Código | Componente | Descripción de ingredientes].
 
-Instrucciones para la comparación visual:
-1. Presta atención a la FORMA Y COLOR DEL PLATO/BANDEJA (redondo, rectangular, oval, cuadrado) — es uno de los diferenciadores más confiables entre códigos similares.
-2. Compara la disposición y tipo de ingredientes visibles.
-3. Si dos códigos tienen ingredientes similares, usa la forma del plato y la presentación para decidir.
-4. Cada código tiene su propia imagen de referencia — busca la que más se parezca visualmente a la foto.
+## PASO 1 — Clasifica el tipo de servicio por el contenedor y la presentación
+
+Antes de buscar el código exacto, determina visualmente el tipo de servicio:
+
+- **Plato REDONDO blanco, presentación elegante, garnish fino**: Business Class (BC) → HLD0, HLD0 - Mechada, HLD0 - Merluza, HLD0 - Congrio, SPML HLD0, etc.
+- **Bandeja NEGRA rectangular, plato separado, vaso, pan en bolsa/papel**: Economy Long Haul (LH) → FHS1 LH, FHB1 LH, FHLD LH, FHB LH, etc.
+- **Bandeja NEGRA rectangular con 2–3 compartimentos, sin plato separado**: Economy/SPML Regional (RG) → HLDR SPML RG, HBE0 SPML RG, HBE0 RG, HLDR RG, etc.
+- **Pan o sándwich envuelto en papel (focaccia, ciabatta, integral, pan de hoja)**: Cold choice o breakfast sandwich → puede ser parte de HBPY, FHB1 LH, FHS1 LH, HLDR SPML RG, etc.
+- **Bandeja PYC con plato o bowl separado, presentación semi-formal**: Premium Economy / PYC → HBPY, SSPY, etc.
+- **Bandeja de tripulación / servicio doméstico**: Crew o Doméstico → HLDL, HB, SW00, SSPY, etc.
+
+## PASO 2 — Identifica el código exacto
+
+Compara la foto contra CADA imagen de referencia y elige la más similar. Considera:
+
+1. **Ingrediente principal**: tipo de proteína (carne, pollo, pescado, tofu), tipo de pan (focaccia, integral, pan de hoja, ciabatta), tipo de fruta.
+2. **Un inspector puede fotografiar UN SOLO COMPONENTE** del servicio (solo el plato caliente, solo el sándwich, solo el queque, solo la fruta). La referencia puede mostrar ese mismo componente, no necesariamente toda la bandeja.
+3. Para cada código puede haber **2 imágenes de referencia**: una del plato caliente y otra de la opción fría. Elige el código cuya referencia —cualquiera de las dos— más se parezca a la foto.
+4. **Variantes SPML** (GFML / VGML / VLML / CHML): todas usan el mismo código base. No necesitas distinguir la variante dietética, solo confirma el código.
+5. En caso de duda entre códigos similares (ej. FHB1 LH vs FHS1 LH): FHB1 LH es desayuno (sandwich integral con jamón, muffin o streusel); FHS1 LH es cena (plato caliente tipo pasta, cold choice focaccia, chocolate).
+6. Si la confianza es inferior a 0.55, devuelve identificado: false.
 
 Responde SOLO con JSON válido, sin texto adicional:
-{
-  "identificado": true,
-  "codigo": "XXXX",
-  "componente": "nombre del componente",
-  "confianza": 0.85
-}
+{"identificado": true, "codigo": "CÓDIGO", "componente": "nombre del componente fotografiado", "confianza": 0.85}
 Si ninguna referencia calza claramente:
-{
-  "identificado": false,
-  "codigo": "",
-  "componente": "",
-  "confianza": 0.0
-}"""
+{"identificado": false, "codigo": "", "componente": "", "confianza": 0.0}"""
 
 
 def identificar(foto_base64: str, grid: str | None = None) -> dict:
