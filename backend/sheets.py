@@ -1,46 +1,73 @@
 import os
-import requests
-import urllib3
+import json
+import datetime
 
-_WEBHOOK_URL = os.getenv("SHEETS_WEBHOOK_URL", "")
-_SSL_VERIFY  = os.getenv("SSL_VERIFY", "true").lower() != "false"
+import gspread
+from google.oauth2.service_account import Credentials
 
-if not _SSL_VERIFY:
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+_SPREADSHEET_ID = "1G2xd9D5a4_8JJkf7I3ZkAQMd-zqc30EFBOKuXeQm4bY"
+_SHEET_NAME     = "Evaluaciones"
+_SCOPES         = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive",
+]
+
+_COLUMNS = [
+    "fecha", "evaluador", "proveedor", "codigo", "nombre", "grid",
+    "color", "aspecto", "olor", "sabor", "textura",
+    "promedio", "comentarios", "foto_url", "imagen_referencia",
+]
+_SCORES = ["color", "aspecto", "olor", "sabor", "textura"]
+
+_client: gspread.Client | None = None
+
+
+def _get_client() -> gspread.Client:
+    global _client
+    if _client is None:
+        creds_json = os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON", "")
+        if not creds_json:
+            raise RuntimeError("GOOGLE_SERVICE_ACCOUNT_JSON no configurada")
+        creds_dict = json.loads(creds_json)
+        creds = Credentials.from_service_account_info(creds_dict, scopes=_SCOPES)
+        _client = gspread.authorize(creds)
+    return _client
+
+
+def _get_sheet() -> gspread.Worksheet:
+    client = _get_client()
+    ss     = client.open_by_key(_SPREADSHEET_ID)
+    try:
+        sheet = ss.worksheet(_SHEET_NAME)
+    except gspread.WorksheetNotFound:
+        sheet = ss.add_worksheet(_SHEET_NAME, rows=1000, cols=len(_COLUMNS))
+        sheet.append_row([c.upper() for c in _COLUMNS])
+        sheet.format("1", {
+            "textFormat": {"bold": True},
+            "backgroundColor": {"red": 0, "green": 0.09, "blue": 0.35},
+        })
+    return sheet
 
 
 def guardar_evaluacion(payload: dict) -> bool:
-    if not _WEBHOOK_URL:
-        print("[sheets] SHEETS_WEBHOOK_URL no configurada")
-        return False
-
-    data = dict(payload)
-    # No enviar base64 al Apps Script — hace el payload enorme y el POST falla.
-    # foto_url lo genera Apps Script al subir a Drive; si no hay foto base64, queda vacío.
-    data.pop("foto", None)
-    # Renombrar imagen_referencia → path para que Apps Script lo distinga del campo foto_url
-    if "imagen_referencia" in data:
-        data["imagen_referencia_path"] = data.pop("imagen_referencia")
-
     try:
-        # Paso 1: POST al /exec — dispara doPost en Google (retorna 302)
-        r1 = requests.post(
-            _WEBHOOK_URL,
-            json=data,
-            timeout=15,
-            allow_redirects=False,
-            verify=_SSL_VERIFY,
-        )
-        print(f"[sheets] Paso 1 POST: {r1.status_code}")
+        sheet = _get_sheet()
 
-        # 200: respuesta directa, 302: Apps Script procesó y redirige (ambos = éxito)
-        if r1.status_code in (200, 301, 302, 303, 307, 308):
-            print(f"[sheets] Guardado OK (status {r1.status_code})")
-            return True
+        promedio = sum(payload.get(k, 0) or 0 for k in _SCORES) / len(_SCORES)
 
-        print(f"[sheets] Error: {r1.status_code} — {r1.text[:200]}")
-        return False
+        row = []
+        for col in _COLUMNS:
+            if col == "promedio":
+                row.append(round(promedio, 2))
+            elif col in ("foto_url", "imagen_referencia"):
+                row.append("")  # Drive upload pendiente
+            else:
+                row.append(payload.get(col, "") or "")
+
+        sheet.append_row(row, value_input_option="USER_ENTERED")
+        print(f"[sheets] Fila guardada OK: {payload.get('codigo')} / {payload.get('evaluador')}")
+        return True
 
     except Exception as e:
-        print(f"[sheets] Excepcion: {e}")
+        print(f"[sheets] Error: {e}")
         return False

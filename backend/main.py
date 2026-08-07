@@ -66,44 +66,18 @@ async def guardar(payload: EvaluacionPayload):
 @app.get("/api/test-sheets")
 async def test_sheets():
     import datetime
-    import requests as req
-    import urllib3
-    urllib3.disable_warnings()
-
-    url = os.getenv("SHEETS_WEBHOOK_URL", "")
-    if not url:
-        return {"ok": False, "error": "SHEETS_WEBHOOK_URL no configurada"}
-
     payload = {
         "fecha":      datetime.datetime.utcnow().isoformat() + "Z",
         "evaluador":  "test-render",
         "proveedor":  "Gategourmet SCL",
         "codigo":     "TEST",
         "nombre":     "Prueba conectividad",
+        "grid":       "BC",
         "color": 3, "aspecto": 3, "olor": 3, "sabor": 3, "textura": 3,
-        "comentarios": "Fila de prueba automatica — borrar",
+        "comentarios": "Fila de prueba — borrar",
     }
-
-    pasos = []
-    try:
-        # Paso 1: POST inicial (sin seguir redirect para ver el 302)
-        r1 = req.post(url, json=payload, timeout=15, allow_redirects=False, verify=True)
-        pasos.append({"paso": 1, "status": r1.status_code, "body": r1.text[:300]})
-
-        # Paso 2: seguir el Location header si hay redirect
-        location = r1.headers.get("Location", "")
-        if location:
-            r2 = req.get(location, timeout=15, verify=True)
-            pasos.append({"paso": 2, "status": r2.status_code, "body": r2.text[:2000]})
-            ok = r2.status_code == 200
-        else:
-            ok = r1.status_code == 200
-
-        return {"ok": ok, "pasos": pasos}
-
-    except Exception as e:
-        pasos.append({"paso": "excepcion", "error": str(e)})
-        return {"ok": False, "pasos": pasos}
+    ok = sheets.guardar_evaluacion(payload)
+    return {"ok": ok}
 
 
 # ── Estáticos ─────────────────────────────────────────────────────────────────
