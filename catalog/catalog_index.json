@@ -28150,5 +28150,13 @@
     "component": "Handling related to the service",
     "description": "Make and pack",
     "image_path": null
+  },
+  {
+    "source": "SCL-CREW INTER GRID",
+    "code": "HB00",
+    "cycle": 4,
+    "component": "Plato Caliente A",
+    "description": "Jamon de pavo ahumado, Queso gauda laminado, Queso crema, Omelette plain, Papa rostie, Tomate cherry asado",
+    "image_path": "catalog/images/SCL-CREW INTER GRID/HB00_cycle4_plato_caliente.jpg"
   }
 ]
