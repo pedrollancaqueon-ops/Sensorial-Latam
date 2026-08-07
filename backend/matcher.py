@@ -34,7 +34,13 @@ Antes de buscar el código exacto, determina visualmente el tipo de servicio y a
 Compara la foto contra CADA imagen de referencia y elige la más similar. Considera:
 
 1. **Ingrediente principal y tipo de preparación**: tipo de proteína (carne, pollo, pescado, tofu), tipo de pan (focaccia, integral, pan de hoja, hojaldre/empanada, ciabatta), tipo de fruta, tipo de salsa.
-2. **Economy Regional (RG) — cómo distinguir entre códigos similares**:
+2. **Business Class (BC) — cómo distinguir entre platos calientes**:
+   - **BASE BLANCA** (crema de papa y trufa) + medallón de mechada pulled beef + cebollas asadas/quemadas negras + aceite verde → **HLD0 - Mechada**
+   - **BASE NARANJA** (puré de calabaza) + medallón de res grillado + salsa oscura de vino + cebollas moradas caramelizadas → HLD2, HLDE, LHLD, LHD3
+   - **Pastel amarillo rectangular** (pastel de choclo) sobre tomate concasse → HLD0, HLD1
+   - **Proteína de mar** (merluza, congrio) + caldo o crema → HLD0 - Merluza, HLD0 - Congrio
+   - El COLOR DE LA BASE es el diferenciador principal entre mechada (blanca) y res (naranja)
+3. **Economy Regional (RG) — cómo distinguir entre códigos similares**:
    - Plato caliente con proteína (carne/pollo/pescado) + guarnición → HLD0 RG, HLD2 RG, HLDE RG, HLDR RG, HS01 RG
    - Hojaldre rectangular (tipo empanada dorada) + compota de fruta → HBE0 RG o HBER RG
    - Breakfast con fruta + pan rectangular (pan de hoja o miga integral) → HB00 RG o HB01 RG
