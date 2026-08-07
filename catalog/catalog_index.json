@@ -28158,5 +28158,13 @@
     "component": "Plato Caliente A",
     "description": "Jamon de pavo ahumado, Queso gauda laminado, Queso crema, Omelette plain, Papa rostie, Tomate cherry asado",
     "image_path": "catalog/images/SCL-CREW INTER GRID/HB00_cycle4_plato_caliente.jpg"
+  },
+  {
+    "source": "SCL-PYC INTER GRID",
+    "code": "HLDL",
+    "cycle": 4,
+    "component": "Signature dish",
+    "description": "Tallarines tinta de calamar, filete de res en tiras, champiñones salteados, perejil",
+    "image_path": "catalog/images/SCL-PYC INTER GRID/HLDL_cycle4_signature_dish.jpg"
   }
 ]

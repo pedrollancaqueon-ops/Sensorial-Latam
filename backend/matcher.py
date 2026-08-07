@@ -26,7 +26,8 @@ Antes de buscar el código exacto, determina visualmente el tipo de servicio y a
 - **Bandeja NEGRA rectangular con plato separado, vaso, pan en bolsa/papel**: Economy Long Haul → `grid: "YC"` — FHS1 LH, FHB1 LH, FHLD LH, FHB LH, etc.
 - **Bandeja NEGRA rectangular con 2–3 compartimentos integrados, sin plato separado**: Economy Regional → `grid: "YC"` — HLDR RG, HBE0 RG, HLD0 RG, HLD2 RG, HLDE RG, HB00 RG, etc.
 - **Pan o sándwich sostenido en mano o en papel (sin bandeja visible)**: Es un componente suelto de Economy Regional → `grid: "YC"`. Clasifica por tipo: pan integral alargado = flat bread RG; pan de miga tostado = cold choice RG.
-- **Bandeja PYC con plato o bowl separado, presentación semi-formal**: Premium Economy → `grid: "PYC"` — HBPY, SSPY, etc.
+- **Bowl blanco redondo con tallarines NEGROS (tinta de calamar) + carne en tiras + champiñones**: Premium Economy/PYC → `grid: "PYC"` → **HLDL**
+- **Bandeja PYC con plato o bowl separado, presentación semi-formal**: Premium Economy → `grid: "PYC"` — HBPY, SSPY, HLDL, etc.
 - **Bandeja de tripulación / servicio doméstico**: Crew → `grid: "CREW"` — HLDL, HB, SW00, SSPY, etc.
 
 ## PASO 2 — Identifica el código exacto
