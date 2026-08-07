@@ -45,10 +45,14 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
 6. En caso de duda entre códigos similares (ej. FHB1 LH vs FHS1 LH): FHB1 LH es desayuno (sandwich integral con jamón, muffin o streusel); FHS1 LH es cena (plato caliente tipo pasta, cold choice focaccia, chocolate).
 7. Si la confianza es inferior a 0.42, devuelve identificado: false. Entre 0.42 y 0.65 devuelve tu mejor opción igualmente.
 
-Responde SOLO con JSON válido, sin texto adicional. Devuelve hasta 3 candidatos ordenados de mayor a menor confianza:
-{"identificado": true, "grid": "BC", "candidatos": [{"codigo": "HLD0", "componente": "Main dish", "confianza": 0.85}, {"codigo": "HLD1", "componente": "Main dish", "confianza": 0.62}]}
-Si hay un único match claro, devuelve solo ese en el array. Si ninguna referencia calza (mejor confianza < 0.42):
-{"identificado": false, "grid": "", "candidatos": []}"""
+Responde SOLO con JSON válido, sin texto adicional. Devuelve SIEMPRE tus mejores 1 a 3 candidatos, incluso si la confianza es baja — el evaluador humano decidirá cuál es correcto.
+- `identificado: true` si el mejor candidato tiene confianza ≥ 0.42
+- `identificado: false` si la confianza es baja, pero aun así incluye los candidatos en el array
+- Solo devuelve `candidatos: []` si la imagen no muestra comida reconocible de ningún tipo
+
+{"identificado": true, "grid": "BC", "candidatos": [{"codigo": "HLD0", "componente": "Main dish", "confianza": 0.85}, {"codigo": "HLD1", "componente": "Main dish", "confianza": 0.55}]}
+Ejemplo baja confianza (muestra igual los candidatos):
+{"identificado": false, "grid": "BC", "candidatos": [{"codigo": "HLD2", "componente": "Red Meat Dish", "confianza": 0.35}, {"codigo": "HLDE", "componente": "Red Meat Dish", "confianza": 0.28}]}"""
 
 
 def identificar(foto_base64: str, grid: str | None = None) -> dict:
@@ -81,12 +85,10 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
 
         result = json.loads(json_match.group())
 
-        if not result.get("identificado"):
-            return _no_match()
-
         grid_detectado = result.get("grid", "").upper().strip()
         candidatos_raw = result.get("candidatos", [])
 
+        # Si no hay candidatos de ningún tipo, la imagen no era reconocible
         if not candidatos_raw:
             return _no_match()
 
@@ -109,8 +111,10 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
         cat   = find_best_match(mejor["codigo"], mejor["nombre"])
         imagen_referencia = cat["image_path"] if cat else ""
 
+        identificado = result.get("identificado", False)
+
         return {
-            "identificado":      True,
+            "identificado":      identificado,
             "codigo":            mejor["codigo"],
             "nombre":            mejor["nombre"],
             "grid":              grid_detectado,

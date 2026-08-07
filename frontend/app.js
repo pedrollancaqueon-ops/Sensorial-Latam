@@ -78,27 +78,27 @@ async function analizarFoto() {
       new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 15000)),
     ]);
     const data = await resp.json();
-    mostrarConfirmacion(!!data.identificado, data.imagen_referencia || '', data.grid || '', data.candidatos || []);
+    mostrarConfirmacion(!!data.identificado, data.imagen_referencia || '', data.grid || '', data.candidatos || [], data.confianza || 0);
   } catch {
     // Timeout o error de red → dejar pasar con campo vacío
-    mostrarConfirmacion(false, '', '', []);
+    mostrarConfirmacion(false, '', '', [], 0);
   }
 }
 
 // ─── Pantalla 3: Confirmar código ────────────────────────────────────────────
-function mostrarConfirmacion(identificado, imagenReferencia, grid, candidatos) {
+function mostrarConfirmacion(identificado, imagenReferencia, grid, candidatos, confianza) {
   state.imagenReferencia = imagenReferencia || '';
   state.gridDetectado = grid || '';
 
   document.getElementById('foto-preview').src = state.fotoDataUrl;
   document.getElementById('select-grid').value = grid || '';
 
-  const hayCandidatos = identificado && candidatos.length > 0;
+  const hayCandidatos = candidatos.length > 0;
   document.getElementById('bloque-candidatos').classList.toggle('hidden', !hayCandidatos);
   document.getElementById('bloque-no-identificado').classList.toggle('hidden', hayCandidatos);
 
   if (hayCandidatos) {
-    renderCandidatos(candidatos);
+    renderCandidatos(candidatos, identificado);
   } else {
     document.getElementById('input-codigo').value = '';
   }
@@ -106,12 +106,27 @@ function mostrarConfirmacion(identificado, imagenReferencia, grid, candidatos) {
   showScreen('screen-confirmar');
 }
 
-function renderCandidatos(candidatos) {
+function renderCandidatos(candidatos, identificado) {
+  // Encabezado según confianza
+  const titulo = document.querySelector('#bloque-candidatos > p:first-child');
+  const subtitulo = document.querySelector('#bloque-candidatos > p:last-child');
+  if (!identificado) {
+    titulo.textContent = 'Baja confianza — ¿alguno de estos es correcto?';
+    titulo.className = 'text-[11px] text-amber-500 uppercase tracking-wider';
+    subtitulo.textContent = 'La IA no está segura. Selecciona si corresponde o ingresa el código manualmente.';
+  } else {
+    titulo.textContent = 'Selecciona el código correcto';
+    titulo.className = 'text-[11px] text-gray-400 uppercase tracking-wider';
+    subtitulo.textContent = 'Edita el campo de abajo si ninguno es correcto';
+  }
+
   const lista = document.getElementById('candidatos-lista');
   lista.innerHTML = candidatos.map((c, i) => {
-    const badge = c.confianza < 0.65
-      ? `<span class="candidato-badge text-[10px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full">verificar</span>`
-      : `<span class="candidato-badge text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded-full">coincidencia</span>`;
+    const badge = c.confianza >= 0.65
+      ? `<span class="candidato-badge text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded-full">coincidencia</span>`
+      : c.confianza >= 0.42
+        ? `<span class="candidato-badge text-[10px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full">verificar</span>`
+        : `<span class="candidato-badge text-[10px] bg-amber-100 text-amber-600 px-2 py-0.5 rounded-full">incierto</span>`;
     return `
       <button type="button"
         class="candidato-btn${i === 0 ? ' selected' : ''} w-full text-left border-2 border-gray-200 bg-white rounded-2xl px-4 py-3 active:scale-[0.98]"
@@ -124,7 +139,6 @@ function renderCandidatos(candidatos) {
       </button>`;
   }).join('');
 
-  // Seleccionar el primero por defecto
   seleccionarCandidato(candidatos[0].codigo, candidatos[0].nombre || '');
 
   lista.querySelectorAll('.candidato-btn').forEach(btn => {
