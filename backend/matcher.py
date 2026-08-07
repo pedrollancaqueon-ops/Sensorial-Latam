@@ -45,10 +45,10 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
 6. En caso de duda entre códigos similares (ej. FHB1 LH vs FHS1 LH): FHB1 LH es desayuno (sandwich integral con jamón, muffin o streusel); FHS1 LH es cena (plato caliente tipo pasta, cold choice focaccia, chocolate).
 7. Si la confianza es inferior a 0.42, devuelve identificado: false. Entre 0.42 y 0.65 devuelve tu mejor opción igualmente.
 
-Responde SOLO con JSON válido, sin texto adicional:
-{"identificado": true, "codigo": "CÓDIGO", "componente": "nombre del componente fotografiado", "grid": "BC", "confianza": 0.85}
-Si ninguna referencia calza claramente:
-{"identificado": false, "codigo": "", "componente": "", "grid": "", "confianza": 0.0}"""
+Responde SOLO con JSON válido, sin texto adicional. Devuelve hasta 3 candidatos ordenados de mayor a menor confianza:
+{"identificado": true, "grid": "BC", "candidatos": [{"codigo": "HLD0", "componente": "Main dish", "confianza": 0.85}, {"codigo": "HLD1", "componente": "Main dish", "confianza": 0.62}]}
+Si hay un único match claro, devuelve solo ese en el array. Si ninguna referencia calza (mejor confianza < 0.42):
+{"identificado": false, "grid": "", "candidatos": []}"""
 
 
 def identificar(foto_base64: str, grid: str | None = None) -> dict:
@@ -84,23 +84,39 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
         if not result.get("identificado"):
             return _no_match()
 
-        codigo         = result.get("codigo", "").upper().strip()
-        componente     = result.get("componente", "").strip()
-        confianza      = float(result.get("confianza", 0))
         grid_detectado = result.get("grid", "").upper().strip()
+        candidatos_raw = result.get("candidatos", [])
 
-        catalog_item = find_best_match(codigo, componente)
-        nombre_raw        = catalog_item["component"] if catalog_item else componente
-        nombre            = nombre_raw if nombre_raw != "#REF!" else componente
-        imagen_referencia = catalog_item["image_path"]  if catalog_item else ""
+        if not candidatos_raw:
+            return _no_match()
+
+        candidatos = []
+        for c in candidatos_raw[:3]:
+            codigo     = c.get("codigo", "").upper().strip()
+            componente = c.get("componente", "").strip()
+            confianza  = float(c.get("confianza", 0))
+            if not codigo:
+                continue
+            cat = find_best_match(codigo, componente)
+            nombre_raw = cat["component"] if cat else componente
+            nombre     = nombre_raw if nombre_raw != "#REF!" else componente
+            candidatos.append({"codigo": codigo, "nombre": nombre, "confianza": confianza})
+
+        if not candidatos:
+            return _no_match()
+
+        mejor = candidatos[0]
+        cat   = find_best_match(mejor["codigo"], mejor["nombre"])
+        imagen_referencia = cat["image_path"] if cat else ""
 
         return {
             "identificado":      True,
-            "codigo":            codigo,
-            "nombre":            nombre,
+            "codigo":            mejor["codigo"],
+            "nombre":            mejor["nombre"],
             "grid":              grid_detectado,
-            "confianza":         confianza,
+            "confianza":         mejor["confianza"],
             "imagen_referencia": imagen_referencia,
+            "candidatos":        candidatos,
         }
 
     except Exception as e:
@@ -109,4 +125,4 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
 
 
 def _no_match() -> dict:
-    return {"identificado": False, "codigo": "", "nombre": "", "grid": "", "confianza": 0.0, "imagen_referencia": ""}
+    return {"identificado": False, "codigo": "", "nombre": "", "grid": "", "confianza": 0.0, "imagen_referencia": "", "candidatos": []}

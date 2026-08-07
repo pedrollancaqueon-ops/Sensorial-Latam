@@ -78,37 +78,66 @@ async function analizarFoto() {
       new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 15000)),
     ]);
     const data = await resp.json();
-    mostrarConfirmacion(data.codigo || '', data.nombre || '', !!data.identificado, data.imagen_referencia || '', data.grid || '', data.confianza || 0);
+    mostrarConfirmacion(!!data.identificado, data.imagen_referencia || '', data.grid || '', data.candidatos || []);
   } catch {
     // Timeout o error de red → dejar pasar con campo vacío
-    mostrarConfirmacion('', '', false, '', '', 0);
+    mostrarConfirmacion(false, '', '', []);
   }
 }
 
 // ─── Pantalla 3: Confirmar código ────────────────────────────────────────────
-function mostrarConfirmacion(codigo, nombre, identificado, imagenReferencia, grid, confianza) {
+function mostrarConfirmacion(identificado, imagenReferencia, grid, candidatos) {
   state.imagenReferencia = imagenReferencia || '';
   state.gridDetectado = grid || '';
+
   document.getElementById('foto-preview').src = state.fotoDataUrl;
-  document.getElementById('input-codigo').value = codigo;
   document.getElementById('select-grid').value = grid || '';
 
-  const altaConfianza  = identificado && confianza >= 0.65;
-  const bajaConfianza  = identificado && confianza > 0 && confianza < 0.65;
-  const noIdentificado = !identificado;
+  const hayCandidatos = identificado && candidatos.length > 0;
+  document.getElementById('bloque-candidatos').classList.toggle('hidden', !hayCandidatos);
+  document.getElementById('bloque-no-identificado').classList.toggle('hidden', hayCandidatos);
 
-  document.getElementById('bloque-identificado').classList.toggle('hidden', !altaConfianza);
-  document.getElementById('bloque-baja-confianza').classList.toggle('hidden', !bajaConfianza);
-  document.getElementById('bloque-no-identificado').classList.toggle('hidden', !noIdentificado);
-
-  if (identificado) {
-    document.getElementById('codigo-sugerido').textContent = codigo;
-    document.getElementById('nombre-sugerido').textContent = nombre;
-    document.getElementById('codigo-sugerido-lc').textContent = codigo;
-    document.getElementById('nombre-sugerido-lc').textContent = nombre;
+  if (hayCandidatos) {
+    renderCandidatos(candidatos);
+  } else {
+    document.getElementById('input-codigo').value = '';
   }
 
   showScreen('screen-confirmar');
+}
+
+function renderCandidatos(candidatos) {
+  const lista = document.getElementById('candidatos-lista');
+  lista.innerHTML = candidatos.map((c, i) => {
+    const badge = c.confianza < 0.65
+      ? `<span class="candidato-badge text-[10px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full">verificar</span>`
+      : `<span class="candidato-badge text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded-full">coincidencia</span>`;
+    return `
+      <button type="button"
+        class="candidato-btn${i === 0 ? ' selected' : ''} w-full text-left border-2 border-gray-200 bg-white rounded-2xl px-4 py-3 active:scale-[0.98]"
+        data-codigo="${c.codigo}" data-nombre="${c.nombre || ''}">
+        <div class="flex items-center justify-between gap-2">
+          <span class="font-mono font-black text-xl text-latam-blue">${c.codigo}</span>
+          ${badge}
+        </div>
+        ${c.nombre ? `<span class="candidato-nombre block text-sm text-gray-400 mt-0.5">${c.nombre}</span>` : ''}
+      </button>`;
+  }).join('');
+
+  // Seleccionar el primero por defecto
+  seleccionarCandidato(candidatos[0].codigo, candidatos[0].nombre || '');
+
+  lista.querySelectorAll('.candidato-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      lista.querySelectorAll('.candidato-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      seleccionarCandidato(btn.dataset.codigo, btn.dataset.nombre);
+    });
+  });
+}
+
+function seleccionarCandidato(codigo, nombre) {
+  document.getElementById('input-codigo').value = codigo;
 }
 
 // ─── Pantalla 4: Formulario ───────────────────────────────────────────────────
@@ -283,7 +312,11 @@ document.getElementById('btn-confirmar-codigo').addEventListener('click', () => 
   }
   document.getElementById('input-codigo').classList.remove('border-red-400');
   state.codigoConfirmado = codigo;
-  state.nombreConfirmado = document.getElementById('nombre-sugerido').textContent || '';
+  // Tomar el nombre del candidato seleccionado, o del campo si fue editado manualmente
+  const btnSeleccionado = document.querySelector('.candidato-btn.selected');
+  state.nombreConfirmado = (btnSeleccionado && btnSeleccionado.dataset.codigo === codigo)
+    ? (btnSeleccionado.dataset.nombre || '')
+    : '';
   abrirFormulario();
 });
 

@@ -29,6 +29,15 @@
     }
     .rating-btn[aria-pressed="true"] .descriptor { color: rgba(255,255,255,0.8); }
 
+    .candidato-btn { transition: all 0.15s ease; }
+    .candidato-btn.selected {
+      background-color: #00175A;
+      border-color: #00175A;
+      color: white;
+    }
+    .candidato-btn.selected .candidato-nombre { color: rgba(255,255,255,0.65); }
+    .candidato-btn.selected .candidato-badge { background: rgba(255,255,255,0.15); color: white; }
+
     @keyframes checkmark {
       0%   { transform: scale(0); opacity: 0; }
       60%  { transform: scale(1.2); }
@@ -99,24 +108,11 @@
         <img id="foto-preview" src="" alt="Plato capturado"
           class="w-full h-52 object-cover rounded-2xl shadow-md">
 
-        <!-- Resultado IA — alta confianza -->
-        <div id="bloque-identificado" class="hidden bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
-          <p class="text-[11px] text-gray-400 uppercase tracking-wider mb-1">Código identificado por IA</p>
-          <p id="codigo-sugerido" class="text-3xl font-black text-latam-blue font-mono"></p>
-          <p id="nombre-sugerido" class="text-sm text-gray-500 mt-0.5"></p>
-          <span class="mt-2 inline-flex items-center gap-1 bg-green-50 text-green-700 text-xs px-2.5 py-1 rounded-full font-medium">
-            ✓ Identificado automáticamente
-          </span>
-        </div>
-
-        <!-- Resultado IA — baja confianza -->
-        <div id="bloque-baja-confianza" class="hidden bg-blue-50 border border-blue-200 rounded-2xl p-4">
-          <p class="text-[11px] text-blue-400 uppercase tracking-wider mb-1">Posible coincidencia</p>
-          <p id="codigo-sugerido-lc" class="text-3xl font-black text-latam-blue font-mono"></p>
-          <p id="nombre-sugerido-lc" class="text-sm text-blue-600 mt-0.5"></p>
-          <span class="mt-2 inline-flex items-center gap-1 bg-blue-100 text-blue-700 text-xs px-2.5 py-1 rounded-full font-medium">
-            ⚠ Verifica que el código sea correcto
-          </span>
+        <!-- Candidatos IA (visible si identificó ≥1 opción) -->
+        <div id="bloque-candidatos" class="hidden flex flex-col gap-2">
+          <p class="text-[11px] text-gray-400 uppercase tracking-wider">Selecciona el código correcto</p>
+          <div id="candidatos-lista" class="flex flex-col gap-2"></div>
+          <p class="text-xs text-gray-400">Edita el campo de abajo si ninguno es correcto</p>
         </div>
 
         <!-- Sin identificación -->
@@ -259,6 +255,6 @@
 
   </main>
 
-  <script src="app.js?v=5"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>
