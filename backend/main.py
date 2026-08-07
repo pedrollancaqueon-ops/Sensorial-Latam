@@ -25,9 +25,12 @@ class FotoRequest(BaseModel):
 
 
 class EvaluacionPayload(BaseModel):
+    model_config = {"extra": "ignore"}
+
     evaluador:          str
     codigo:             str
     nombre:             str
+    grid:               str = ""
     proveedor:          str
     foto:               str   # base64 — Apps Script sube a Drive
     comentarios:        str = ""
