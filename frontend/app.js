@@ -8,8 +8,7 @@ const state = {
   imagenReferencia: '',
   historial: [],
   evaluadorGuardado: '',
-  cabina: '',       // 'BC', 'CREW', 'PYC', 'YC'
-  cabinaLabel: '',  // Texto visible
+  gridDetectado: '',  // 'BC', 'PYC', 'YC', 'CREW', etc. — devuelto por Gemini
 };
 
 const CRITERIOS = [
@@ -29,15 +28,6 @@ function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   window.scrollTo(0, 0);
-}
-
-// ─── Selección de cabina ──────────────────────────────────────────────────────
-function seleccionarCabina(code, label) {
-  state.cabina = code;
-  state.cabinaLabel = label;
-  document.getElementById('cabina-label').textContent = label;
-  showScreen('screen-camara');
-  iniciarCamara();
 }
 
 // ─── Cámara ───────────────────────────────────────────────────────────────────
@@ -83,23 +73,25 @@ async function analizarFoto() {
       fetch('/api/identificar', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ foto: state.fotoBase64, grid: state.cabina }),
+        body: JSON.stringify({ foto: state.fotoBase64 }),
       }),
       new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 10000)),
     ]);
     const data = await resp.json();
-    mostrarConfirmacion(data.codigo || '', data.nombre || '', !!data.identificado, data.imagen_referencia || '');
+    mostrarConfirmacion(data.codigo || '', data.nombre || '', !!data.identificado, data.imagen_referencia || '', data.grid || '');
   } catch {
     // Timeout o error de red → dejar pasar con campo vacío
-    mostrarConfirmacion('', '', false);
+    mostrarConfirmacion('', '', false, '', '');
   }
 }
 
 // ─── Pantalla 3: Confirmar código ────────────────────────────────────────────
-function mostrarConfirmacion(codigo, nombre, identificado, imagenReferencia) {
+function mostrarConfirmacion(codigo, nombre, identificado, imagenReferencia, grid) {
   state.imagenReferencia = imagenReferencia || '';
+  state.gridDetectado = grid || '';
   document.getElementById('foto-preview').src = state.fotoDataUrl;
   document.getElementById('input-codigo').value = codigo;
+  document.getElementById('select-grid').value = grid || '';
 
   document.getElementById('bloque-identificado').classList.toggle('hidden', !identificado);
   document.getElementById('bloque-no-identificado').classList.toggle('hidden', identificado);
@@ -191,6 +183,7 @@ async function enviarEvaluacion() {
     evaluador,
     codigo:     state.codigoConfirmado,
     nombre:     state.nombreConfirmado,
+    grid:       document.getElementById('select-grid').value || state.gridDetectado,
     proveedor:          'Gategourmet SCL',
     foto:               state.fotoBase64,
     imagen_referencia:  state.imagenReferencia,
@@ -292,11 +285,6 @@ document.getElementById('btn-retomar-foto').addEventListener('click', () => {
   iniciarCamara();
 });
 
-document.getElementById('btn-cambiar-cabina').addEventListener('click', () => {
-  detenerCamara();
-  showScreen('screen-cabina');
-});
-
 document.getElementById('btn-enviar').addEventListener('click', enviarEvaluacion);
 
 document.getElementById('btn-nueva').addEventListener('click', () => {
@@ -315,4 +303,4 @@ document.getElementById('btn-cerrar-historial').addEventListener('click', () => 
 });
 
 // ─── Arranque ─────────────────────────────────────────────────────────────────
-// La cámara arranca solo después de seleccionar cabina en screen-cabina.
+iniciarCamara();

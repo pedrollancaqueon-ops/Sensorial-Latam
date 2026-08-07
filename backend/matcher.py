@@ -18,14 +18,14 @@ La PRIMERA imagen es la foto del inspector a bordo. Las imágenes siguientes son
 
 ## PASO 1 — Clasifica el tipo de servicio por el contenedor y la presentación
 
-Antes de buscar el código exacto, determina visualmente el tipo de servicio:
+Antes de buscar el código exacto, determina visualmente el tipo de servicio y asigna el campo `grid`:
 
-- **Plato REDONDO blanco, presentación elegante, garnish fino**: Business Class (BC) → HLD0, HLD0 - Mechada, HLD0 - Merluza, HLD0 - Congrio, SPML HLD0, etc.
-- **Bandeja NEGRA rectangular, plato separado, vaso, pan en bolsa/papel**: Economy Long Haul (LH) → FHS1 LH, FHB1 LH, FHLD LH, FHB LH, etc.
-- **Bandeja NEGRA rectangular con 2–3 compartimentos, sin plato separado**: Economy/SPML Regional (RG) → HLDR SPML RG, HBE0 SPML RG, HBE0 RG, HLDR RG, etc.
-- **Pan o sándwich envuelto en papel (focaccia, ciabatta, integral, pan de hoja)**: Cold choice o breakfast sandwich → puede ser parte de HBPY, FHB1 LH, FHS1 LH, HLDR SPML RG, etc.
-- **Bandeja PYC con plato o bowl separado, presentación semi-formal**: Premium Economy / PYC → HBPY, SSPY, etc.
-- **Bandeja de tripulación / servicio doméstico**: Crew o Doméstico → HLDL, HB, SW00, SSPY, etc.
+- **Plato REDONDO blanco, presentación elegante, garnish fino**: Business Class → `grid: "BC"` — HLD0, HLD0 - Mechada, HLD0 - Merluza, HLD0 - Congrio, SPML HLD0, etc.
+- **Bandeja NEGRA rectangular, plato separado, vaso, pan en bolsa/papel**: Economy Long Haul → `grid: "YC"` — FHS1 LH, FHB1 LH, FHLD LH, FHB LH, etc.
+- **Bandeja NEGRA rectangular con 2–3 compartimentos, sin plato separado**: Economy Regional → `grid: "YC"` — HLDR SPML RG, HBE0 SPML RG, HBE0 RG, HLDR RG, etc.
+- **Pan o sándwich envuelto en papel (focaccia, ciabatta, integral, pan de hoja)**: Cold choice / breakfast → deduce el grid por el contenedor o el código más cercano.
+- **Bandeja PYC con plato o bowl separado, presentación semi-formal**: Premium Economy → `grid: "PYC"` — HBPY, SSPY, etc.
+- **Bandeja de tripulación / servicio doméstico**: Crew → `grid: "CREW"` — HLDL, HB, SW00, SSPY, etc.
 
 ## PASO 2 — Identifica el código exacto
 
@@ -39,9 +39,9 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
 6. Si la confianza es inferior a 0.55, devuelve identificado: false.
 
 Responde SOLO con JSON válido, sin texto adicional:
-{"identificado": true, "codigo": "CÓDIGO", "componente": "nombre del componente fotografiado", "confianza": 0.85}
+{"identificado": true, "codigo": "CÓDIGO", "componente": "nombre del componente fotografiado", "grid": "BC", "confianza": 0.85}
 Si ninguna referencia calza claramente:
-{"identificado": false, "codigo": "", "componente": "", "confianza": 0.0}"""
+{"identificado": false, "codigo": "", "componente": "", "grid": "", "confianza": 0.0}"""
 
 
 def identificar(foto_base64: str, grid: str | None = None) -> dict:
@@ -76,9 +76,10 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
         if not result.get("identificado"):
             return _no_match()
 
-        codigo     = result.get("codigo", "").upper().strip()
-        componente = result.get("componente", "").strip()
-        confianza  = float(result.get("confianza", 0))
+        codigo         = result.get("codigo", "").upper().strip()
+        componente     = result.get("componente", "").strip()
+        confianza      = float(result.get("confianza", 0))
+        grid_detectado = result.get("grid", "").upper().strip()
 
         catalog_item = find_best_match(codigo, componente)
         nombre            = catalog_item["component"]   if catalog_item else componente
@@ -88,6 +89,7 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
             "identificado":      True,
             "codigo":            codigo,
             "nombre":            nombre,
+            "grid":              grid_detectado,
             "confianza":         confianza,
             "imagen_referencia": imagen_referencia,
         }
@@ -98,4 +100,4 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
 
 
 def _no_match() -> dict:
-    return {"identificado": False, "codigo": "", "nombre": "", "confianza": 0.0, "imagen_referencia": ""}
+    return {"identificado": False, "codigo": "", "nombre": "", "grid": "", "confianza": 0.0, "imagen_referencia": ""}
