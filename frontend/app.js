@@ -132,7 +132,7 @@ function renderCandidatos(candidatos, identificado) {
         class="candidato-btn${i === 0 ? ' selected' : ''} w-full text-left border-2 border-gray-200 bg-white rounded-2xl px-4 py-3 active:scale-[0.98]"
         data-codigo="${c.codigo}" data-nombre="${c.nombre || ''}">
         <div class="flex items-center justify-between gap-2">
-          <span class="font-mono font-black text-xl text-latam-blue">${c.codigo}</span>
+          <span class="candidato-codigo font-mono font-black text-xl text-latam-blue">${c.codigo}</span>
           ${badge}
         </div>
         ${c.nombre ? `<span class="candidato-nombre block text-sm text-gray-400 mt-0.5">${c.nombre}</span>` : ''}

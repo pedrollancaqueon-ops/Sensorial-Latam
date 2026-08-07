@@ -44,6 +44,7 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
    - Plato caliente con proteína (carne/pollo/pescado) + guarnición → HLD0 RG, HLD2 RG, HLDE RG, HLDR RG, HS01 RG
    - Hojaldre rectangular (tipo empanada dorada) + compota de fruta → HBE0 RG o HBER RG
    - Breakfast con fruta + pan rectangular (pan de hoja o miga integral) → HB00 RG o HB01 RG
+   - Omelette plegado + tomate cherry + papas rostizadas en plato blanco → HB00 RG o HB01 RG (el inspector puede fotografiar el componente caliente fuera de la bandeja negra)
    - La descripción de ingredientes de la referencia es clave para distinguirlos
 3. **Un inspector puede fotografiar UN SOLO COMPONENTE** del servicio (solo el plato caliente, solo el sándwich, solo el queque, solo la fruta). La referencia puede mostrar ese mismo componente, no necesariamente toda la bandeja.
 4. Para cada código puede haber **2 imágenes de referencia**: una del plato caliente y otra de la opción fría. Elige el código cuya referencia —cualquiera de las dos— más se parezca a la foto.
