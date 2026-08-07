@@ -220,5 +220,28 @@ def get_catalog_images(fecha: datetime.date | None = None, grid: str | None = No
     return result
 
 
+def get_visual_twins(component: str, grid_sources: set[str], fecha: datetime.date | None = None) -> list[str]:
+    """Códigos activos en el ciclo vigente que comparten el mismo componente visual.
+    Útil para expandir candidatos cuando varios códigos tienen presentación idéntica.
+    """
+    fecha = fecha or datetime.date.today()
+    mes = fecha.month
+    twins = []
+    seen = set()
+    for item in _catalog:
+        if item.get("source") not in grid_sources:
+            continue
+        if item.get("component", "").lower() != component.lower():
+            continue
+        patron = _patron_para(item.get("source", ""), item.get("code", ""))
+        if item.get("cycle") != patron(mes):
+            continue
+        code = item["code"]
+        if code not in seen:
+            seen.add(code)
+            twins.append(code)
+    return twins
+
+
 def get_all_codes() -> list[str]:
     return sorted({item["code"] for item in _catalog})

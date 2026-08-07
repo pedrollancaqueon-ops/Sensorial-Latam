@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 import google.generativeai as genai
-from catalog import get_catalog_images, find_best_match
+from catalog import get_catalog_images, find_best_match, get_visual_twins, _GRID_MAP
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 _model = genai.GenerativeModel("gemini-2.5-flash-lite")
@@ -104,12 +104,14 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
             return _no_match()
 
         candidatos = []
-        for c in candidatos_raw[:3]:
+        codigos_vistos: set[str] = set()
+        for c in candidatos_raw[:6]:
             codigo     = c.get("codigo", "").upper().strip()
             componente = c.get("componente", "").strip()
             confianza  = float(c.get("confianza", 0))
-            if not codigo:
+            if not codigo or codigo in codigos_vistos:
                 continue
+            codigos_vistos.add(codigo)
             cat = find_best_match(codigo, componente)
             nombre_raw = cat["component"] if cat else componente
             nombre     = nombre_raw if nombre_raw != "#REF!" else componente
@@ -117,6 +119,25 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
 
         if not candidatos:
             return _no_match()
+
+        # Expandir con gemelos visuales: códigos activos que comparten el mismo
+        # componente del mejor candidato (ej: todos los "Red Meat Dish" BC).
+        # Se excluyen sub-variantes (ej: "HLD0 - Mechada") porque son para platos
+        # distintos aunque compartan componente en el catálogo.
+        mejor_nombre = candidatos[0]["nombre"]
+        grid_sources = _GRID_MAP.get(grid_detectado, set())
+        if mejor_nombre and grid_sources:
+            twins = get_visual_twins(mejor_nombre, grid_sources)
+            for twin_code in twins:
+                if twin_code in codigos_vistos:
+                    continue
+                if " - " in twin_code:  # sub-variante (HLD0 - Mechada, etc.)
+                    continue
+                codigos_vistos.add(twin_code)
+                cat = find_best_match(twin_code, mejor_nombre)
+                nombre_raw = cat["component"] if cat else mejor_nombre
+                nombre     = nombre_raw if nombre_raw != "#REF!" else mejor_nombre
+                candidatos.append({"codigo": twin_code, "nombre": nombre, "confianza": 0.0})
 
         mejor = candidatos[0]
         cat   = find_best_match(mejor["codigo"], mejor["nombre"])

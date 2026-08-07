@@ -126,7 +126,9 @@ function renderCandidatos(candidatos, identificado) {
       ? `<span class="candidato-badge text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded-full">coincidencia</span>`
       : c.confianza >= 0.42
         ? `<span class="candidato-badge text-[10px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full">verificar</span>`
-        : `<span class="candidato-badge text-[10px] bg-amber-100 text-amber-600 px-2 py-0.5 rounded-full">incierto</span>`;
+        : c.confianza > 0
+          ? `<span class="candidato-badge text-[10px] bg-amber-100 text-amber-600 px-2 py-0.5 rounded-full">incierto</span>`
+          : `<span class="candidato-badge text-[10px] bg-gray-50 text-gray-400 px-2 py-0.5 rounded-full">misma presentación</span>`;
     return `
       <button type="button"
         class="candidato-btn${i === 0 ? ' selected' : ''} w-full text-left border-2 border-gray-200 bg-white rounded-2xl px-4 py-3 active:scale-[0.98]"
