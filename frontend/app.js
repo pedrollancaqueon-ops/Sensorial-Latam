@@ -75,30 +75,37 @@ async function analizarFoto() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ foto: state.fotoBase64 }),
       }),
-      new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 10000)),
+      new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 15000)),
     ]);
     const data = await resp.json();
-    mostrarConfirmacion(data.codigo || '', data.nombre || '', !!data.identificado, data.imagen_referencia || '', data.grid || '');
+    mostrarConfirmacion(data.codigo || '', data.nombre || '', !!data.identificado, data.imagen_referencia || '', data.grid || '', data.confianza || 0);
   } catch {
     // Timeout o error de red → dejar pasar con campo vacío
-    mostrarConfirmacion('', '', false, '', '');
+    mostrarConfirmacion('', '', false, '', '', 0);
   }
 }
 
 // ─── Pantalla 3: Confirmar código ────────────────────────────────────────────
-function mostrarConfirmacion(codigo, nombre, identificado, imagenReferencia, grid) {
+function mostrarConfirmacion(codigo, nombre, identificado, imagenReferencia, grid, confianza) {
   state.imagenReferencia = imagenReferencia || '';
   state.gridDetectado = grid || '';
   document.getElementById('foto-preview').src = state.fotoDataUrl;
   document.getElementById('input-codigo').value = codigo;
   document.getElementById('select-grid').value = grid || '';
 
-  document.getElementById('bloque-identificado').classList.toggle('hidden', !identificado);
-  document.getElementById('bloque-no-identificado').classList.toggle('hidden', identificado);
+  const altaConfianza  = identificado && confianza >= 0.65;
+  const bajaConfianza  = identificado && confianza > 0 && confianza < 0.65;
+  const noIdentificado = !identificado;
+
+  document.getElementById('bloque-identificado').classList.toggle('hidden', !altaConfianza);
+  document.getElementById('bloque-baja-confianza').classList.toggle('hidden', !bajaConfianza);
+  document.getElementById('bloque-no-identificado').classList.toggle('hidden', !noIdentificado);
 
   if (identificado) {
     document.getElementById('codigo-sugerido').textContent = codigo;
     document.getElementById('nombre-sugerido').textContent = nombre;
+    document.getElementById('codigo-sugerido-lc').textContent = codigo;
+    document.getElementById('nombre-sugerido-lc').textContent = nombre;
   }
 
   showScreen('screen-confirmar');
