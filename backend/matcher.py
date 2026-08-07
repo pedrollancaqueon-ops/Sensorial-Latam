@@ -43,15 +43,17 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
 4. Para cada código puede haber **2 imágenes de referencia**: una del plato caliente y otra de la opción fría. Elige el código cuya referencia —cualquiera de las dos— más se parezca a la foto.
 5. **Variantes SPML** (GFML / VGML / VLML / CHML): todas usan el mismo código base. No necesitas distinguir la variante dietética, solo confirma el código.
 6. En caso de duda entre códigos similares (ej. FHB1 LH vs FHS1 LH): FHB1 LH es desayuno (sandwich integral con jamón, muffin o streusel); FHS1 LH es cena (plato caliente tipo pasta, cold choice focaccia, chocolate).
-7. Si la confianza es inferior a 0.42, devuelve identificado: false. Entre 0.42 y 0.65 devuelve tu mejor opción igualmente.
 
-Responde SOLO con JSON válido, sin texto adicional. Devuelve SIEMPRE tus mejores 1 a 3 candidatos, incluso si la confianza es baja — el evaluador humano decidirá cuál es correcto.
+## RESPUESTA
+
+Devuelve SIEMPRE tus mejores 1 a 3 candidatos — aunque la confianza sea baja. El evaluador humano elegirá cuál es correcto. NUNCA devuelvas `candidatos: []` a menos que la imagen no muestre comida.
+
 - `identificado: true` si el mejor candidato tiene confianza ≥ 0.42
-- `identificado: false` si la confianza es baja, pero aun así incluye los candidatos en el array
-- Solo devuelve `candidatos: []` si la imagen no muestra comida reconocible de ningún tipo
+- `identificado: false` si es tu mejor intento pero con baja confianza — igualmente incluye los candidatos
 
-{"identificado": true, "grid": "BC", "candidatos": [{"codigo": "HLD0", "componente": "Main dish", "confianza": 0.85}, {"codigo": "HLD1", "componente": "Main dish", "confianza": 0.55}]}
-Ejemplo baja confianza (muestra igual los candidatos):
+Responde SOLO con JSON válido, sin texto adicional:
+{"identificado": true, "grid": "BC", "candidatos": [{"codigo": "HLD2", "componente": "Red Meat Dish", "confianza": 0.82}, {"codigo": "LHLD", "componente": "Red Meat Dish", "confianza": 0.65}]}
+Ejemplo baja confianza:
 {"identificado": false, "grid": "BC", "candidatos": [{"codigo": "HLD2", "componente": "Red Meat Dish", "confianza": 0.35}, {"codigo": "HLDE", "componente": "Red Meat Dish", "confianza": 0.28}]}"""
 
 
@@ -78,9 +80,11 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
     try:
         response = _model.generate_content(contents)
         text = response.text.strip()
+        print(f"[matcher] Respuesta Gemini (primeros 400 chars): {text[:400]}")
 
         json_match = re.search(r"\{.*\}", text, re.DOTALL)
         if not json_match:
+            print("[matcher] No se encontró JSON en la respuesta")
             return _no_match()
 
         result = json.loads(json_match.group())

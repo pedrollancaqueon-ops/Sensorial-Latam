@@ -75,7 +75,7 @@ async function analizarFoto() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ foto: state.fotoBase64 }),
       }),
-      new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 15000)),
+      new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 25000)),
     ]);
     const data = await resp.json();
     mostrarConfirmacion(!!data.identificado, data.imagen_referencia || '', data.grid || '', data.candidatos || [], data.confianza || 0);
@@ -249,7 +249,7 @@ async function enviarEvaluacion() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       }),
-      new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 15000)),
+      new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 25000)),
     ]);
   } catch {
     // Registramos en historial local aunque falle el backend
