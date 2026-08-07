@@ -14,9 +14,11 @@ def guardar_evaluacion(payload: dict) -> bool:
         print("[sheets] SHEETS_WEBHOOK_URL no configurada")
         return False
 
-    # Renombrar imagen_referencia → imagen_referencia_path para que el Apps Script
-    # pueda distinguir el path del catálogo del campo foto_url que genera él mismo
     data = dict(payload)
+    # No enviar base64 al Apps Script — hace el payload enorme y el POST falla.
+    # foto_url lo genera Apps Script al subir a Drive; si no hay foto base64, queda vacío.
+    data.pop("foto", None)
+    # Renombrar imagen_referencia → path para que Apps Script lo distinga del campo foto_url
     if "imagen_referencia" in data:
         data["imagen_referencia_path"] = data.pop("imagen_referencia")
 
