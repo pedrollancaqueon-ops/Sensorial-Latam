@@ -14,11 +14,17 @@ def guardar_evaluacion(payload: dict) -> bool:
         print("[sheets] SHEETS_WEBHOOK_URL no configurada")
         return False
 
+    # Renombrar imagen_referencia → imagen_referencia_path para que el Apps Script
+    # pueda distinguir el path del catálogo del campo foto_url que genera él mismo
+    data = dict(payload)
+    if "imagen_referencia" in data:
+        data["imagen_referencia_path"] = data.pop("imagen_referencia")
+
     try:
         # Paso 1: POST al /exec — dispara doPost en Google (retorna 302)
         r1 = requests.post(
             _WEBHOOK_URL,
-            json=payload,
+            json=data,
             timeout=15,
             allow_redirects=False,
             verify=_SSL_VERIFY,
