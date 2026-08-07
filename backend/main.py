@@ -86,10 +86,19 @@ async def test_sheets():
 
     pasos = []
     try:
-        # Paso 1: POST inicial
+        # Paso 1: POST inicial (sin seguir redirect para ver el 302)
         r1 = req.post(url, json=payload, timeout=15, allow_redirects=False, verify=True)
-        ok = r1.status_code in (200, 301, 302, 303, 307, 308)
         pasos.append({"paso": 1, "status": r1.status_code, "body": r1.text[:300]})
+
+        # Paso 2: seguir el Location header si hay redirect
+        location = r1.headers.get("Location", "")
+        if location:
+            r2 = req.get(location, timeout=15, verify=True)
+            pasos.append({"paso": 2, "status": r2.status_code, "body": r2.text[:2000]})
+            ok = r2.status_code == 200
+        else:
+            ok = r1.status_code == 200
+
         return {"ok": ok, "pasos": pasos}
 
     except Exception as e:
