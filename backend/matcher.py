@@ -11,6 +11,50 @@ genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 _model = genai.GenerativeModel("gemini-2.5-flash-lite")
 
 _BASE_PATH = Path(__file__).parent.parent
+_FRONTEND_PATH = _BASE_PATH / "frontend"
+
+
+def _parse_frontend_ref(stem: str) -> tuple[list[str], str]:
+    """Parse IMG filename stem → (codes, label).
+
+    IMG_HLD0_y_HLD2  → (["HLD0", "HLD2"], "HLD0 / HLD2")
+    IMG_FHLD_Frio    → (["FHLD"], "FHLD (Frío)")
+    IMG_HLD2_Churrasco → (["HLD2"], "HLD2 (Churrasco)")
+    IMG_FHB0         → (["FHB0"], "FHB0")
+    """
+    if "_y_" in stem:
+        parts = stem.split("_y_")
+        return parts, " / ".join(parts)
+    idx = stem.find("_")
+    if idx != -1:
+        code = stem[:idx]
+        descriptor = stem[idx + 1:].replace("_", " ")
+        return [code], f"{code} ({descriptor})"
+    return [stem], stem
+
+
+def _get_frontend_refs() -> list[dict]:
+    """Return list of {path, codes, label, mime} for IMG_*.png/jpg in frontend/."""
+    result = []
+    for path in sorted(_FRONTEND_PATH.glob("IMG_*.*")):
+        if path.suffix.lower() not in {".png", ".jpg", ".jpeg"}:
+            continue
+        stem = path.stem[4:]  # strip leading "IMG_"
+        codes, label = _parse_frontend_ref(stem)
+        mime = "image/jpeg" if path.suffix.lower() in {".jpg", ".jpeg"} else "image/png"
+        result.append({"path": path, "codes": codes, "label": label, "mime": mime})
+    return result
+
+
+_FRONTEND_REFS = _get_frontend_refs()
+
+# Map code → set of codes that share a frontend image (for twin expansion).
+_FRONTEND_CODE_TWINS: dict[str, list[str]] = {}
+for _ref in _FRONTEND_REFS:
+    if len(_ref["codes"]) > 1:
+        for _c in _ref["codes"]:
+            _FRONTEND_CODE_TWINS[_c] = _ref["codes"]
+
 
 _PROMPT = """Eres un experto en control de calidad de catering aéreo de LATAM Airlines SCL.
 
@@ -83,6 +127,14 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
         contents.append({"mime_type": "image/jpeg", "data": img_path.read_bytes()})
         ref_count += 1
 
+    # Imágenes de referencia manuales (IMG_*.png en frontend/)
+    for ref in _FRONTEND_REFS:
+        if not ref["path"].exists():
+            continue
+        contents.append(f"[Referencia manual: {ref['label']}]")
+        contents.append({"mime_type": ref["mime"], "data": ref["path"].read_bytes()})
+        ref_count += 1
+
     print(f"[matcher] Enviando foto + {ref_count} imágenes de referencia a Gemini")
 
     try:
@@ -120,6 +172,17 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
 
         if not candidatos:
             return _no_match()
+
+        # Expandir con gemelos de imagen manual (ej: HLD0_y_HLD2 → agregar HLD2 si Gemini dijo HLD0).
+        for c in list(candidatos):
+            for twin_code in _FRONTEND_CODE_TWINS.get(c["codigo"], []):
+                if twin_code == c["codigo"] or twin_code in codigos_vistos:
+                    continue
+                codigos_vistos.add(twin_code)
+                cat = find_best_match(twin_code, c["nombre"])
+                nombre_raw = cat["component"] if cat else c["nombre"]
+                nombre = nombre_raw if nombre_raw != "#REF!" else c["nombre"]
+                candidatos.append({"codigo": twin_code, "nombre": nombre, "confianza": 0.0})
 
         # Expandir con gemelos visuales: códigos activos que comparten el mismo
         # componente del mejor candidato (ej: todos los "Red Meat Dish" BC).
