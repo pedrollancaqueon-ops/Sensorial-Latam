@@ -1,8 +1,11 @@
+import io
 import os
 import base64
 import json
 import re
 from pathlib import Path
+
+from PIL import Image
 
 import google.generativeai as genai
 from catalog import get_catalog_images, find_best_match, get_visual_twins, _GRID_MAP
@@ -33,16 +36,30 @@ def _parse_frontend_ref(stem: str) -> tuple[list[str], str]:
     return [stem], stem
 
 
+def _compress_to_jpeg(path: Path, max_px: int = 1024, quality: int = 80) -> bytes:
+    with Image.open(path) as img:
+        img = img.convert("RGB")
+        ratio = min(max_px / img.width, max_px / img.height, 1.0)
+        if ratio < 1.0:
+            img = img.resize((int(img.width * ratio), int(img.height * ratio)), Image.LANCZOS)
+        buf = io.BytesIO()
+        img.save(buf, format="JPEG", quality=quality)
+        return buf.getvalue()
+
+
 def _get_frontend_refs() -> list[dict]:
-    """Return list of {path, codes, label, mime} for IMG_*.png/jpg in frontend/."""
+    """Return list of {data, codes, label} for IMG_*.png/jpg in frontend/, pre-compressed."""
     result = []
     for path in sorted(_FRONTEND_PATH.glob("IMG_*.*")):
         if path.suffix.lower() not in {".png", ".jpg", ".jpeg"}:
             continue
         stem = path.stem[4:]  # strip leading "IMG_"
         codes, label = _parse_frontend_ref(stem)
-        mime = "image/jpeg" if path.suffix.lower() in {".jpg", ".jpeg"} else "image/png"
-        result.append({"path": path, "codes": codes, "label": label, "mime": mime})
+        data = _compress_to_jpeg(path)
+        kb_orig = path.stat().st_size // 1024
+        kb_comp = len(data) // 1024
+        print(f"[matcher] Ref manual: {path.name} {kb_orig}KB -> {kb_comp}KB")
+        result.append({"data": data, "codes": codes, "label": label})
     return result
 
 
@@ -127,12 +144,10 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
         contents.append({"mime_type": "image/jpeg", "data": img_path.read_bytes()})
         ref_count += 1
 
-    # Imágenes de referencia manuales (IMG_*.png en frontend/)
+    # Imágenes de referencia manuales (IMG_*.png en frontend/, pre-comprimidas)
     for ref in _FRONTEND_REFS:
-        if not ref["path"].exists():
-            continue
         contents.append(f"[Referencia manual: {ref['label']}]")
-        contents.append({"mime_type": ref["mime"], "data": ref["path"].read_bytes()})
+        contents.append({"mime_type": "image/jpeg", "data": ref["data"]})
         ref_count += 1
 
     print(f"[matcher] Enviando foto + {ref_count} imágenes de referencia a Gemini")
