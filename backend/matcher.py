@@ -65,6 +65,17 @@ def _get_frontend_refs() -> list[dict]:
 
 _FRONTEND_REFS = _get_frontend_refs()
 
+_PROMPT_RESCUE = """Eres un experto en catering aéreo LATAM. La imagen muestra comida de a bordo.
+Identifica el tipo de servicio y el código más probable. Devuelve JSON con al menos 1 candidato.
+Reglas rápidas:
+- Plato blanco redondo elegante → BC (HLD0, HLD2, HLDE, LHLD, HLD0 - Mechada, HLD0 - Merluza, HLD1)
+- Bandeja negra con compartimentos → YC Economy (HLD0 RG, HLD2 RG, HBE0 RG, HB00 RG, FHLD LH, FHB1 LH)
+- Bowl blanco con fideos negros → PYC (HLDL)
+- Base naranja/calabaza + medallón oscuro → HLD2, HLDE, LHLD
+- Base blanca/crema + medallón mechada → HLD0 - Mechada
+- Hojaldre/empanada dorada + fruta → HBE0 RG, HBER RG
+Formato: {"identificado": false, "grid": "BC", "candidatos": [{"codigo": "HLD2", "componente": "Red Meat Dish", "confianza": 0.30}]}"""
+
 # Map code → set of codes that share a frontend image (for twin expansion).
 _FRONTEND_CODE_TWINS: dict[str, list[str]] = {}
 for _ref in _FRONTEND_REFS:
@@ -76,6 +87,8 @@ for _ref in _FRONTEND_REFS:
 _PROMPT = """Eres un experto en control de calidad de catering aéreo de LATAM Airlines SCL.
 
 La PRIMERA imagen es la foto del inspector a bordo. Las imágenes siguientes son referencias del catálogo vigente, etiquetadas con [Código | Componente | Descripción de ingredientes].
+
+REGLA ABSOLUTA (no negociable): Si la imagen muestra CUALQUIER preparación culinaria —aunque la foto sea oscura, en ángulo, parcial, borrosa o de baja calidad— DEBES devolver al menos 1 candidato. Una mala foto no justifica candidatos vacíos; usa tu mejor juicio visual aunque la confianza sea 0.10. `candidatos: []` solo es válido si la imagen literalmente no contiene comida (foto de una persona, texto, objeto no alimenticio).
 
 IMPORTANTE: Algunas referencias tienen el componente como "#REF!" (dato roto del Excel). En ese caso usa SOLO la descripción de ingredientes y la imagen visual para hacer el match — el componente "#REF!" no es información relevante.
 
@@ -115,15 +128,37 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
 
 ## RESPUESTA
 
-Devuelve SIEMPRE tus mejores 1 a 3 candidatos — aunque la confianza sea baja. El evaluador humano elegirá cuál es correcto. NUNCA devuelvas `candidatos: []` a menos que la imagen no muestre comida.
+Devuelve SIEMPRE tus mejores 1 a 3 candidatos — aunque la confianza sea baja. El evaluador humano elegirá cuál es correcto.
 
-- `identificado: true` si el mejor candidato tiene confianza ≥ 0.42
+NUNCA devuelvas `candidatos: []` si hay comida en la imagen. Si no puedes distinguir el código exacto, elige los candidatos más probables por tipo de servicio y proteína, aunque la confianza sea 0.10.
+
+- `identificado: true` si el mejor candidato tiene confianza ≥ 0.38
 - `identificado: false` si es tu mejor intento pero con baja confianza — igualmente incluye los candidatos
 
 Responde SOLO con JSON válido, sin texto adicional:
 {"identificado": true, "grid": "BC", "candidatos": [{"codigo": "HLD2", "componente": "Red Meat Dish", "confianza": 0.82}, {"codigo": "LHLD", "componente": "Red Meat Dish", "confianza": 0.65}]}
 Ejemplo baja confianza:
 {"identificado": false, "grid": "BC", "candidatos": [{"codigo": "HLD2", "componente": "Red Meat Dish", "confianza": 0.35}, {"codigo": "HLDE", "componente": "Red Meat Dish", "confianza": 0.28}]}"""
+
+
+def _rescue_identificar(img_data: bytes) -> list[dict] | None:
+    """Retry con prompt simplificado cuando Gemini devuelve candidatos vacíos."""
+    try:
+        resp = _model.generate_content([
+            _PROMPT_RESCUE,
+            {"mime_type": "image/jpeg", "data": img_data},
+        ])
+        text = resp.text.strip()
+        print(f"[matcher] Rescate Gemini: {text[:300]}")
+        m = re.search(r"\{.*\}", text, re.DOTALL)
+        if not m:
+            return None
+        result = json.loads(m.group())
+        raw = result.get("candidatos", [])
+        return raw if raw else None
+    except Exception as e:
+        print(f"[matcher] Error rescate Gemini: {e}")
+        return None
 
 
 def identificar(foto_base64: str, grid: str | None = None) -> dict:
@@ -158,18 +193,24 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
         print(f"[matcher] Respuesta Gemini (primeros 400 chars): {text[:400]}")
 
         json_match = re.search(r"\{.*\}", text, re.DOTALL)
-        if not json_match:
-            print("[matcher] No se encontró JSON en la respuesta")
-            return _no_match()
+        if json_match:
+            result = json.loads(json_match.group())
+            grid_detectado = result.get("grid", "").upper().strip()
+            candidatos_raw = result.get("candidatos", [])
+        else:
+            print("[matcher] No se encontró JSON en la respuesta — reintentando con rescate")
+            result = {}
+            grid_detectado = ""
+            candidatos_raw = []
 
-        result = json.loads(json_match.group())
-
-        grid_detectado = result.get("grid", "").upper().strip()
-        candidatos_raw = result.get("candidatos", [])
-
-        # Si no hay candidatos de ningún tipo, la imagen no era reconocible
+        # Si no hay candidatos, reintenta con prompt de rescate antes de rendirse
         if not candidatos_raw:
-            return _no_match()
+            print("[matcher] Candidatos vacíos — reintentando con prompt de rescate")
+            rescue = _rescue_identificar(img_data)
+            if rescue:
+                candidatos_raw = rescue
+            else:
+                return _no_match()
 
         candidatos = []
         codigos_vistos: set[str] = set()
