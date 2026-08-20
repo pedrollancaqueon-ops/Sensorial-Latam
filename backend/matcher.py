@@ -126,7 +126,10 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
    - La descripción de ingredientes de la referencia es clave para distinguirlos
 3. **Un inspector puede fotografiar UN SOLO COMPONENTE** del servicio (solo el plato caliente, solo el sándwich, solo el queque, solo la fruta). La referencia puede mostrar ese mismo componente, no necesariamente toda la bandeja.
 4. Para cada código puede haber **2 imágenes de referencia**: una del plato caliente y otra de la opción fría. Elige el código cuya referencia —cualquiera de las dos— más se parezca a la foto.
-5. **Variantes SPML** (GFML / VGML / VLML / CHML): todas usan el mismo código base. No necesitas distinguir la variante dietética, solo confirma el código.
+5. **Variantes dietéticas SPML** (VGML, CHML, GFML, VLML): el código incluye el prefijo SPML + el tipo de servicio. Usa estos códigos exactos:
+   - Economy Regional (bandeja negra con compartimentos integrados): **VGML HLD0 RG**, **VGML HS01 RG** / **CHML HLD0**, **CHML HS01**
+   - Economy Long Haul (bandeja negra con plato blanco encima): **VGML FHS1** / **CHML FHS1**
+   - Las imágenes de referencia etiquetadas como "VGML" y "CHML" muestran la presentación visual — determina el código exacto según el tipo de servicio (RG o LH).
 6. En caso de duda entre códigos similares (ej. FHB1 LH vs FHS1 LH): FHB1 LH es desayuno (sandwich integral con jamón, muffin o streusel); FHS1 LH es cena (plato caliente tipo pasta, cold choice focaccia, chocolate).
 
 ## RESPUESTA
