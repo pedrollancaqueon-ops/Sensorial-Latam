@@ -14,7 +14,7 @@ genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 _model = genai.GenerativeModel("gemini-2.5-flash-lite")
 
 _BASE_PATH = Path(__file__).parent.parent
-_FRONTEND_PATH = _BASE_PATH / "frontend"
+_REFS_PATH = Path(__file__).parent / "referencias"
 
 
 def _parse_frontend_ref(stem: str) -> tuple[list[str], str]:
@@ -48,9 +48,9 @@ def _compress_to_jpeg(path: Path, max_px: int = 1024, quality: int = 80) -> byte
 
 
 def _get_frontend_refs() -> list[dict]:
-    """Return list of {data, codes, label} for IMG_*.png/jpg in frontend/, pre-compressed."""
+    """Return list of {data, codes, label} for IMG_*.png/jpg in backend/referencias/, pre-compressed."""
     result = []
-    for path in sorted(_FRONTEND_PATH.glob("IMG_*.*")):
+    for path in sorted(_REFS_PATH.glob("IMG_*.*")):
         if path.suffix.lower() not in {".png", ".jpg", ".jpeg"}:
             continue
         stem = path.stem[4:]  # strip leading "IMG_"
