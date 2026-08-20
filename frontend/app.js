@@ -91,7 +91,6 @@ function mostrarConfirmacion(identificado, imagenReferencia, grid, candidatos, c
   state.gridDetectado = grid || '';
 
   document.getElementById('foto-preview').src = state.fotoDataUrl;
-  document.getElementById('select-grid').value = grid || '';
 
   const hayCandidatos = candidatos.length > 0;
   document.getElementById('bloque-candidatos').classList.toggle('hidden', !hayCandidatos);
@@ -104,6 +103,7 @@ function mostrarConfirmacion(identificado, imagenReferencia, grid, candidatos, c
   }
 
   showScreen('screen-confirmar');
+  document.getElementById('select-grid').value = grid || '';
 }
 
 function renderCandidatos(candidatos, identificado) {
