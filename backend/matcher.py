@@ -97,8 +97,10 @@ IMPORTANTE: Algunas referencias tienen el componente como "#REF!" (dato roto del
 Antes de buscar el código exacto, determina visualmente el tipo de servicio y asigna el campo `grid`:
 
 - **Plato REDONDO blanco, presentación elegante, garnish fino**: Business Class → `grid: "BC"` — HLD0, HLD0 - Mechada, HLD0 - Merluza, HLD0 - Congrio, SPML HLD0, etc.
-- **Bandeja NEGRA rectangular con plato separado, vaso, pan en bolsa/papel**: Economy Long Haul → `grid: "YC"` — FHS1 LH, FHB1 LH, FHLD LH, FHB LH, etc.
-- **Bandeja NEGRA rectangular con 2–3 compartimentos integrados, sin plato separado**: Economy Regional → `grid: "YC"` — HLDR RG, HBE0 RG, HLD0 RG, HLD2 RG, HLDE RG, HB00 RG, etc.
+- **Bandeja NEGRA rectangular, con plato o bowl blanco/cerámico encima + vaso + pan en bolsa o papel SEPARADO**: Economy Long Haul → `grid: "YC"` — FHS LH, FHS LH - Normal, FHS1 LH, FHB1 LH, FHLD LH, FHB LH, etc.
+- **Bandeja NEGRA rectangular con 2–3 compartimentos INTEGRADOS en la misma bandeja, sin plato separado encima**: Economy Regional → `grid: "YC"` — HLD0 RG, HLD2 RG, HLDE RG, HLDR RG, HBE0 RG, HB00 RG, etc.
+  - DIFERENCIADOR CLAVE RG vs LH: En Regional el PAN PLANO (flat bread, focaccia) está DENTRO de un compartimento izquierdo de la bandeja negra. No hay plato blanco encima. Si ves la comida directamente en los compartimentos de la bandeja negra → es RG.
+  - En Long Haul siempre hay un plato o bowl blanco/cerámico separado colocado SOBRE la bandeja. El pan viene en bolsita plástica o papel aparte.
 - **Pan o sándwich sostenido en mano o en papel (sin bandeja visible)**: Es un componente suelto de Economy Regional → `grid: "YC"`. Clasifica por tipo: pan integral alargado = flat bread RG; pan de miga tostado = cold choice RG.
 - **Bowl blanco redondo con tallarines NEGROS (tinta de calamar) + carne en tiras + champiñones**: Premium Economy/PYC → `grid: "PYC"` → **HLDL**
 - **Bandeja PYC con plato o bowl separado, presentación semi-formal**: Premium Economy → `grid: "PYC"` — HBPY, SSPY, HLDL, etc.
@@ -116,7 +118,8 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
    - **Proteína de mar** (merluza, congrio) + caldo o crema → HLD0 - Merluza, HLD0 - Congrio
    - El COLOR DE LA BASE es el diferenciador principal entre mechada (blanca) y res (naranja)
 3. **Economy Regional (RG) — cómo distinguir entre códigos similares**:
-   - Plato caliente con proteína (carne/pollo/pescado) + guarnición → HLD0 RG, HLD2 RG, HLDE RG, HLDR RG, HS01 RG
+   - REGLA PRINCIPAL: bandeja negra con compartimentos integrados (sin plato blanco encima) = siempre RG, NUNCA LH.
+   - Pollo/carne/pescado en salsa + arroz + pan plano en compartimento izquierdo → HLD0 RG (pollo) o HLD2 RG (res)
    - Hojaldre rectangular (tipo empanada dorada) + compota de fruta → HBE0 RG o HBER RG
    - Breakfast con fruta + pan rectangular (pan de hoja o miga integral) → HB00 RG o HB01 RG
    - Omelette plegado + tomate cherry + papas rostizadas en plato blanco → puede ser HB00 (CREW, plato blanco elegante) o HB00 RG (Economy Regional, bandeja negra). Si está en plato blanco redondo, priorizar HB00 CREW
