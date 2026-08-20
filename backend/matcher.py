@@ -96,15 +96,13 @@ IMPORTANTE: Algunas referencias tienen el componente como "#REF!" (dato roto del
 
 ANTES de cualquier otra clasificación, compara la foto con las referencias manuales etiquetadas "CHML" y "VGML":
 
-- Si la foto se parece a la referencia **"CHML"** (comida de niño — porciones pequeñas, presentación simple para niños): el código COMIENZA con "CHML". Determina el sufijo por el tipo de bandeja:
-  - Bandeja negra con compartimentos integrados (RG) → código: **"CHML HLD0"** o **"CHML HS01"**
-  - Bandeja negra con plato blanco encima (LH) → código: **"CHML FHS1"**
-  - ⚠️ NUNCA devuelvas "SPML", "HLD0", "HLD0 RG" ni ningún código sin el prefijo "CHML" si el plato es CHML.
+- Si la foto se parece a la referencia **"CHML"** (comida de niño — porciones pequeñas, presentación simple): el código es uno de estos exactamente:
+  - Bandeja negra con compartimentos integrados → **"CHML HLD0"** o **"CHML HS01"**
+  - Bandeja negra con plato blanco encima → **"CHML FHS1"**
 
-- Si la foto se parece a la referencia **"VGML"** (vegetariano/vegano — sin carne): el código COMIENZA con "VGML". Determina el sufijo:
-  - Bandeja negra RG → código: **"VGML HLD0 RG"** o **"VGML HS01 RG"**
-  - Bandeja negra LH → código: **"VGML FHS1"**
-  - ⚠️ NUNCA devuelvas "SPML", "HLD0 RG", "HLD0 SPML RG" si el plato es VGML.
+- Si la foto se parece a la referencia **"VGML"** (vegetariano — sin proteína cárnica): el código es uno de estos exactamente:
+  - Bandeja negra con compartimentos integrados → **"VGML HLD0 RG"** o **"VGML HS01 RG"**
+  - Bandeja negra con plato blanco encima → **"VGML FHS1"**
 
 Si NO es CHML ni VGML, continúa con PASO 1.
 
@@ -142,14 +140,7 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
    - La descripción de ingredientes de la referencia es clave para distinguirlos
 3. **Un inspector puede fotografiar UN SOLO COMPONENTE** del servicio (solo el plato caliente, solo el sándwich, solo el queque, solo la fruta). La referencia puede mostrar ese mismo componente, no necesariamente toda la bandeja.
 4. Para cada código puede haber **2 imágenes de referencia**: una del plato caliente y otra de la opción fría. Elige el código cuya referencia —cualquiera de las dos— más se parezca a la foto.
-5. **Variantes dietéticas VGML y CHML — REGLA CRÍTICA**:
-   - Si la foto se parece a la referencia etiquetada "VGML" (comida vegetariana/vegana): el código DEBE empezar con "VGML". NUNCA devuelvas "HLD0 RG", "SPML" o "HLD0 SPML RG" — siempre usa el código completo:
-     - Bandeja negra RG (compartimentos integrados) → **VGML HLD0 RG** o **VGML HS01 RG**
-     - Bandeja negra LH (plato blanco encima) → **VGML FHS1**
-   - Si la foto se parece a la referencia etiquetada "CHML" (comida de niño/child meal): el código DEBE empezar con "CHML". NUNCA devuelvas "SPML" o el código base sin prefijo:
-     - Bandeja negra RG (compartimentos integrados) → **CHML HLD0** o **CHML HS01**
-     - Bandeja negra LH (plato blanco encima) → **CHML FHS1**
-   - El código "SPML" solo como texto suelto NO es un código válido — siempre usa el prefijo específico (VGML, CHML, GFML, etc.).
+5. **Variantes de comida especial en catálogo** — El catálogo contiene códigos como "FHLD-SPML LH", "HLD0 SPML RG", "FHS1-SPML LH", etc. REGLA: si tienes duda entre el código base (ej: `FHLD LH`) y su variante de comida especial (ej: `FHLD-SPML LH`), elige SIEMPRE el código base. Solo usa la variante de comida especial si estás muy seguro de que la foto muestra una comida especial diferente al estándar.
 6. En caso de duda entre códigos similares (ej. FHB1 LH vs FHS1 LH): FHB1 LH es desayuno (sandwich integral con jamón, muffin o streusel); FHS1 LH es cena (plato caliente tipo pasta, cold choice focaccia, chocolate).
 
 ## RESPUESTA
