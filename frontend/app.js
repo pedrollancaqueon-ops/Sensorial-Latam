@@ -75,7 +75,7 @@ async function analizarFoto() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ foto: state.fotoBase64 }),
       }),
-      new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 25000)),
+      new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 60000)),
     ]);
     const data = await resp.json();
     const candidatosFiltrados = (data.candidatos || []).filter(c => c.confianza >= 0.50);
