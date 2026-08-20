@@ -92,6 +92,22 @@ REGLA ABSOLUTA (no negociable): Si la imagen muestra CUALQUIER preparación culi
 
 IMPORTANTE: Algunas referencias tienen el componente como "#REF!" (dato roto del Excel). En ese caso usa SOLO la descripción de ingredientes y la imagen visual para hacer el match — el componente "#REF!" no es información relevante.
 
+## PASO 0 — VERIFICACIÓN PRIORITARIA: ¿Es CHML o VGML?
+
+ANTES de cualquier otra clasificación, compara la foto con las referencias manuales etiquetadas "CHML" y "VGML":
+
+- Si la foto se parece a la referencia **"CHML"** (comida de niño — porciones pequeñas, presentación simple para niños): el código COMIENZA con "CHML". Determina el sufijo por el tipo de bandeja:
+  - Bandeja negra con compartimentos integrados (RG) → código: **"CHML HLD0"** o **"CHML HS01"**
+  - Bandeja negra con plato blanco encima (LH) → código: **"CHML FHS1"**
+  - ⚠️ NUNCA devuelvas "SPML", "HLD0", "HLD0 RG" ni ningún código sin el prefijo "CHML" si el plato es CHML.
+
+- Si la foto se parece a la referencia **"VGML"** (vegetariano/vegano — sin carne): el código COMIENZA con "VGML". Determina el sufijo:
+  - Bandeja negra RG → código: **"VGML HLD0 RG"** o **"VGML HS01 RG"**
+  - Bandeja negra LH → código: **"VGML FHS1"**
+  - ⚠️ NUNCA devuelvas "SPML", "HLD0 RG", "HLD0 SPML RG" si el plato es VGML.
+
+Si NO es CHML ni VGML, continúa con PASO 1.
+
 ## PASO 1 — Clasifica el tipo de servicio por el contenedor y la presentación
 
 Antes de buscar el código exacto, determina visualmente el tipo de servicio y asigna el campo `grid`:
@@ -147,6 +163,10 @@ NUNCA devuelvas `candidatos: []` si hay comida en la imagen. Si no puedes distin
 
 Responde SOLO con JSON válido, sin texto adicional:
 {"identificado": true, "grid": "BC", "candidatos": [{"codigo": "HLD2", "componente": "Red Meat Dish", "confianza": 0.82}, {"codigo": "LHLD", "componente": "Red Meat Dish", "confianza": 0.65}]}
+Ejemplo CHML (child meal bandeja RG):
+{"identificado": true, "grid": "YC", "candidatos": [{"codigo": "CHML HLD0", "componente": "Child Meal", "confianza": 0.85}]}
+Ejemplo VGML (vegetariano bandeja RG):
+{"identificado": true, "grid": "YC", "candidatos": [{"codigo": "VGML HLD0 RG", "componente": "Vegetarian Meal", "confianza": 0.80}]}
 Ejemplo baja confianza:
 {"identificado": false, "grid": "BC", "candidatos": [{"codigo": "HLD2", "componente": "Red Meat Dish", "confianza": 0.35}, {"codigo": "HLDE", "componente": "Red Meat Dish", "confianza": 0.28}]}"""
 
