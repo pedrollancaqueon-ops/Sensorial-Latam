@@ -244,8 +244,9 @@ async function enviarEvaluacion() {
     ...Object.fromEntries(CRITERIOS.map(c => [c.key, calificaciones[c.key]])),
   };
 
+  let guardadoOk = false;
   try {
-    await Promise.race([
+    const resp = await Promise.race([
       fetch('/api/guardar', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -253,8 +254,17 @@ async function enviarEvaluacion() {
       }),
       new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 25000)),
     ]);
+    const data = await resp.json();
+    guardadoOk = resp.ok && data.ok === true;
   } catch {
-    // Registramos en historial local aunque falle el backend
+    guardadoOk = false;
+  }
+
+  if (!guardadoOk) {
+    errorEl.textContent = 'No se pudo guardar. Verifica tu conexión e intenta de nuevo.';
+    errorEl.classList.remove('hidden');
+    showScreen('screen-formulario');
+    return;
   }
 
   registrarEnHistorial(payload);
