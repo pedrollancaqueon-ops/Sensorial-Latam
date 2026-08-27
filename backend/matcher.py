@@ -65,6 +65,22 @@ def _get_frontend_refs() -> list[dict]:
 
 _FRONTEND_REFS = _get_frontend_refs()
 
+
+def _build_catalog_cache() -> dict[str, bytes]:
+    """Pre-comprime todas las imágenes del catálogo al arrancar."""
+    cache: dict[str, bytes] = {}
+    catalog_dir = _BASE_PATH / "catalog" / "images"
+    for path in catalog_dir.rglob("*.jpg"):
+        try:
+            cache[str(path)] = _compress_to_jpeg(path, max_px=768, quality=72)
+        except Exception:
+            pass
+    print(f"[matcher] Cache catálogo: {len(cache)} imágenes pre-comprimidas")
+    return cache
+
+
+_CATALOG_CACHE = _build_catalog_cache()
+
 _PROMPT_RESCUE = """Eres un experto en catering aéreo LATAM. La imagen muestra comida de a bordo.
 Identifica el tipo de servicio y el código más probable. Devuelve JSON con al menos 1 candidato.
 Reglas rápidas:
@@ -191,13 +207,14 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
     ref_count = 0
     for item in get_catalog_images(grid=grid):
         img_path = _BASE_PATH / item["image_path"]
-        if not img_path.exists():
+        img_bytes = _CATALOG_CACHE.get(str(img_path))
+        if not img_bytes:
             continue
         desc = item.get("description", "")
         comp = item["component"] if item["component"] != "#REF!" else "Plato de servicio"
         label = f"[Código: {item['code']} | {comp}{' | ' + desc if desc else ''}]"
         contents.append(label)
-        contents.append({"mime_type": "image/jpeg", "data": img_path.read_bytes()})
+        contents.append({"mime_type": "image/jpeg", "data": img_bytes})
         ref_count += 1
 
     # Imágenes de referencia manuales (IMG_*.png en frontend/, pre-comprimidas)
