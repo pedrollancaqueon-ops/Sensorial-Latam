@@ -78,7 +78,7 @@ async function analizarFoto() {
       new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 60000)),
     ]);
     const data = await resp.json();
-    const candidatosFiltrados = (data.candidatos || []).filter(c => c.confianza >= 0.50);
+    const candidatosFiltrados = (data.candidatos || []).filter(c => c.confianza >= 0.10);
     mostrarConfirmacion(!!data.identificado, data.imagen_referencia || '', data.grid || '', candidatosFiltrados, data.confianza || 0);
   } catch {
     // Timeout o error de red → dejar pasar con campo vacío
