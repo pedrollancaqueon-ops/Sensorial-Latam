@@ -137,6 +137,11 @@ def find_best_match(code: str, component: str) -> dict | None:
     for item in _catalog:
         if item["code"].upper() == code:
             return item
+    # Prefix match: "FHLD LH" → "FHLD LH - Normal"; "FHLD LH - Chef"
+    prefix = code + " "
+    for item in _catalog:
+        if item["code"].upper().startswith(prefix):
+            return item
     return None
 
 
