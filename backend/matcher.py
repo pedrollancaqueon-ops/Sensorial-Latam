@@ -121,7 +121,7 @@ Antes de buscar el código exacto, determina visualmente el tipo de servicio y a
 
 - **Plato REDONDO blanco, presentación elegante, garnish fino**: Business Class → `grid: "BC"` — HLD0, HLD0 - Mechada, HLD0 - Merluza, HLD0 - Congrio, SPML HLD0, etc.
 - **Bandeja NEGRA rectangular, con plato o bowl blanco/cerámico encima + vaso + pan en bolsa o papel SEPARADO**: Economy Long Haul → `grid: "YC"` — FHS LH, FHS LH - Normal, FHS1 LH, FHB1 LH, FHLD LH, FHB LH, etc.
-- **Bandeja NEGRA rectangular con compartimentos, pero comida FRÍA** (salmón laminado ahumado o roast beef + quinoa/couscous + mix de hojas verdes + galleta/cookie, sin salsa caliente, sin pan plano): Economy Long Haul frío → `grid: "YC"` → código exacto: **`FHLD LH - Normal`** ⚠️ NUNCA clasifiques este plato frío como HLD0 RG — HLD0 RG es pasta caliente (ñoquis, penne) con salsa, no salmón frío.
+- **Bandeja NEGRA rectangular con compartimentos, pero comida FRÍA** (salmón laminado ahumado o roast beef + quinoa/couscous + mix de hojas verdes + galleta/cookie, sin salsa caliente, sin pan plano): Economy Long Haul frío → `grid: "YC"` → código exacto: **`FHLD LH - Normal`**, componente EXACTO: **`Cold choice`** ⚠️ NUNCA clasifiques este plato frío como HLD0 RG ni uses componente "Non veggie choice" para el plato frío — "Non veggie choice" es solo el plato CALIENTE de FHLD LH.
 - **Bandeja NEGRA rectangular con 2–3 compartimentos INTEGRADOS, comida CALIENTE** (carne/pollo/pasta en salsa) + pan plano en compartimento izquierdo: Economy Regional → `grid: "YC"` — HLD0 RG, HLD2 RG, HLDE RG, HLDR RG, HBE0 RG, HB00 RG, etc.
   - DIFERENCIADOR CLAVE RG vs FHLD LH Normal: En RG el alimento es CALIENTE con salsa + hay PAN PLANO (focaccia/flat bread) en un compartimento separado de la bandeja. En FHLD LH - Normal la comida es FRÍA (salmón laminado, quinoa, hojas) y no hay pan plano en la bandeja.
   - En Long Haul con plato caliente siempre hay un plato o bowl blanco/cerámico separado colocado SOBRE la bandeja. El pan viene en bolsita plástica o papel aparte.
@@ -150,7 +150,7 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
      - **Cold Antipasto** (mix italiano frío + pan artesanal) en plato blanco → **CS** (Cold Snack)
 3. **Economy Regional (RG) — cómo distinguir entre códigos similares**:
    - REGLA PRINCIPAL: bandeja negra + comida CALIENTE con salsa + pan plano integrado = RG, NUNCA LH.
-   - ⚠️ EXCEPCIÓN — FHLD LH - Normal: bandeja negra con compartimentos + comida FRÍA (salmón laminado/roast beef + quinoa/couscous + mix hojas + cookie) = **`FHLD LH - Normal`** (Long Haul frío, NO Regional). HLD0 RG siempre es pasta caliente, NUNCA es salmón frío.
+   - ⚠️ EXCEPCIÓN — FHLD LH - Normal: bandeja negra con compartimentos + comida FRÍA (salmón laminado/roast beef + quinoa/couscous + mix hojas + cookie) = **`FHLD LH - Normal`**, componente: **`Cold choice`** (Long Haul frío, NO Regional). HLD0 RG siempre es pasta caliente, NUNCA es salmón frío. NUNCA uses "Non veggie choice" para el plato frío de FHLD LH.
    - Pollo/carne/pescado en salsa + arroz + pan plano en compartimento izquierdo → HLD0 RG (pollo) o HLD2 RG (res)
    - Hojaldre rectangular (tipo empanada dorada) + compota de fruta → HBE0 RG o HBER RG
    - **Omelette plegado amarillo** + papas en cubos rostizadas + hojaldre/croissant dorado en compartimento derecho, en bandeja negra → **HB00 RG**, componente: `Egg option` ⚠️ NUNCA clasifiques esto como FHS LH ni FHLD LH — es desayuno Economy Regional, NO cena Long Haul.
