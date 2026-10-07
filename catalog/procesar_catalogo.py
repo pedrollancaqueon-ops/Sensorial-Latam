@@ -82,7 +82,7 @@ def is_section_header(val) -> bool:
     if isinstance(val, (int, float)):
         return False
     text = str(val).strip()
-    if not text or text.lower() in ("none", "nan", "component"):
+    if not text or text.lower() in ("none", "nan", "component", "#ref!", "#n/a", "#name?", "#value!"):
         return False
     return True
 
@@ -106,15 +106,15 @@ def parse_sheet(ws) -> list:
         if is_section_header(b_val):
             section_rows.append((i, str(b_val).strip()))
 
-    # Fallback: si col B no tiene secciones, buscar en col A
-    # Solo toma filas donde col B es None o una cantidad entera (ej. 1.0), no factores raros
+    # Fallback: si col B no tiene secciones, buscar en col A.
+    # Acepta cualquier valor numérico en B (porciones como 0.4, 0.6 o enteros como 1.0).
     if not section_rows:
         for i, row in enumerate(all_rows):
             a_val = row[0] if len(row) > 0 else None
             b_val = row[1] if len(row) > 1 else None
             if not is_section_header(a_val):
                 continue
-            if b_val is not None and not _is_whole_quantity(b_val):
+            if b_val is not None and not isinstance(b_val, (int, float)):
                 continue
             section_rows.append((i, str(a_val).strip()))
 

@@ -81,6 +81,7 @@ Reglas rápidas:
 - Bowl blanco con fideos negros → PYC (HLDL)
 - Base naranja/calabaza + medallón oscuro → HLD2, HLDE, LHLD
 - Base blanca/crema + medallón mechada → HLD0 - Mechada
+- Omelette plegado + papas cubos + hojaldre/croissant en bandeja negra → HB00 RG, componente: Egg option (NUNCA FHS LH ni FHLD LH)
 - Hojaldre/empanada dorada + fruta → HBE0 RG, HBER RG
 Formato: {"identificado": false, "grid": "BC", "candidatos": [{"codigo": "HLD2", "componente": "Red Meat Dish", "confianza": 0.30}]}"""
 
@@ -152,8 +153,9 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
    - ⚠️ EXCEPCIÓN — FHLD LH - Normal: bandeja negra con compartimentos + comida FRÍA (salmón laminado/roast beef + quinoa/couscous + mix hojas + cookie) = **`FHLD LH - Normal`** (Long Haul frío, NO Regional). HLD0 RG siempre es pasta caliente, NUNCA es salmón frío.
    - Pollo/carne/pescado en salsa + arroz + pan plano en compartimento izquierdo → HLD0 RG (pollo) o HLD2 RG (res)
    - Hojaldre rectangular (tipo empanada dorada) + compota de fruta → HBE0 RG o HBER RG
+   - **Omelette plegado amarillo** + papas en cubos rostizadas + hojaldre/croissant dorado en compartimento derecho, en bandeja negra → **HB00 RG**, componente: `Egg option` ⚠️ NUNCA clasifiques esto como FHS LH ni FHLD LH — es desayuno Economy Regional, NO cena Long Haul.
    - Breakfast con fruta + pan rectangular (pan de hoja o miga integral) → HB00 RG o HB01 RG
-   - Omelette plegado + tomate cherry + papas rostizadas en plato blanco → puede ser HB00 (CREW, plato blanco elegante) o HB00 RG (Economy Regional, bandeja negra). Si está en plato blanco redondo, priorizar HB00 CREW
+   - Omelette plegado + tomate cherry + papas rostizadas en plato blanco redondo → HB00 (CREW, plato blanco elegante)
    - La descripción de ingredientes de la referencia es clave para distinguirlos
 3. **Un inspector puede fotografiar UN SOLO COMPONENTE** del servicio (solo el plato caliente, solo el sándwich, solo el queque, solo la fruta). La referencia puede mostrar ese mismo componente, no necesariamente toda la bandeja.
 4. Para cada código puede haber **2 imágenes de referencia**: una del plato caliente y otra de la opción fría. Elige el código cuya referencia —cualquiera de las dos— más se parezca a la foto.
