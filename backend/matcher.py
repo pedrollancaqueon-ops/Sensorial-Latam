@@ -72,6 +72,10 @@ _PROMPT_RESCUE = """Eres un experto en catering aéreo LATAM. La imagen muestra 
 Identifica el tipo de servicio y el código más probable. Devuelve JSON con al menos 1 candidato.
 Reglas rápidas:
 - Plato blanco redondo elegante → BC (HLD0, HLD2, HLDE, LHLD, HLD0 - Mechada, HLD0 - Merluza, HLD1)
+- Plato BC con pan ciabatta integral + jamón/pastrami + queso → SS o SSE
+- Plato BC con huevos revueltos + hot cakes/panqueques o pancakes → HB00
+- Plato BC con cold cuts (fiambres) + queso + yoghurt granola → CB
+- Plato BC ensalada vegetariana (mix italiano, feta, tomates) → HLD0, componente: Vegetarian Gourmet
 - Bandeja negra con compartimentos → YC Economy (HLD0 RG, HLD2 RG, HBE0 RG, HB00 RG, FHLD LH, FHB1 LH)
 - Bowl blanco con fideos negros → PYC (HLDL)
 - Base naranja/calabaza + medallón oscuro → HLD2, HLDE, LHLD
@@ -128,12 +132,19 @@ Antes de buscar el código exacto, determina visualmente el tipo de servicio y a
 Compara la foto contra CADA imagen de referencia y elige la más similar. Considera:
 
 1. **Ingrediente principal y tipo de preparación**: tipo de proteína (carne, pollo, pescado, tofu), tipo de pan (focaccia, integral, pan de hoja, hojaldre/empanada, ciabatta), tipo de fruta, tipo de salsa.
-2. **Business Class (BC) — cómo distinguir entre platos calientes**:
+2. **Business Class (BC) — cómo distinguir entre platos calientes y servicios**:
    - **BASE BLANCA** (crema de papa y trufa) + medallón de mechada pulled beef + cebollas asadas/quemadas negras + aceite verde → **HLD0 - Mechada**
    - **BASE NARANJA** (puré de calabaza) + medallón de res grillado + salsa oscura de vino + cebollas moradas caramelizadas → HLD2, HLDE, LHLD, LHD3
    - **Pastel amarillo rectangular** (pastel de choclo) sobre tomate concasse → HLD0, HLD1
    - **Proteína de mar** (merluza, congrio) + caldo o crema → HLD0 - Merluza, HLD0 - Congrio
    - El COLOR DE LA BASE es el diferenciador principal entre mechada (blanca) y res (naranja)
+   - **Nuevos servicios BC octubre 2026**:
+     - **Pan ciabatta integral rectangular** (cerrado) + fiambres (pastrami, queso de cabra) en plato blanco → **SS** (Non veggie sandwich). Si además hay opción veggie → **SSE**
+     - **Hot cakes / panqueques (3 unidades)** + crema o compota de frambuesa en plato blanco → **HB00** (componente: Local Breakfast option)
+     - **Huevos revueltos** + plato secundario (crepes o croissant sandwich) en plato blanco → **HB00** o **HBE0**
+     - **Plato frío con fiambres laminados + queso** (sin huevo, sin pan caliente) en plato blanco BC → **CB** (Cold Breakfast), componente: Cold Cuts and Cheese Plate
+     - **Ensalada vegetariana** (mix italiano, queso feta, tomates cherry, lima, hojas verdes) en bowl o plato blanco → **HLD0** (cualquier variante), componente: **Vegetarian Gourmet**
+     - **Cold Antipasto** (mix italiano frío + pan artesanal) en plato blanco → **CS** (Cold Snack)
 3. **Economy Regional (RG) — cómo distinguir entre códigos similares**:
    - REGLA PRINCIPAL: bandeja negra con compartimentos integrados (sin plato blanco encima) = siempre RG, NUNCA LH.
    - Pollo/carne/pescado en salsa + arroz + pan plano en compartimento izquierdo → HLD0 RG (pollo) o HLD2 RG (res)

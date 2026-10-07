@@ -141,7 +141,7 @@ def find_best_match(code: str, component: str) -> dict | None:
 
 
 _GRID_MAP: dict[str, set[str]] = {
-    "BC":       {"SCL-BC GRID", "SQT BC JUN-SEPT 2026"},
+    "BC":       {"SCL-BC GRID", "SQT BC JUN-SEPT 2026", "SQT BC JUN-DIC 2026", "01.10.2026-SCL-BC GRID"},
     "CREW":     {"SCL-CREW INTER GRID"},
     "PYC":      {"SCL-PYC INTER GRID"},
     "YC":       {"SCL-YC GRID INTER", "15.07.2026-SCL-YC GRID INTER"},
