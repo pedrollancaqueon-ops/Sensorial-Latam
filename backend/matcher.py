@@ -73,7 +73,7 @@ Identifica el tipo de servicio y el código más probable. Devuelve JSON con al 
 Reglas rápidas:
 - Plato blanco redondo elegante → BC (HLD0, HLD2, HLDE, LHLD, HLD0 - Mechada, HLD0 - Merluza, HLD1)
 - Plato BC con pan ciabatta integral + jamón/pastrami + queso → SS o SSE
-- Plato BC con huevos revueltos + hot cakes/panqueques o pancakes → HB00
+- Plato BC con hot cakes/panqueques/pancakes (redondos, 2–3 unidades) → HB00, componente: Local Breakfast option (NUNCA "Plato Huevo o Dulce" en BC)
 - Plato BC con cold cuts (fiambres) + queso + yoghurt granola → CB
 - Plato BC ensalada vegetariana (mix italiano, feta, tomates) → HLD0, componente: Vegetarian Gourmet
 - Bandeja negra con compartimentos → YC Economy (HLD0 RG, HLD2 RG, HBE0 RG, HB00 RG, FHLD LH, FHB1 LH)
@@ -140,7 +140,7 @@ Compara la foto contra CADA imagen de referencia y elige la más similar. Consid
    - El COLOR DE LA BASE es el diferenciador principal entre mechada (blanca) y res (naranja)
    - **Nuevos servicios BC octubre 2026**:
      - **Pan ciabatta integral rectangular** (cerrado) + fiambres (pastrami, queso de cabra) en plato blanco → **SS** (Non veggie sandwich). Si además hay opción veggie → **SSE**
-     - **Hot cakes / panqueques (3 unidades)** + crema o compota de frambuesa en plato blanco → **HB00** (componente: Local Breakfast option)
+     - **Hot cakes / panqueques / pancakes (2–3 unidades redondas)** + crema o compota en plato BC blanco redondo → **HB00**, componente EXACTO: `Local Breakfast option` ⚠️ NUNCA uses "Plato Huevo o Dulce" para BC — ese componente es exclusivo de HBPY (PYC)
      - **Huevos revueltos** + plato secundario (crepes o croissant sandwich) en plato blanco → **HB00** o **HBE0**
      - **Plato frío con fiambres laminados + queso** (sin huevo, sin pan caliente) en plato blanco BC → **CB** (Cold Breakfast), componente: Cold Cuts and Cheese Plate
      - **Ensalada vegetariana** (mix italiano, queso feta, tomates cherry, lima, hojas verdes) en bowl o plato blanco → **HLD0** (cualquier variante), componente: **Vegetarian Gourmet**
@@ -264,6 +264,9 @@ def identificar(foto_base64: str, grid: str | None = None) -> dict:
                 continue
             codigos_vistos.add(codigo)
             cat = find_best_match(codigo, componente)
+            # Si find_best_match usó el fallback (primer item del código), preferir
+            # el componente del catálogo sobre el que devolvió Gemini — evita que
+            # nombres genéricos como "Plato Huevo o Dulce" reemplacen al componente real.
             nombre_raw = cat["component"] if cat else componente
             nombre     = nombre_raw if nombre_raw != "#REF!" else componente
             candidatos.append({"codigo": codigo, "nombre": nombre, "confianza": confianza})
