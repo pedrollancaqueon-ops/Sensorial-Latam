@@ -17,16 +17,21 @@ _YC_SOURCES = {"SCL-YC GRID INTER", "15.07.2026-SCL-YC GRID INTER"}
 _COMP_PRIORITY: list[tuple[int, list[str]]] = [
     (10, ["signature dish", "signature"]),
     (10, ["red meat dish"]),
+    # "extras" ANTES de "cold choice": "EXTRAS - Cold choice dressing" debe
+    # quedar en score 1 para que "Cold choice" puro gane como imagen fría.
+    (1,  ["extras", "bulk", "butter", "salt", "grissinis"]),
     (9,  ["main dish"]),
     (9,  ["non veggie choice", "non veggie sandwich"]),
+    (9,  ["option a", "option b"]),       # platos principales de HLD0/HS01 RG
     (9,  ["cold choice"]),
     (9,  ["sandwich option"]),
     (9,  ["plato sándwich", "plato sandwich"]),
     (9,  ["flat bread"]),
+    (8,  ["egg option", "local breakfast option"]),  # HB00 RG / HB00 BC
     (8,  ["plato huevo o dulce", "plato huevo"]),
     # "sweet product" va ANTES de "product" (regla más específica primero: evita que
     # "Sweet Product" herede score 8 por contener la palabra "product").
-    (3,  ["sweet product", "mini chocolate", "healty snack"]),
+    (3,  ["sweet product", "mini chocolate", "healty snack", "healthy snack"]),
     (8,  ["product"]),
     (7,  ["bakery"]),
     (7,  ["bread"]),
@@ -35,7 +40,7 @@ _COMP_PRIORITY: list[tuple[int, list[str]]] = [
     (4,  ["individual greens salad"]),
     (3,  ["magdalena", "dessert"]),
     (2,  ["fruit", "fruta", "garnishes", "rice cracker"]),
-    (1,  ["extras", "bulk", "butter", "salt", "grissinis"]),
+    (1,  ["set up", "chocolate"]),        # montaje/chocolate = baja prioridad visual
 ]
 
 # Componentes que representan la opción fría/sándwich (se mandan como imagen secundaria).
